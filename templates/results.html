@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Results ${event.name}</title>
+
+<h1>Results ${event.name}</h1>
+
+<table>
+% for category in event.categories:
+<tr>
+    <td colspan=""><h2>${category.name}</h2>
+% for result in category.results:
+<tr>
+    <td>${result.name}
+    <td>${result.club}
+    <td>${result.time}
+    <td>${result.score}
+% endfor
+% endfor
+</table>
