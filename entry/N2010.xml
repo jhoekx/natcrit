@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ranking>
+<event>
+    <name>Nationale 1</name>
+    <date>28-02-2010</date>
+    <location>Opglabbeek</location>
+</event>
+<event>
+    <name>Nationale MD</name>
+    <date>21-03-2010</date>
+    <location>Geel</location>
+</event>
+<event>
+    <name>Nationale 2</name>
+    <date>25-04-2010</date>
+    <location>Recht</location>
+</event>
+<event>
+    <name>Nationale 3</name>
+    <date>09-05-2010</date>
+    <location>Saint-Léger</location>
+</event>
+<event>
+    <name>Nationale 4</name>
+    <date>30-05-2010</date>
+    <location>Stal</location>
+</event>
+<event>
+    <name>BK Long</name>
+    <date>29-08-2010</date>
+    <location>Stoumont</location>
+</event>
+<event>
+    <name>BK Interclub</name>
+    <date>26-09-2010</date>
+    <location>Hechtel</location>
+</event>
+<event>
+    <name>BK Middle</name>
+    <date>03-10-2010</date>
+    <location>Lommel</location>
+</event>
+</ranking>

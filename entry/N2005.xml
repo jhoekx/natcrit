@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ranking>
+<event>
+	<name>Nationale 1</name>
+	<date>27-02-2005</date>
+	<location>Maasmechelen</location>
+</event>
+<event>
+	<name>Nationale 2</name>
+	<date>20-03-2005</date>
+	<location>Andenne</location>
+</event>
+<event>
+	<name>Nationale 3</name>
+	<date>17-04-2005</date>
+	<location>Vivy</location>
+</event>
+<event>
+	<name>Interclub</name>
+	<date>19-06-2005</date>
+	<location>Bévercé</location>
+</event>
+<event>
+	<name>BK Long</name>
+	<date>04-09-2005</date>
+	<location>Meeuwen</location>
+</event>
+<event>
+	<name>BK Middle</name>
+	<date>18-09-2005</date>
+	<location>Bethane</location>
+</event>
+<event>
+	<name>Nationale 4</name>
+	<date>02-10-2005</date>
+	<location>Opglabbeek</location>
+</event>
+</ranking>

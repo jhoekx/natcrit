@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ranking>
+<event>
+	<name>Nationale 1</name>
+	<date>02-03-2008</date>
+	<location>Dilsen</location>
+</event>
+<event>
+	<name>Nationale 2</name>
+	<date>16-03-2008</date>
+	<location>Esneux</location>
+</event>
+<event>
+	<name>Nationale Middle Distance</name>
+	<date>27-04-2008</date>
+	<location>Ronquières</location>
+</event>
+<event>
+	<name>Nationale 3</name>
+	<date>18-05-2008</date>
+	<location>Oirschot</location>
+</event>
+<event>
+	<name>Nationale 4</name>
+	<date>06-07-2008</date>
+	<location>Behême</location>
+</event>
+<event>
+	<name>BK Long</name>
+	<date>07-09-2008</date>
+	<location>Recht</location>
+</event>
+<event>
+	<name>BK Middle</name>
+	<date>16-09-2008</date>
+	<location>Ossendrecht</location>
+</event>
+<event>
+	<name>BK Interclub</name>
+	<date>28-09-2008</date>
+	<location>Leopoldsburg</location>
+</event>
+</ranking>

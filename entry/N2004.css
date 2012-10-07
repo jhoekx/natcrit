@@ -1,0 +1,66 @@
+/* CSS Document */
+body {
+	font-family:Arial, Helvetica, sans-serif;
+}
+h1 {
+	color:#FFFFFF;
+	background-color:#3366FF;
+	padding:0.2em;
+	text-align:center;
+	margin-top:0;
+	margin-bottom:0;
+}
+ul {
+	float:right;
+	padding:0;
+	margin:0;
+	margin-left:1em;
+	margin-right:1em;
+	padding-top:0.3em;
+	width:3em;
+}
+ul.men {
+	border-left:1px dashed #3366FF;
+	padding-left:0.5em;
+}
+li {
+	list-style:none;
+}
+li.open {
+	color:#FFFFFF;
+	background-color:#3366FF;
+}
+li a {
+	text-decoration:none;
+	color:#0000FF;
+}
+h1 a {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+h1 a:visited {
+	color:#FFFFFF;
+}
+a:visited {
+	color:#0000FF;
+}
+a img {
+	text-decoration:none;
+	border-width:0;
+}
+li a:hover {
+	color:#FFFFFF;
+	background-color:#3366FF;
+}
+a:hover {
+	text-decoration:none;
+}
+td {
+	padding:0.2em;
+}
+td.tot {
+	font-weight:bold;
+}
+table.races {
+	margin-left:3em;
+}

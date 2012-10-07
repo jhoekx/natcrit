@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ranking>
+<event>
+	<name>Nationale 1</name>
+	<date>01-03-2009</date>
+	<location>Waterschei</location>
+</event>
+<event>
+	<name>Nationale MD</name>
+	<date>15-03-2009</date>
+	<location>Weelde</location>
+</event>
+<event>
+    <name>Nationale 2</name>
+    <date>29-03-2009</date>
+    <location>Vlessart</location>
+</event>
+<event>
+    <name>BK Middle</name>
+    <date>26-04-2009</date>
+    <location>Recht</location>
+</event>
+<event>
+    <name>Nationale 4</name>
+    <date>07-06-2009</date>
+    <location>Elsenborn</location>
+</event>
+<event>
+    <name>Interclub</name>
+    <date>30-08-2009</date>
+    <location>Marche</location>
+</event>
+<event>
+    <name>BK Long</name>
+    <date>13-09-2009</date>
+    <location>Tessenderlo</location>
+</event>
+<event>
+    <name>Nationale 4</name>
+    <date>27-09-2009</date>
+    <location>Tessenderlo</location>
+</event>
+</ranking>

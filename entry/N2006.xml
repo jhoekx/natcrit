@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ranking>
+<event>
+	<name>Nationale 1</name>
+	<date>19-02-2006</date>
+	<location>Hechtel</location>
+</event>
+<event>
+	<name>Nationale 2</name>
+	<date>29-04-2006</date>
+	<location>Büllingen</location>
+</event>
+<event>
+	<name>Nationale 3</name>
+	<date>02-07-2006</date>
+	<location>Lindscheid</location>
+</event>
+<event>
+	<name>Interclub</name>
+	<date>27-08-2006</date>
+	<location>Hechtel</location>
+</event>
+<event>
+	<name>BK Long</name>
+	<date>03-09-2006</date>
+	<location>Louftémont</location>
+</event>
+<event>
+	<name>BK Middle</name>
+	<date>24-09-2006</date>
+	<location>Geel</location>
+</event>
+<event>
+	<name>Nationale 4</name>
+	<date>15-10-2006</date>
+	<location>Herentals</location>
+</event>
+</ranking>

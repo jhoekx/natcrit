@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ranking>
+<event>
+	<name>Nationale 1</name>
+	<date>25-02-2007</date>
+	<location>Waterschei</location>
+</event>
+<event>
+	<name>BK Middle</name>
+	<date>25-03-2007</date>
+	<location>Wéris</location>
+</event>
+<event>
+	<name>Nationale 2</name>
+	<date>22-04-2007</date>
+	<location>Betâne</location>
+</event>
+<event>
+	<name>Nationale 3</name>
+	<date>03-06-2007</date>
+	<location>Borlon</location>
+</event>
+<event>
+	<name>BK Interclub</name>
+	<date>15-07-2007</date>
+	<location>St. Vith</location>
+</event>
+<event>
+	<name>BK Long</name>
+	<date>09-09-2007</date>
+	<location>Brasschaat</location>
+</event>
+<event>
+	<name>Nationale 4</name>
+	<date>07-10-2007</date>
+	<location>Lommel</location>
+</event>
+<event>
+	<name>Nat. Middle Distance</name>
+	<date>21-10-2007</date>
+	<location>Poppel</location>
+</event>
+</ranking>

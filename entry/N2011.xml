@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ranking>
+<event>
+    <name>Nationale 1</name>
+    <date>27-03-2011</date>
+    <location>Stoumont</location>
+</event>
+<event>
+    <name>BK MD</name>
+    <date>17-04-2011</date>
+    <location>Grandvoir</location>
+</event>
+<event>
+    <name>Nationale 2</name>
+    <date>22-05-2011</date>
+    <location>Luyksgestel</location>
+</event>
+<event>
+    <name>Nationale 3</name>
+    <date>03-07-2011</date>
+    <location>Martelange</location>
+</event>
+<event>
+    <name>BK Interclub</name>
+    <date>04-09-2011</date>
+    <location>Hasselbach</location>
+</event>
+<event>
+    <name>BK Lang</name>
+    <date>11-09-2011</date>
+    <location>Gruitrode</location>
+</event>
+<event>
+    <name>Nationale MD</name>
+    <date>18-09-2011</date>
+    <location>Saint-Léger</location>
+</event>
+<event>
+    <name>Nationale 4</name>
+    <date>02-10-2011</date>
+    <location>Meeuwen</location>
+</event>
+</ranking>

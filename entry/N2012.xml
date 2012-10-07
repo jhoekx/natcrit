@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ranking>
+<event>
+    <name>Nationale 1</name>
+    <date>: 26-02-2012</date>
+    <location>Dilsen</location>
+</event>
+<event>
+    <name>BK Middle</name>
+    <date>: 04-03-2012</date>
+    <location>Lommel</location>
+</event>
+<event>
+    <name>Nationale 2</name>
+    <date>: 18-03-2012</date>
+    <location>La Hulpe</location>
+</event>
+<event>
+    <name>Nationale 3</name>
+    <date>: 25-03-2012</date>
+    <location>Vielsalm</location>
+</event>
+<event>
+    <name>Nationale MD</name>
+    <date>: 15-04-2012</date>
+    <location>Maasmechelen</location>
+</event>
+<event>
+    <name>BK Lang</name>
+    <date>: 09-09-2012</date>
+    <location>Wolfsbusch</location>
+</event>
+<event>
+    <name>Nationale 4</name>
+    <date>: 16-09-2012</date>
+    <location>Tessenderlo</location>
+</event>
+<event>
+    <name>BK Interclub</name>
+    <date>: 07-10-2012</date>
+    <location>Masy</location>
+</event>
+</ranking>
