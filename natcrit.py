@@ -18,7 +18,7 @@ parser = html5lib.HTMLParser(tree=treebuilders.getTreeBuilder("etree", cElementT
 #"20120916", "20121007last" ]
 #competitions = ["20120304md"]
 #competitions = [ "20130224", "20130303", "20130324", "20130407", "20130623", "20130825", "20130908", "20130915last" ]
-competitions = ["20140223", "20140302", "20140323"]
+competitions = ["20140223", "20140302", "20140323", "20140427", "20140511", "20140914", "20140928", "20141019last"]
 max_count = 6
 
 # scoring lists
@@ -26,7 +26,7 @@ points = [30, 27, 25, 23, 21, 19, 17, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 
 lastpoints = [45, 40, 37, 35, 32, 29, 26, 23, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 
 # whitelisted clubs
-club_whitelist = [u'Omega', u'hamok', u'O.L.G. St. Vith "ARDOC"', u'O.L.G. St. Vith ARDOC', u'TROL', u'B.A.B.A.', u'ASUB', u'C.O. Li\xe8ge', u'C.O. P\xe9gase', u'Hermathenae', u'K.O.L.', u'Alta\xefr C.O.', u'O.L.V. Eifel', u'Borasca', u'N.S.V. Amel', u'Balise 10', u'Hainaut O.C.',u'C.L.O. Chiny',u'Les Raptors', u'C.O. Militaire Belge', u'E.P.O.S.']
+club_whitelist = [u'Omega', u'hamok', u'O.L.G. St. Vith "ARDOC"', u'O.L.G. St. Vith ARDOC', u'TROL', u'B.A.B.A.', u'ASUB', u'C.O. Li\xe8ge', u'C.O.M.B.', u'C.O. P\xe9gase', u'Hermathenae', u'K.O.L.', u'Alta\xefr C.O.', u'O.L.V. Eifel', u'Borasca', u'N.S.V. Amel', u'Balise 10', u'Hainaut O.C.', u'H.O.C.',u'C.L.O. Chiny',u'Les Raptors', u'C.O. Militaire Belge', u'E.P.O.S.']
 
 # club mapping
 club_mapping = {

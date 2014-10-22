@@ -1,0 +1,2837 @@
+<html>
+<head>
+<title>Nationale Longue distance</title> 
+<meta name="SOFTWARE" content="HELGA Orienteering Software">
+<style type="text/css">
+table.ph {	
+	border-width: 0px 0px 0px 0px;	
+	border-spacing: 0px;
+	/*	background-color: white; */
+}
+table.ph td {
+	border-width: 0px 0px 0px 0px;	
+	padding: 1px 20px 1px 1px;
+	/*	border-style: inset inset inset inset;	
+	border-color: gray gray gray gray;	
+	background-color: white;	
+	-moz-border-radius: 0px 0px 0px 0px; */
+}
+table.phindex {	
+	border-width: 0px 0px 0px 0px;	
+	border-spacing: 0px;
+}
+table.phindex td {
+	border-width: 0px 0px 0px 0px;
+	padding: 5px 10px 1px 10px;
+}
+a.class1:link {text-decoration: none; color: blue; }
+a.class1:visited {text-decoration: none; color: blue; }
+a.class1:active {text-decoration: none; color: blue; }
+a.class1:hover {text-decoration: none; color: blue; border-bottom: medium solid blue ;}
+a.class2:link {text-decoration: none; color: blue; border-bottom: thin dashed blue ;}
+a.class2:visited {text-decoration: none; color: blue; border-bottom: thin dashed blue ;}
+a.class2:active {text-decoration: none; color: blue; border-bottom: thin dashed blue ;}
+a.class2:hover {text-decoration: none; color: blue; border-bottom: medium solid blue ;}
+</style>
+<script type="text/javascript">
+<!--
+function switchMenu(obj) {
+var el = document.getElementById(obj);
+if ( el.style.display != 'none' ) {
+el.style.display = 'none';
+}
+else {
+el.style.display = '';
+}
+}
+//-->
+</script>
+<SCRIPT language=JavaScript1.2>  
+<!--  
+// Copyright Peter Gehrig and Urs Dudli at www.24fun.ch.  
+function dblclick() { 
+ window.scrollTo(0,0)
+ } 
+ if (document.layers) { 
+ document.captureEvents(Event.ONDBLCLICK);  
+ }  
+ document.ondblclick=dblclick;  
+ //-->  
+</SCRIPT>
+<script type="text/javascript">
+function showResult(str)
+{
+var entities = {};
+// entities['38'] = '&amp;';
+    entities[160] = '%26nbsp%3B';  
+    entities[161] = '%26iexcl%3B';
+    entities[162] = '%26cent%3B';
+    entities[163] = '%26pound%3B';
+    entities[164] = '%26curren%3B';
+    entities[165] = '%26yen%3B';
+    entities[166] = '%26brvbar%3B';
+    entities[167] = '%26sect%3B';
+    entities[168] = '%26uml%3B';
+    entities[169] = '%26copy%3B';
+    entities[170] = '%26ordf%3B';
+    entities[171] = '%26laquo%3B';
+    entities[172] = '%26not%3B';
+    entities[173] = '%26shy%3B';
+    entities[174] = '%26reg%3B';
+    entities[175] = '%26macr%3B';
+    entities[176] = '%26deg%3B';
+    entities[177] = '%26plusmn%3B';
+    entities[178] = '%26sup2%3B';
+    entities[179] = '%26sup3%3B';
+    entities[180] = '%26acute%3B';
+    entities[181] = '%26micro%3B';
+    entities[182] = '%26para%3B';
+    entities[183] = '%26middot%3B';
+    entities[184] = '%26cedil%3B';
+    entities[185] = '%26sup1%3B';
+    entities[186] = '%26ordm%3B';
+    entities[187] = '%26raquo%3B';
+    entities[188] = '%26frac14%3B';
+    entities[189] = '%26frac12%3B';
+    entities[190] = '%26frac34%3B';
+    entities[191] = '%26iquest%3B';
+    entities[192] = '%26Agrave%3B';
+    entities[193] = '%26Aacute%3B';
+    entities[194] = '%26Acirc%3B';
+    entities[195] = '%26Atilde%3B';
+    entities[196] = '%26Auml%3B';
+    entities[197] = '%26Aring%3B';
+    entities[198] = '%26AElig%3B';
+    entities[199] = '%26Ccedil%3B';
+    entities[200] = '%26Egrave%3B';
+    entities[201] = '%26Eacute%3B';
+    entities[202] = '%26Ecirc%3B';
+    entities[203] = '%26Euml%3B';
+    entities[204] = '%26Igrave%3B';
+    entities[205] = '%26Iacute%3B';
+    entities[206] = '%26Icirc%3B';
+    entities[207] = '%26Iuml%3B';
+    entities[208] = '%26ETH%3B';
+    entities[209] = '%26Ntilde%3B';
+    entities[210] = '%26Ograve%3B';
+    entities[211] = '%26Oacute%3B';
+    entities[212] = '%26Ocirc%3B';
+    entities[213] = '%26Otilde%3B';
+    entities[214] = '%26Ouml%3B';
+    entities[215] = '%26times%3B';
+    entities[216] = '%26Oslash%3B';
+    entities[217] = '%26Ugrave%3B';
+    entities[218] = '%26Uacute%3B';
+    entities[219] = '%26Ucirc%3B';
+    entities[220] = '%26Uuml%3B';
+    entities[221] = '%26Yacute%3B';
+    entities[222] = '%26THORN%3B';
+    entities[223] = '%26szlig%3B';
+    entities[224] = '%26agrave%3B';
+    entities[225] = '%26aacute%3B';
+    entities[226] = '%26acirc%3B';
+    entities[227] = '%26atilde%3B';
+    entities[228] = '%26auml%3B';
+    entities[229] = '%26aring%3B';
+    entities[230] = '%26aelig%3B';
+    entities[231] = '%26ccedil%3B';
+    entities[232] = '%26egrave%3B';
+    entities[233] = '%26eacute%3B';
+    entities[234] = '%26ecirc%3B';
+    entities[235] = '%26euml%3B';
+    entities[236] = '%26igrave%3B';
+    entities[237] = '%26iacute%3B';
+    entities[238] = '%26icirc%3B';
+    entities[239] = '%26iuml%3B';
+    entities[240] = '%26eth%3B';
+    entities[241] = '%26ntilde%3B';
+    entities[242] = '%26ograve%3B';
+    entities[243] = '%26oacute%3B';
+    entities[244] = '%26ocirc%3B';
+    entities[245] = '%26otilde%3B';
+    entities[246] = '%26ouml%3B';
+    entities[247] = '%26divide%3B';
+    entities[248] = '%26oslash%3B';
+    entities[249] = '%26ugrave%3B';
+    entities[250] = '%26uacute%3B';
+    entities[251] = '%26ucirc%3B';
+    entities[252] = '%26uuml%3B';
+    entities[253] = '%26yacute%3B';
+    entities[254] = '%26thorn%3B';
+    entities[255] = '%26yuml%3B';
+//   entities['34'] = '&quot;';
+//    entities['39'] = '&#39;';
+//  entities['60'] = '&lt;';
+//  entities['62'] = '&gt;';
+
+if (str.length==0)
+  {
+  document.getElementById("livesearch").innerHTML="";
+  document.getElementById("livesearch").style.border="0px";
+  return;
+  }
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  // xmlhttp.setRequestHeader("Content-Type", "application/xml; charset=ISO-8859-1;");
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    document.getElementById("livesearch").innerHTML=xmlhttp.responseText;
+    document.getElementById("livesearch").style.border="1px solid #A5ACB2";
+    }
+  }
+
+newstr="";
+for(var i = 0; i < str.length; i++)
+{
+//  // char c = s.charAt(i); replace 160 ->255
+//   if (str.charCodeAt(i) in entities) {
+   if (str.charCodeAt(i) >= 160 && str.charCodeAt(i) <= 255) {
+   newstr=newstr+entities[str.charCodeAt(i)];
+   } else {
+   newstr=newstr+str.charAt(i);
+   }
+}
+  
+xmlhttp.open("GET","searchrunner.php?q="+newstr,true);
+xmlhttp.send();
+}
+</script>
+</head>
+<body text="#000000" bgcolor="#F5F5FF" link="#0000EE" vlink="#551A8B" alink="#FF0000">
+<table style="text-align: left; font-family: Helvetica,Arial,sans-serif; width: 100%;" border="0" cellpadding="0" cellspacing="0">
+<tbody> 
+
+<tr>
+
+<td style="width: 20%; text-align: left; padding-left: 20;padding-bottom: 3;background-color: rgb(196, 196, 196);"><img src="../start/clubs/coliege.png" alt="clublogo"></td>
+
+<td style="width: 60%; text-align: center;background-color: rgb(196, 196, 196);"> <center><a href='index.php?year=1&country='><img border='0' src='up.png' alt='index'></a><br><center><h1>Nationale Longue distance<br>Martelange 11.5.2014<br><a href="http://www.coliege.be" Target="_Blank">C.O. Li&egrave;ge</a><br></h1></center></font></big></td>	
+<td style="text-align: right; padding-right: 20; background-color: rgb(196, 196, 196); \"><img style="border: 0px solid ; width: 200px; height: 134px;" alt="" src="../Helga.png" hspace="0" vspace="0"></td></tr>
+	</tr>
+	
+<tr></tr>
+	</tbody>
+	</table>
+	<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH='100%'><TR><TD ALIGN='left' VALIGN='top' WIDTH='30%'><i><sup>Last updated: 13.05.2014 22:14:25</sup></i></TD><TD ALIGN='center' WIDTH='40%'></TD><TD ALIGN='right' VALIGN='top' WIDTH='30%'><i><sup><a href="http://www.helga-o.com" target="_blank">HELGA Orienteering Software</a> &copy; Michael Hock</sup></i></TD></TR></TABLE><HR SIZE=3 NOSHADE WIDTH="100%"><FONT SIZE=5> <A HREF="#D-10">D-10</A> <A HREF="#D-12">D-12</A> <A HREF="#D-14">D-14</A> <A HREF="#D-16">D-16</A> <A HREF="#D-18">D-18</A> <A HREF="#D-20">D-20</A> <A HREF="#DE">DE</A> <A HREF="#D21">D21</A> <A HREF="#DB">DB</A> <A HREF="#D35">D35</A> <A HREF="#D40">D40</A> <A HREF="#D45">D45</A> <A HREF="#D50">D50</A> <A HREF="#D55">D55</A> <A HREF="#D60">D60</A> <A HREF="#D65">D65</A> <A HREF="#H-10">H-10</A> <A HREF="#H-12">H-12</A> <A HREF="#H-14">H-14</A> <A HREF="#H-16">H-16</A> <A HREF="#H-18">H-18</A> <A HREF="#H-20">H-20</A> <A HREF="#HE">HE</A> <A HREF="#H21">H21</A> <A HREF="#H35">H35</A> <A HREF="#H40">H40</A> <A HREF="#H45">H45</A> <A HREF="#H50">H50</A> <A HREF="#H55">H55</A> <A HREF="#H60">H60</A> <A HREF="#H65">H65</A> <A HREF="#H70">H70</A> <A HREF="#H75">H75</A> <A HREF="#H80">H80</A> <A HREF="#SE">SE</A> <A HREF="#LE">LE</A> <A HREF="#SD">SD</A> <A HREF="#LD">LD</A> <A HREF="#Reg">Total</A></FONT>&nbsp;<a href='splits/splitsbrowser.php?lauf=832' target='_blank'><img src='splits.png' BORDER='0' alt='Splitsbrowser'></a><BR><FONT SIZE="-3"><BR></FONT><FONT SIZE="-1"><i><B>NCL</B> non class&eacute; &nbsp;&nbsp;</i></FONT><HR SIZE=3 NOSHADE WIDTH="100%"><table class="ph">
+
+<tr>
+<td colspan='7'><H2><A name="DB">DE</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;4400m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 170m (2)</H2></tr>
+<tr>
+<td colspan='7'><H2><A name="DB">H-20</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;4400m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 170m (2)</H2></tr>
+<tr>
+<td colspan='7'><H2><A name="DB">HE</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;4400m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 170m (2)</H2></tr>
+<tr>
+<td colspan='7'><H2><A name="DB">H21</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;4400m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 170m (2)</H2></tr>
+<tr>
+<td colspan='7'><H2><A name="DB">H35</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;4400m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 170m (2)</H2></tr>
+<tr>
+<td colspan='7'><H2><A name="DB">H40</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;4400m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 170m (2)</H2></tr>
+
+<tr>
+<td colspan='7'><H2><A name="D-10">D-10</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;3500m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 110m (2)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=9175'>Lena GEENEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">44:41
+<td align="right">12'46"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=4013'>Sarah ROOMAN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="D-12">D-12</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;3200m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 130m (2)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1920'>Lisse CEULEMANS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">46:12
+<td align="right">14'26"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1204'>Kato KEUPPENS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">48:44
+<td align="right">15'13"
+<td align="right">+2:32</tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="D-14">D-14</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;3300m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:
+middle;'> 140m (4)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=3283'>Marine SILLIEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=PEGASE#PEGASE">C.O. P&eacute;gase</a>
+<td align="right">1:38:08
+<td align="right">29'44"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=12479'>Coraline MATHEVE</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HERMA#HERMA">Hermathenae</a>
+<td align="right">1:41:10
+<td align="right">30'39"
+<td align="right">+3:02</tr>
+<tr>
+<td align="right">3.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=7311'>Nore PEETERS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">1:45:20
+<td align="right">31'55"
+<td align="right">+7:12</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=3478'>Laurine HERMAN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ASUB#ASUB">ASUB</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="D-16">D-16</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;4400m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 170m (5)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1207'>Hannah THIELS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">58:03
+<td align="right">13'11"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1208'>Magalie GILLET</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">58:33
+<td align="right">13'18"
+<td align="right">+0:30</tr>
+<tr>
+<td align="right">3.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1210'>Esmee VAN DE MAELE</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">1:08:05
+<td align="right">15'28"
+<td align="right">+10:02</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">4.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1530'>Lisa ELSEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">1:09:40
+<td align="right">15'49"
+<td align="right">+11:37</tr>
+<tr>
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=16006'>Anke GLASS&Eacute;E</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="D-18">D-18</A>&nbsp;&nbsp;&nbsp;<img 
+src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;6000m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 180m (3)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1722'>Elke VERDEYEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">1:12:11
+<td align="right">12'01"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1211'>Claudia ROOMAN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">1:19:30
+<td align="right">13'15"
+<td align="right">+7:19</tr>
+<tr>
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=9250'>Kim TIREZ</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="D-20">D-20</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;6000m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 180m (2)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1647'>Daniela MAUSEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ARDOC#ARDOC">O.L.G. St. Vith ARDOC</a>
+<td align="right">1:21:55
+<td align="right">13'39"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2845'>Coline CEULEMANS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=COLG#COLG">C.O. Li&egrave;ge</a>
+<td align="right">1:25:12
+<td align="right">14'11"
+<td align="right">+3:17</tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="D21">D21</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;6600m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 210m (2)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1219'>Kim GEYPEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">1:15:43
+<td align="right">11'28"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=5802'>Annelies VERMONDEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="DB">DB</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;4400m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 170m (2)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=19104'>Elodie LEMASSON</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=PEGASE#PEGASE">C.O. P&eacute;gase</a>
+<td>
+<td>
+<td></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/gabon.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=7357'>Judith LEYIMANGOYE</a>
+<td></td>
+<td>GAB</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=COLG#COLG">C.O. Li&egrave;ge</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="D35">D35</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&
+nbsp;6000m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 180m (5)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=5490'>Sofie HEUNINCKX</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">1:06:15
+<td align="right">11'02"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2533'>Nancy WENDERICKX</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HAMOK#HAMOK">hamok</a>
+<td align="right">1:12:32
+<td align="right">12'05"
+<td align="right">+6:17</tr>
+<tr>
+<td align="right">3.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1236'>Tina LINTEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">1:15:36
+<td align="right">12'35"
+<td align="right">+9:21</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">4.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2848'>Gisela HENNES</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ARDOC#ARDOC">O.L.G. St. Vith ARDOC</a>
+<td align="right">1:27:59
+<td align="right">14'39"
+<td align="right">+21:44</tr>
+<tr>
+<td align="right">5.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=5853'>Ellen BOURGONJON</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">1:42:49
+<td align="right">17'08"
+<td align="right">+36:34</tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="D40">D40</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;6000m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 180m (3)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2481'>Sylvia HENNES</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ARDOC#ARDOC">O.L.G. St. Vith ARDOC</a>
+<td align="right">1:19:39
+<td align="right">13'16"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1237'>Leene JESPERS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">1:24:47
+<td align="right">14'07"
+<td align="right">+5:08</tr>
+<tr>
+<td align="right">3.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/luxembourg.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=20014'>Elisabet WIRTZ</a>
+<td></td>
+<td>LUX</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=INDIV#INDIV">Indiv.</a>
+<td align="right">1:43:17
+<td align="right">17'12"
+<td align="right">+23:38</tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="D45">D45</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;4400m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 170m (8)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='
+right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1240'>Kristel MERTENS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">46:19
+<td align="right">10'31"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2392'>Genevi&egrave;ve NYS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ASUB#ASUB">ASUB</a>
+<td align="right">58:59
+<td align="right">13'24"
+<td align="right">+12:40</tr>
+<tr>
+<td align="right">3.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1519'>Marijs VANDEWEYER</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HAMOK#HAMOK">hamok</a>
+<td align="right">1:08:14
+<td align="right">15'30"
+<td align="right">+21:55</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">4.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=577'>Val&eacute;rie AUGHUET</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HOC#HOC">Hainaut O.C.</a>
+<td align="right">1:10:14
+<td align="right">15'57"
+<td align="right">+23:55</tr>
+<tr>
+<td align="right">5.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=5793'>Kristel PALMANS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">1:22:29
+<td align="right">18'44"
+<td align="right">+36:10</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">6.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1977'>Nicole REVENCU</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ASUB#ASUB">ASUB</a>
+<td align="right">1:51:58
+<td align="right">25'26"
+<td align="right">+1:05:39</tr>
+<tr>
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1242'>An VERBERNE</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HAMOK#HAMOK">hamok</a>
+<td>
+<td>
+<td></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1246'>Myriam VANHOREBEEK</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="D50">D50</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;4400m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 170m (7)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=3454'>Leen WOUTERS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">54:32
+<td align="right">12'23"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?
+year=1&runner=1651'>Maria HENKES</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ARDOC#ARDOC">O.L.G. St. Vith ARDOC</a>
+<td align="right">56:46
+<td align="right">12'54"
+<td align="right">+2:14</tr>
+<tr>
+<td align="right">3.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1247'>Greta MOLS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HAMOK#HAMOK">hamok</a>
+<td align="right">1:13:30
+<td align="right">16'42"
+<td align="right">+18:58</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">4.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1761'>Fran&ccedil;oise RENARD</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=COLG#COLG">C.O. Li&egrave;ge</a>
+<td align="right">1:14:40
+<td align="right">16'58"
+<td align="right">+20:08</tr>
+<tr>
+<td align="right">5.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1252'>Hilde VERCAEREN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">1:15:50
+<td align="right">17'14"
+<td align="right">+21:18</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">6.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1535'>Betty DE MEYER</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">1:24:50
+<td align="right">19'16"
+<td align="right">+30:18</tr>
+<tr>
+<td align="right">7.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1073'>Muriel CHOUFFART</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=COLG#COLG">C.O. Li&egrave;ge</a>
+<td align="right">1:35:56
+<td align="right">21'48"
+<td align="right">+41:24</tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="D55">D55</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;3300m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 140m (7)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1574'>Els PUT</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">42:02
+<td align="right">12'44"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1778'>Claire ADAM</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ASUB#ASUB">ASUB</a>
+<td align="right">59:28
+<td align="right">18'01"
+<td align="right">+17:26</tr>
+<tr>
+<td align="right">3.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/finland.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2482'>Ritva SIREN</a>
+<td></td>
+<td>FIN</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=Riihimaen+Suunn#Riihimaen+Suunn">Riihimaen Suunnistajat</a>
+<td align="right">1:01:35
+<td align="right">18'39"
+<td align="right">+19:33</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">4.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1263'>Liset HENDRICKX</a>
+<td></td>
+<td>BEL</td>
+<td><A class='
+class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">1:01:55
+<td align="right">18'45"
+<td align="right">+19:53</tr>
+<tr>
+<td align="right">5.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1719'>Simonne SILVI</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">1:09:37
+<td align="right">21'05"
+<td align="right">+27:35</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">6.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1537'>Anita BAERTS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=BORASCA#BORASCA">Borasca</a>
+<td align="right">1:14:21
+<td align="right">22'31"
+<td align="right">+32:19</tr>
+<tr>
+<td align="right">7.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1258'>Marie-Christine METTEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">2:24:33
+<td align="right">43'48"
+<td align="right">+1:42:31</tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="D60">D60</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;3300m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 140m (11)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1074'>Monique DEFFENSE</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=PEGASE#PEGASE">C.O. P&eacute;gase</a>
+<td align="right">49:47
+<td align="right">15'05"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1264'>Lily-Anne COLE</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">1:03:02
+<td align="right">19'06"
+<td align="right">+13:15</tr>
+<tr>
+<td align="right">3.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1720'>Lisette EYKMANS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">1:05:56
+<td align="right">19'58"
+<td align="right">+16:09</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">4.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2356'>Odette MORET</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">1:06:18
+<td align="right">20'05"
+<td align="right">+16:31</tr>
+<tr>
+<td align="right">5.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/slovakia.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=3455'>Viera FIALOVA</a>
+<td></td>
+<td>SVK</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=NSVA#NSVA">N.S.V. Amel</a>
+<td align="right">1:09:45
+<td align="right">21'08"
+<td align="right">+19:58</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">6.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1265'>Paulette BLOMMEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">1:11:56
+<td align="
+right">21'47"
+<td align="right">+22:09</tr>
+<tr>
+<td align="right">7.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=576'>Bernadette VANDERMEULEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=COLG#COLG">C.O. Li&egrave;ge</a>
+<td align="right">1:16:15
+<td align="right">23'06"
+<td align="right">+26:28</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">8.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=3241'>Jane LEGROSCOLLARD</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">1:26:18
+<td align="right">26'09"
+<td align="right">+36:31</tr>
+<tr>
+<td align="right">9.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1269'>Maria HENDRICKX</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">1:28:10
+<td align="right">26'43"
+<td align="right">+38:23</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">10.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1271'>Lieve GEENS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">1:30:17
+<td align="right">27'21"
+<td align="right">+40:30</tr>
+<tr>
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/nethlan.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1262'>Monica ROELING</a>
+<td></td>
+<td>NED</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="D65">D65</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;2900m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 100m (2)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1916'>Lia DE KERF</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">1:04:46
+<td align="right">22'20"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1538'>Gilberte MARIEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="H-10">H-10</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;3500m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 110m (3)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=9391'>Wolf DE MITS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">46:23
+<td align="right">13'15"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=3457'>Arnaud MAZY</a>
+<td></td>
+<td>BEL</
+td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=COLG#COLG">C.O. Li&egrave;ge</a>
+<td align="right">51:03
+<td align="right">14'35"
+<td align="right">+4:40</tr>
+<tr>
+<td align="right">3.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/luxembourg.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=28834'>Paul WIRTZ</a>
+<td></td>
+<td>LUX</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=INDIV#INDIV">Indiv.</a>
+<td align="right">54:58
+<td align="right">15'42"
+<td align="right">+8:35</tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="H-12">H-12</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;3200m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 130m (3)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1279'>Liam THIELS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">41:01
+<td align="right">12'49"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=6221'>Tuur KAELEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">1:04:40
+<td align="right">20'12"
+<td align="right">+23:39</tr>
+<tr>
+<td align="right">3.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=12480'>Corentin MATHEVE</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HERMA#HERMA">Hermathenae</a>
+<td align="right">1:27:37
+<td align="right">27'22"
+<td align="right">+46:36</tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="H-14">H-14</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;4400m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 170m (4)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1277'>Tibo GILLET</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">54:01
+<td align="right">12'16"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2812'>Guillaume EYEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=COLG#COLG">C.O. Li&egrave;ge</a>
+<td align="right">1:07:39
+<td align="right">15'22"
+<td align="right">+13:38</tr>
+<tr>
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=6220'>Daan KAELEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td>
+<td>
+<td></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1278'>Dries VAN LOMMEL</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="H-16">H-16</A>&nbsp;&nbsp;&
+nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;6600m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 210m (8)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1285'>Wout KEUPPENS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">1:08:03
+<td align="right">10'18"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=9264'>Klaas MELLEBEEK</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HAMOK#HAMOK">hamok</a>
+<td align="right">1:10:56
+<td align="right">10'44"
+<td align="right">+2:53</tr>
+<tr>
+<td align="right">3.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1283'>Jens VAN LOMMEL</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">1:25:02
+<td align="right">12'53"
+<td align="right">+16:59</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">4.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=5783'>Julien DEUXANT</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=PEGASE#PEGASE">C.O. P&eacute;gase</a>
+<td align="right">1:32:40
+<td align="right">14'02"
+<td align="right">+24:37</tr>
+<tr>
+<td align="right">5.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=16142'>Tom REUTER</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=NSVA#NSVA">N.S.V. Amel</a>
+<td align="right">1:38:23
+<td align="right">14'54"
+<td align="right">+30:20</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1969'>Miel DEFERME</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HAMOK#HAMOK">hamok</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/germany.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=23466'>Sami SCHNAUGST</a>
+<td></td>
+<td>GER</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ARDOC#ARDOC">O.L.G. St. Vith ARDOC</a>
+<td>
+<td>
+<td></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=7220'>Thibault HERMAN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ASUB#ASUB">ASUB</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="H-18">H-18</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;7900m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 325m (2)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=643'>J&eacute;r&eacute;my BREDO</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OLVE#OLVE">O.L.V. Eifel</a>
+<td align="right">1:37:17
+<td align="right">12'18"
+<td align="right"></
+tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=9298'>Victor MELLEBEEK</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HAMOK#HAMOK">hamok</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="H45">H45</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;7900m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 325m (11)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1993'>Wim VERVOORT</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">1:05:28
+<td align="right">8'17"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1834'>Pierre-Emmanuel DEMEUSE</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=COLG#COLG">C.O. Li&egrave;ge</a>
+<td align="right">1:05:51
+<td align="right">8'20"
+<td align="right">+0:23</tr>
+<tr>
+<td align="right">3.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2375'>Robert THEISS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=NSVA#NSVA">N.S.V. Amel</a>
+<td align="right"
+>1:06:46
+<td align="right">8'27"
+<td align="right">+1:18</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">4.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1360'>Guy TIREZ</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">1:22:49
+<td align="right">10'28"
+<td align="right">+17:21</tr>
+<tr>
+<td align="right">5.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=3471'>Dirk JACOBS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">1:25:39
+<td align="right">10'50"
+<td align="right">+20:11</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">6.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1379'>Serge BAERT</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">1:25:40
+<td align="right">10'50"
+<td align="right">+20:12</tr>
+<tr>
+<td align="right">7.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=4158'>Serge HERMAN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ASUB#ASUB">ASUB</a>
+<td align="right">1:45:10
+<td align="right">13'18"
+<td align="right">+39:42</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">8.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1100'>Andre DE VEIRMAN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">1:47:36
+<td align="right">13'37"
+<td align="right">+42:08</tr>
+<tr>
+<td align="right">9.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=626'>Jean-Pol BRISEBOIS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HOC#HOC">Hainaut O.C.</a>
+<td align="right">2:05:13
+<td align="right">15'51"
+<td align="right">+59:45</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1368'>Patrick VANHAEREN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1363'>Rudy ROOMAN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="H50">H50</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;6600m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 210m (14)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1403'>Wiet LAENEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">56:00
+<td align="right">8'29"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1553'>Luc MELIS</
+a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HAMOK#HAMOK">hamok</a>
+<td align="right">58:24
+<td align="right">8'50"
+<td align="right">+2:24</tr>
+<tr>
+<td align="right">3.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1554'>Karl VERVOORT</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">59:41
+<td align="right">9'02"
+<td align="right">+3:41</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">4.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/germany.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=5012'>Dirk HARTMANN</a>
+<td></td>
+<td>GER</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ARDOC#ARDOC">O.L.G. St. Vith ARDOC</a>
+<td align="right">1:04:45
+<td align="right">9'48"
+<td align="right">+8:45</tr>
+<tr>
+<td align="right">5.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1408'>Marc VAN DE MAELE</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">1:11:27
+<td align="right">10'49"
+<td align="right">+15:27</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">6.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1573'>Marc CLAES</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HAMOK#HAMOK">hamok</a>
+<td align="right">1:14:25
+<td align="right">11'16"
+<td align="right">+18:25</tr>
+<tr>
+<td align="right">7.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1657'>Freddy HENKES</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ARDOC#ARDOC">O.L.G. St. Vith ARDOC</a>
+<td align="right">1:19:55
+<td align="right">12'06"
+<td align="right">+23:55</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">8.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1410'>Jan THEYS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">1:29:42
+<td align="right">13'35"
+<td align="right">+33:42</tr>
+<tr>
+<td align="right">9.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1384'>Koen MEYNEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HAMOK#HAMOK">hamok</a>
+<td align="right">1:30:28
+<td align="right">13'42"
+<td align="right">+34:28</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">10.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1105'>Thierry DEUXANT</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=PEGASE#PEGASE">C.O. P&eacute;gase</a>
+<td align="right">1:35:10
+<td align="right">14'25"
+<td align="right">+39:10</tr>
+<tr>
+<td align="right">11.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1398'>Patrick BLEYEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HAMOK#HAMOK">hamok</a>
+<td align="right">1:40:23
+<td align="right">15'12"
+<td align="right">+44:23</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">12.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2858'>Daniel KESSEL</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?
+lauf=832&filter=OLVE#OLVE">O.L.V. Eifel</a>
+<td align="right">2:11:16
+<td align="right">19'53"
+<td align="right">+1:15:16</tr>
+<tr>
+<td align="right">13.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=627'>Patrick PICARD</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=BAL10#BAL10">Balise 10</a>
+<td align="right">2:24:30
+<td align="right">21'53"
+<td align="right">+1:28:30</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1674'>Marc MEEUWSSEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="H55">H55</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;6000m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 180m (18)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=3252'>Wim HOEKX</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HAMOK#HAMOK">hamok</a>
+<td align="right">1:07:04
+<td align="right">11'10"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/nethlan.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1742'>Giel PARDOEL</a>
+<td></td>
+<td>NED</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">1:08:42
+<td align="right">11'26"
+<td align="right">+1:38</tr>
+<tr>
+<td align="right">3.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1117'>Andr&eacute; PIERLOT</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=COLG#COLG">C.O. Li&egrave;ge</a>
+<td align="right">1:09:48
+<td align="right">11'38"
+<td align="right">+2:44</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">4.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1411'>Luc BOUVE</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HAMOK#HAMOK">hamok</a>
+<td align="right">1:15:46
+<td align="right">12'37"
+<td align="right">+8:42</tr>
+<tr>
+<td align="right">5.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1418'>William NICQUE</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">1:16:55
+<td align="right">12'49"
+<td align="right">+9:51</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">6.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1417'>Albert VAN CANEGHEM</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">1:17:30
+<td align="right">12'55"
+<td align="right">+10:26</tr>
+<tr>
+<td align="right">7.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1565'>Karel PEETERS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">1:19:13
+<td align="right">13'12"
+<td align="right">+12:09</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">8.</td>
+<td align="center" 
+style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1416'>Herman JANSSEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">1:20:13
+<td align="right">13'22"
+<td align="right">+13:09</tr>
+<tr>
+<td align="right">9.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1835'>Philippe CLAPUYT</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ASUB#ASUB">ASUB</a>
+<td align="right">1:20:44
+<td align="right">13'27"
+<td align="right">+13:40</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">10.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1415'>Chris ADDIERS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">1:24:04
+<td align="right">14'00"
+<td align="right">+17:00</tr>
+<tr>
+<td align="right">11.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2360'>Johan CLAES</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=BORASCA#BORASCA">Borasca</a>
+<td align="right">1:39:14
+<td align="right">16'32"
+<td align="right">+32:10</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">12.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=639'>Xavier MORIS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=PEGASE#PEGASE">C.O. P&eacute;gase</a>
+<td align="right">1:58:17
+<td align="right">19'42"
+<td align="right">+51:13</tr>
+<tr>
+<td align="right">13.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=24726'>Luc VERWAEST</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HAMOK#HAMOK">hamok</a>
+<td align="right">2:03:18
+<td align="right">20'33"
+<td align="right">+56:14</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">14.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=14434'>Etienne VANDEGHINSTE</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ALTAIR#ALTAIR">Alta&iuml;r C.O.</a>
+<td align="right">2:14:33
+<td align="right">22'25"
+<td align="right">+1:07:29</tr>
+<tr>
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1938'>Etienne DE CANNE</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td>
+<td>
+<td></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2255'>Etienne DE WIT</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1413'>Julien VAN BOSCH</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td>
+<td>
+<td></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1449'>Paul BOLSENS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&
+filter=TROL#TROL">TROL</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="H60">H60</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;4400m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 170m (21)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1430'>Roger HENDRICKX</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">43:23
+<td align="right">9'51"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2506'>Klaus HELD</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OLVE#OLVE">O.L.V. Eifel</a>
+<td align="right">47:18
+<td align="right">10'45"
+<td align="right">+3:55</tr>
+<tr>
+<td align="right">3.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1434'>Alfred SIMKENS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">47:32
+<td align="right">10'48"
+<td align="right">+4:09</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">4.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2860'>Jean-Claude PASQUASY</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HOC#HOC">Hainaut O.C.</a>
+<td align="right">47:51
+<td align="right">10'52"
+<td align="right">+4:28</tr>
+<tr>
+<td align="right">5.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1438'>Rogier VANAKEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">53:19
+<td align="right">12'07"
+<td align="right">+9:56</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">6.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1435'>Jos GILOT</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">53:29
+<td align="right">12'09"
+<td align="right">+10:06</tr>
+<tr>
+<td align="right">7.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1437'>Luc HEUNINCKX</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">55:31
+<td align="right">12'37"
+<td align="right">+12:08</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">8.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=630'>Jean BREDO</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OLVE#OLVE">O.L.V. Eifel</a>
+<td align="right">56:52
+<td align="right">12'55"
+<td align="right">+13:29</tr>
+<tr>
+<td align="right">9.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=3917'>Eric HULLY</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ALTAIR#ALTAIR">Alta&iuml;r C.O.</a>
+<td align="right">59:29
+<td align="right">13'31"
+<td align="right">+16:06</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">10.</td>
+<td align="center" style="padding-right: 10px;"><img src=".
+./start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2456'>Servais HICK</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=COLG#COLG">C.O. Li&egrave;ge</a>
+<td align="right">1:05:21
+<td align="right">14'51"
+<td align="right">+21:58</tr>
+<tr>
+<td align="right">11.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=4094'>Ludwig KAUT</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ARDOC#ARDOC">O.L.G. St. Vith ARDOC</a>
+<td align="right">1:09:21
+<td align="right">15'45"
+<td align="right">+25:58</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">12.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1848'>Philippe PARIZEL</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=BAL10#BAL10">Balise 10</a>
+<td align="right">1:10:52
+<td align="right">16'06"
+<td align="right">+27:29</tr>
+<tr>
+<td align="right">13.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2359'>Rudy CANTRE</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">1:13:11
+<td align="right">16'37"
+<td align="right">+29:48</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">14.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1743'>Jean-Pierre KELLENS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">1:18:35
+<td align="right">17'51"
+<td align="right">+35:12</tr>
+<tr>
+<td align="right">15.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/nethlan.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1444'>Eddie DE KERF</a>
+<td></td>
+<td>NED</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">1:21:06
+<td align="right">18'25"
+<td align="right">+37:43</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">16.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=631'>Francis KRIER</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ASUB#ASUB">ASUB</a>
+<td align="right">1:25:11
+<td align="right">19'21"
+<td align="right">+41:48</tr>
+<tr>
+<td align="right">17.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=636'>Claude LEMASSON</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=PEGASE#PEGASE">C.O. P&eacute;gase</a>
+<td align="right">1:30:47
+<td align="right">20'37"
+<td align="right">+47:24</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">18.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=3254'>Mark CEULEMANS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">1:37:25
+<td align="right">22'08"
+<td align="right">+54:02</tr>
+<tr>
+<td align="right">19.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=4168'>Luc TALLOEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">1:44:46
+<td align="right">23'48"
+<td align="right">+1:01:23</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' 
+href='showrunner.php?year=1&runner=3299'>Alfred RAES</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=BAL10#BAL10">Balise 10</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1457'>Ivo TIMMERMANS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="H65">H65</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;3300m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 140m (18)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1960'>Georges DEFERME</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HAMOK#HAMOK">hamok</a>
+<td align="right">43:19
+<td align="right">13'07"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1575'>Georges VONCK</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">45:39
+<td align="right">13'50"
+<td align="right">+2:20</tr>
+<tr>
+<td align="right">3.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/nethlan.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1470'>Mike IN T GROEN</a>
+<td></td>
+<td>NED</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">45:55
+<td align="right">13'54"
+<td align="right">+2:36</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">4.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1455'>Frans WENS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">47:31
+<td align="right">14'23"
+<td align="right">+4:12</tr>
+<tr>
+<td align="right">5.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2010'>Vic VANDERSTRAETEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HAMOK#HAMOK">hamok</a>
+<td align="right">49:58
+<td align="right">15'08"
+<td align="right">+6:39</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">6.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1620'>Jos THYS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HAMOK#HAMOK">hamok</a>
+<td align="right">50:53
+<td align="right">15'25"
+<td align="right">+7:34</tr>
+<tr>
+<td align="right">7.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1132'>Serge DERY</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OLVE#OLVE">O.L.V. Eifel</a>
+<td align="right">53:22
+<td align="right">16'10"
+<td align="right">+10:03</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">8.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1465'>Jos HOUBEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">59:02
+<td align="right">17'53"
+<td align="right">+15:43</tr>
+<tr>
+<td align="right">9.</td>
+<td align="center" 
+style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1462'>Georges TIMMERMANS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">59:19
+<td align="right">17'58"
+<td align="right">+16:00</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">10.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/ukingdo.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1752'>William MITCHELL</a>
+<td></td>
+<td>GBR</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">1:11:24
+<td align="right">21'38"
+<td align="right">+28:05</tr>
+<tr>
+<td align="right">11.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1471'>Eddie DESMEDT</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">1:11:34
+<td align="right">21'41"
+<td align="right">+28:15</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">12.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2470'>Stephane DMYTERKO</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HERMA#HERMA">Hermathenae</a>
+<td align="right">1:12:25
+<td align="right">21'56"
+<td align="right">+29:06</tr>
+<tr>
+<td align="right">13.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1468'>Oswald VAN BOCKSTAL</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">1:14:15
+<td align="right">22'30"
+<td align="right">+30:56</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">14.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1459'>Jozef DEN TROOSTER</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">1:20:08
+<td align="right">24'16"
+<td align="right">+36:49</tr>
+<tr>
+<td align="right">15.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2799'>Michel RYSENAER</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ASUB#ASUB">ASUB</a>
+<td align="right">1:35:27
+<td align="right">28'55"
+<td align="right">+52:08</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1130'>Georges DICKER</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ASUB#ASUB">ASUB</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1610'>Jos BYLEMANS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td>
+<td>
+<td></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1474'>Walter VAN KRUNCKELSVEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="H70">H70</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;2900m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 100m (2)</H2></
+tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1486'>Phil MELLEBEEK</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HAMOK#HAMOK">hamok</a>
+<td align="right">1:06:04
+<td align="right">22'46"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1484'>Bert GEUDENS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">1:06:48
+<td align="right">23'02"
+<td align="right">+0:44</tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="H75">H75</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;2900m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 100m (7)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1490'>Frans VAN DE MOORTEL</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">47:46
+<td align="right">16'28"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1751'>Adrianus DE RIJK</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">52:10
+<td align="right">17'59"
+<td align="right">+4:24</tr>
+<tr>
+<td align="right">3.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1892'>Jean BAYI</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OLVE#OLVE">O.L.V. Eifel</a>
+<td align="right">1:06:09
+<td align="right">22'48"
+<td align="right">+18:23</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">4.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1754'>Henri VANDENBERK</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">1:12:33
+<td align="right">25'01"
+<td align="right">+24:47</tr>
+<tr>
+<td align="right">5.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=3447'>Freddy HERMAN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ASUB#ASUB">ASUB</a>
+<td align="right">1:14:50
+<td align="right">25'48"
+<td align="right">+27:04</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">6.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2475'>Jean-Marie DEMEUSE</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=COLG#COLG">C.O. Li&egrave;ge</a>
+<td align="right">1:19:54
+<td align="right">27'33"
+<td align="right">+32:08</tr>
+<tr>
+<td align="right">7.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1491'>Bonaventur CLOOSTERMANS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HAMOK#HAMOK">hamok</a>
+<td align="right">1:21:05
+<td align="right">27'57"
+<td align="right">+33:19</tr>
+<tr>
+<td><A HREF="#TOP"
+>Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="H80">H80</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;2900m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 100m (1)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/germany.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2515'>Karl MOLS</a>
+<td></td>
+<td>GER</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA#OMEGA">Omega</a>
+<td align="right">1:10:18
+<td align="right">24'14"
+<td align="right"></tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="SE">SE</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;3700m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 135m (10)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1893'>Robert HOOFD</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ASUB#ASUB">ASUB</a>
+<td align="right">56:24
+<td align="right">15'14"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=9539'>Justin COURTOY</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HERMA#HERMA">Hermathenae</a>
+<td align="right">1:01:33
+<td align="right">16'38"
+<td align="right">+5:09</tr>
+<tr>
+<td align="right">3.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=11071'>Anja POTVIN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">1:17:29
+<td align="right">20'56"
+<td align="right">+21:05</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">4.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1801'>Nadine VERLINDEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ASUB#ASUB">ASUB</a>
+<td align="right">1:21:30
+<td align="right">22'01"
+<td align="right">+25:06</tr>
+<tr>
+<td align="right">5.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=5328'>Tinne VANHOUT</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">1:22:18
+<td align="right">22'14"
+<td align="right">+25:54</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">6.</td>
+<td align="center" style="padding-right: 10px;"></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=28835'>Nathalie HUBERT</a>
+<td></td>
+<td></td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=INDIV#INDIV">Indiv.</a>
+<td align="right">1:30:26
+<td align="right">24'26"
+<td align="right">+34:02</tr>
+<tr>
+<td align="right">7.</td>
+<td align="center" style="padding-right: 10px;"></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=23591'>Pierre KLEE</a>
+<td></td>
+<td></td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=INDIV#INDIV">Indiv.</a>
+<td align="right">1:30:31
+<td align="right">24'27"
+<td align="right">+34:07</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">8.</td>
+<td align="center" style="padding-right: 10px;"></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=19972'>Barbara PIERLOT</a>
+<td></td>
+<td></td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=INDIV#INDIV">Indiv.</a>
+<td align="
+right">1:53:07
+<td align="right">30'34"
+<td align="right">+56:43</tr>
+<tr>
+<td align="right">9.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=19973'>Marie-Paule SAMPONT</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=START-O#START-O">Start-O</a>
+<td align="right">2:29:56
+<td align="right">40'31"
+<td align="right">+1:33:32</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=23593'>Robert BERTRAND</a>
+<td></td>
+<td></td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=INDIV#INDIV">Indiv.</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="LE">LE</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;6600m (5)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=3444'>Jean-Luc DUBOIS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HERMA#HERMA">Hermathenae</a>
+<td align="right">1:38:53
+<td align="right">14'58"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=606'>Jean-Luc MARIEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ASUB#ASUB">ASUB</a>
+<td align="right">1:51:08
+<td align="right">16'50"
+<td align="right">+12:15</tr>
+<tr>
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=15940'>Bertrand GALLEZ</a>
+<td></td>
+<td></td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ASUB#ASUB">ASUB</a>
+<td>
+<td>
+<td></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=646'>Jacques BASTIEN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HOC#HOC">Hainaut O.C.</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/italy.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=26117'>Kathia BRAVIN</a>
+<td></td>
+<td>ITA</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ASUB#ASUB">ASUB</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="SD">SD</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;3300m &nbsp;<img src='steigung.png' alt='climb' style='vertical-align:middle;'> 140m (9)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=6225'>Jan VAN LOMMEL</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL#KOL">K.O.L.</a>
+<td align="right">52:23
+<td align="right">15'52"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1611'>Aime FRANSSENS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL#TROL">TROL</a>
+<td align="right">1:12:48
+<td align="right">22'03"
+<td align="right">+20:25</tr>
+<tr>
+<td align="right">3.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/
+flags/spain.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=13790'>Felipe MARTOS SANCHEZ</a>
+<td></td>
+<td>ESP</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HOC#HOC">Hainaut O.C.</a>
+<td align="right">1:33:13
+<td align="right">28'14"
+<td align="right">+40:50</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">4.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/ukingdo.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2473'>Michael HODSON</a>
+<td></td>
+<td>GBR</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=Scapa+Nancy#Scapa+Nancy">Scapa Nancy</a>
+<td align="right">1:39:44
+<td align="right">30'13"
+<td align="right">+47:21</tr>
+<tr>
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=10954'>Alice DESSART</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=START-O#START-O">Start-O</a>
+<td>
+<td>
+<td></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1779'>Anne CLERIN</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=PEGASE#PEGASE">C.O. P&eacute;gase</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=28836'>Eedina NEMETI</a>
+<td></td>
+<td></td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=INDIV#INDIV">Indiv.</a>
+<td>
+<td>
+<td></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=23478'>J&eacute;r&ocirc;me JACOBS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=COLG#COLG">C.O. Li&egrave;ge</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=25576'>Rosemonde L&Eacute;ONARD</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=COLG#COLG">C.O. Li&egrave;ge</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr>
+<tr>
+<td colspan='7'><H2><A name="LD">LD</A>&nbsp;&nbsp;&nbsp;<img src='start-ziel.png' alt='length' style='vertical-align:middle;'>&nbsp;7400m (9)</H2></tr>
+<tr>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td align='right'><b>[H:]M:S</b>
+<td align='right'><b>min/km</b></tr>
+<tr>
+<td align="right">1.</td>
+<td align="center" style="padding-right: 10px;"></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=20250'>Origgi GIAIME</a>
+<td></td>
+<td></td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=INDIV#INDIV">Indiv.</a>
+<td align="right">57:53
+<td align="right">7'49"
+<td align="right"></tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">2.</td>
+<td align="center" style="padding-right: 10px;"></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2777'>Marc DEPAUE</a>
+<td></td>
+<td></td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=INDIV#INDIV">Indiv.</a>
+<td align="right">1:16:08
+<td align="right">10'17"
+<td align="right">+18:15</tr>
+<tr>
+<td align="right">3.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=633'>Philippe HECQ</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HOC#HOC">Hainaut O.C.</a>
+<td align="right">1:37:26
+<td align="right">13'10"
+<td align="right">+39:33</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">4.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1122'>Dominique STAS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' 
+HREF="/webres/index.php?lauf=832&filter=ASUB#ASUB">ASUB</a>
+<td align="right">1:38:20
+<td align="right">13'17"
+<td align="right">+40:27</tr>
+<tr>
+<td align="right">5.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1839'>Jean-Pol HOULMONT</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=COLG#COLG">C.O. Li&egrave;ge</a>
+<td align="right">1:39:33
+<td align="right">13'27"
+<td align="right">+41:40</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">6.</td>
+<td align="center" style="padding-right: 10px;"></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2499'>Tamas NEMETI</a>
+<td></td>
+<td></td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=INDIV#INDIV">Indiv.</a>
+<td align="right">1:42:05
+<td align="right">13'47"
+<td align="right">+44:12</tr>
+<tr>
+<td align="right">7.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=2870'>Jean-Michel GOFFINET</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=BAL10#BAL10">Balise 10</a>
+<td align="right">1:44:00
+<td align="right">14'03"
+<td align="right">+46:07</tr>
+<tr bgcolor="#E5E5EF">
+<td align="right">8.</td>
+<td align="center" style="padding-right: 10px;"><img src="../start/flags/belgium.gif" alt=""></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=1358'>Marc MERTENS</a>
+<td></td>
+<td>BEL</td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HAMOK#HAMOK">hamok</a>
+<td align="right">1:49:14
+<td align="right">14'45"
+<td align="right">+51:21</tr>
+<tr>
+<td align="right">NCL</td>
+<td align="center" style="padding-right: 10px;"></td>
+<td><a class='class1' href='showrunner.php?year=1&runner=8648'>Roger HENROTTAY</a>
+<td></td>
+<td></td>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=INDIV#INDIV">Indiv.</a>
+<td>
+<td>
+<td></tr>
+<tr>
+<td><A HREF="#TOP">Top</A><br><br></td></tr></table><div style='margin-left: 40px'><h2><a name="Reg">Total</a></h2><table class="ph">
+<tr>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=KOL&hide=1">K.O.L.</a>
+<td align="right">43</tr>
+<tr>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=TROL&hide=1">TROL</a>
+<td align="right">38</tr>
+<tr>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OMEGA&hide=1">Omega</a>
+<td align="right">35</tr>
+<tr>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HAMOK&hide=1">hamok</a>
+<td align="right">25</tr>
+<tr>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ASUB&hide=1">ASUB</a>
+<td align="right">21</tr>
+<tr>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=COLG&hide=1">C.O. Li&egrave;ge</a>
+<td align="right">20</tr>
+<tr>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=INDIV&hide=1">Indiv.</a>
+<td align="right">11</tr>
+<tr>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ARDOC&hide=1">O.L.G. St. Vith ARDOC</a>
+<td align="right">10</tr>
+<tr>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=PEGASE&hide=1">C.O. P&eacute;gase</a>
+<td align="right">9</tr>
+<tr>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HOC&hide=1">Hainaut O.C.</a>
+<td align="right">7</tr>
+<tr>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=OLVE&hide=1">O.L.V. Eifel</a>
+<td align="right">7</tr>
+<tr>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=HERMA&hide=1">Hermathenae</a>
+<td align="right">5</tr>
+<tr>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=NSVA&hide=1">N.S.V. Amel</a>
+<td align="right">5</tr>
+<tr>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=ALTAIR&hide=1">Alta&iuml;r C.O.</a>
+<td align="right">4</tr>
+<tr>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=BAL10&hide=1">Balise 10</a>
+<td align="right">4</tr>
+<tr>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=BORASCA&hide=1">Borasca</a>
+<td align="right">2</tr>
+<tr>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&
+filter=START-O&hide=1">Start-O</a>
+<td align="right">2</tr>
+<tr>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=Riihimaen+Suunn&hide=1">Riihimaen Suunnistajat</a>
+<td align="right">1</tr>
+<tr>
+<td><A class='class2' HREF="/webres/index.php?lauf=832&filter=Scapa+Nancy&hide=1">Scapa Nancy</a>
+<td align="right">1</tr>
+<tr>
+<td colspan="2" align="right"><b>Total: 250</b></tr></table></div>	</body>
+	</html>
