@@ -30,7 +30,9 @@ club_whitelist = [u'Omega', u'hamok', u'O.L.G. St. Vith "ARDOC"', u'O.L.G. St. V
 
 # club mapping
 club_mapping = {
-    u'O.L.G. St. Vith ARDOC': u'O.L.G. St. Vith "ARDOC"'
+    u'O.L.G. St. Vith ARDOC': u'O.L.G. St. Vith "ARDOC"',
+    u'P\xe9gase': u'C.O. P\xe9gase',
+    u'O.L.V.E.': u'O.L.V. Eifel'
 }
 
 # whitelisted categories
