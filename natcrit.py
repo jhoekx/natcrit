@@ -18,7 +18,8 @@ parser = html5lib.HTMLParser(tree=treebuilders.getTreeBuilder("etree", cElementT
 #"20120916", "20121007last" ]
 #competitions = ["20120304md"]
 #competitions = [ "20130224", "20130303", "20130324", "20130407", "20130623", "20130825", "20130908", "20130915last" ]
-competitions = ["20140223", "20140302", "20140323", "20140427", "20140511", "20140914", "20140928", "20141019last"]
+#competitions = ["20140223", "20140302", "20140323", "20140427", "20140511", "20140914", "20140928", "20141019last"]
+competitions = ["20150222", "20150301", "20150308"]
 max_count = 6
 
 # scoring lists
@@ -155,7 +156,8 @@ for competition in competitions:
             # 5 children: normal page, no nationality
             # 6 children: normal page
             # 9 children: new webres (2011/07/04)
-            if len(cells) == 8 or len(cells) == 6 or len(cells) == 5 or len(cells) == 9:
+            # 10 children: newer webres (2015/03/28)
+            if len(cells) == 8 or len(cells) == 6 or len(cells) == 5 or len(cells) == 9 or len(cells) == 10:
                 place = cells[0].text
                 
                 # basic result
@@ -167,6 +169,13 @@ for competition in competitions:
                     result.name = cells[2][0].text
                     result.club = cells[5][0].text
                     time = cells[6].text
+                elif len(cells) == 10:
+                    if len(cells[2]) == 0:
+                        # this skips decorative rows in new webres
+                        continue
+                    result.name = cells[2][0].text
+                    result.club = cells[6][0].text
+                    time = cells[7].text
                 elif len(cells) == 6:
                     result.name = cells[1].text
                     result.club = cells[3].text
