@@ -19,7 +19,7 @@ parser = html5lib.HTMLParser(tree=treebuilders.getTreeBuilder("etree", cElementT
 #competitions = ["20120304md"]
 #competitions = [ "20130224", "20130303", "20130324", "20130407", "20130623", "20130825", "20130908", "20130915last" ]
 #competitions = ["20140223", "20140302", "20140323", "20140427", "20140511", "20140914", "20140928", "20141019last"]
-competitions = ["20150222", "20150301", "20150308", "20150412"]
+competitions = ["20150222", "20150301", "20150308", "20150412", "20150621"]
 max_count = 6
 
 # scoring lists
