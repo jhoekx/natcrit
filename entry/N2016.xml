@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ranking>
+<event>
+    <name>Nationale 1</name>
+    <date>: 28-02-2016</date>
+    <location>Zutendaal</location>
+</event>
+<event>
+    <name>BK Middle</name>
+    <date>: 20-03-2016</date>
+    <location>Koksijde</location>
+</event>
+<event>
+    <name>Nationale Middle</name>
+    <date>: 10-04-2016</date>
+    <location>Lichtaart</location>
+</event>
+<event>
+    <name>Nationale 2</name>
+    <date>: 27-08-2016</date>
+    <location>Vlessart</location>
+</event>
+</ranking>
