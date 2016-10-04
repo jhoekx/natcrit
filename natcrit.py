@@ -209,6 +209,9 @@ for competition in competitions:
                     continue
                 result.time = (hours*60 + minutes)*60 + seconds
 
+                result.name = result.name.strip()
+                result.club = result.club.strip()
+
                 if result.club in club_mapping:
                     result.club = club_mapping[result.club]
 
