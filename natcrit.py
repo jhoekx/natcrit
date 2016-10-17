@@ -352,14 +352,15 @@ for category in categories:
             date = competition[0:8]
             event = [ event for event in events if event.name==date ][0]
             cat = [ cat for cat in event.categories if cat.name==category ]
+
+            has_run = False
             if len(cat) > 0:
-                has_run = False
                 for result in cat[0].results:
                     if result.name==runner.name and result.club==runner.club:
                         runner.data.append(result.score)
                         has_run = True
-                if not has_run:
-                    runner.data.append(0)
+            if not has_run:
+                runner.data.append(0)
     template = Template(filename="templates/ranking.html")
     f = open("output/%s.html"%(category),"w")
     f.write(template.render_unicode(categories=categories, category=category, runners=sorted(runners.values(),key=sf,reverse=True)).encode("utf-8"))
