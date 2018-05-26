@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ranking>
+    <event>
+        <name>BK Middle</name>
+        <date>: 25-02-2018</date>
+        <location>Aalter</location>
+    </event>
+    <event>
+        <name>Nationale 1</name>
+        <date>: 24-03-2018</date>
+        <location>Lac des Vieilles Forges</location>
+    </event>
+    <event>
+        <name>Nationale 2</name>
+        <date>: 25-03-2018</date>
+        <location>Esneux</location>
+    </event>
+    <event>
+        <name>Nationale MD</name>
+        <date>: 29-04-2018</date>
+        <location>Genk</location>
+    </event>
+</ranking>
