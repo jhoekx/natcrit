@@ -22,21 +22,23 @@ parser = html5lib.HTMLParser(tree=treebuilders.getTreeBuilder("etree", cElementT
 #competitions = ["20150222", "20150301", "20150308", "20150412", "20150621", "20150829", "20150830", "20150913last"]
 #competitions = ["20160228", "20160320", "20160410", "20160827", "20160904", "20160911", "20161009", "20161016last"]
 #competitions = ["20170219", "20170226", "20170409", "20170611", "20170625", "20170827", "20170924", "20171001last"]
-competitions = ["20180225", "20180304", "20180325", "20180429"]
-max_count = 6
+competitions = ["20180225", "20180304", "20180325", "20180429", "20180506", "20180902", "20180930", "20181007", "20181014"]
+max_count = 8
 
 # scoring lists
 points = [30, 27, 25, 23, 21, 19, 17, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 lastpoints = [45, 40, 37, 35, 32, 29, 26, 23, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 
 # whitelisted clubs
-club_whitelist = [u'Omega', u'hamok', u'O.L.G. St. Vith "ARDOC"', u'O.L.G. St. Vith ARDOC', u'TROL', u'B.A.B.A.', u'ASUB', u'C.O. Li\xe8ge', u'C.O.M.B.', u'C.O. P\xe9gase', u'Hermathenae', u'K.O.L.', u'Alta\xefr C.O.', u'O.L.V. Eifel', u'Borasca', u'N.S.V. Amel', u'Balise 10', u'Hainaut O.C.', u'H.O.C.',u'C.L.O. Chiny',u'Les Raptors', u'C.O. Militaire Belge', u'E.P.O.S.', u'SUD O LUX']
+club_whitelist = [u'Omega', u'hamok', u'O.L.G. St. Vith "ARDOC"', u'O.L.G. St. Vith ARDOC', u'TROL', u'B.A.B.A.', u'ASUB', u'C.O. Li\xe8ge', u'C.O. Li\xc3\xa8ge', u'C.O.M.B.', u'C.O. P\xe9gase', u'Hermathenae', u'K.O.L.', u'Alta\xefr C.O.', u'Alta\xc3\xafr C.O.', u'O.L.V. Eifel', u'Borasca', u'N.S.V. Amel', u'Balise 10', u'Hainaut O.C.', u'H.O.C.',u'C.L.O. Chiny',u'Les Raptors', u'C.O. Militaire Belge', u'E.P.O.S.', u'SUD O LUX']
 
 # club mapping
 club_mapping = {
     u'O.L.G. St. Vith ARDOC': u'O.L.G. St. Vith "ARDOC"',
     u'P\xe9gase': u'C.O. P\xe9gase',
-    u'O.L.V.E.': u'O.L.V. Eifel'
+    u'O.L.V.E.': u'O.L.V. Eifel',
+    u'C.O. Li\xc3\xa8ge': u'C.O. Li\xe8ge',
+    u'Alta\xc3\xafr C.O.': u'Alta\xefr C.O.',
 }
 
 # whitelisted categories
