@@ -44,46 +44,32 @@ Runner.prototype.getEntry = function (eventNr) {
 Runner.prototype.checkCounts = function () {
 	var i; // Loop over the events that don't count;
 	
-	var jaar=document.getElementsByTagName('H1')[0].childNodes[0].childNodes[0].nodeValue;
-	jaar=parseInt(jaar.substr(jaar.length-4, 4),10);
+	var year = document.getElementsByTagName('H1')[0].childNodes[0].childNodes[0].nodeValue;
+	year = parseInt(year.substr(year.length-4, 4),10);
 	
-	if ( jaar < 2007 ) {
-		if (this.rankingEntries.length > 5 && this.zeroValues <= 2) {
-			this.rankingEntries.sort(
-				function (a, b) {
-					return b.points - a.points;
-				}
-			);
-			
-			for (i = 5; i < this.rankingEntries.length; i++) {
-				this.rankingEntries[i].counts = false;
-			}
-			
-			this.rankingEntries.sort(
-				function (a, b) {
-					return a.eventNr - b.eventNr;
-				}
-			);
-		}
+	var requiredEntries = 8;
+	if (year < 2007) {
+		requiredEntries = 5;
+	} else if (year < 2018) {
+		requiredEntries = 6;
+	}
 	
-	} else {
-		if (this.rankingEntries.length > 6 && this.zeroValues <= 2) {
-			this.rankingEntries.sort(
-				function (a, b) {
-					return b.points - a.points;
-				}
-			);
-			
-			for (i = 6; i < this.rankingEntries.length; i++) {
-				this.rankingEntries[i].counts = false;
+	if (this.rankingEntries.length > requiredEntries && this.zeroValues <= 2) {
+		this.rankingEntries.sort(
+			function (a, b) {
+				return b.points - a.points;
 			}
-			
-			this.rankingEntries.sort(
-				function (a, b) {
-					return a.eventNr - b.eventNr;
-				}
-			);
+		);
+		
+		for (i = requiredEntries; i < this.rankingEntries.length; i++) {
+			this.rankingEntries[i].counts = false;
 		}
+		
+		this.rankingEntries.sort(
+			function (a, b) {
+				return a.eventNr - b.eventNr;
+			}
+		);
 	}
 };
 
