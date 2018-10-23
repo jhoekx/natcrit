@@ -1,0 +1,5 @@
+Mako==0.8.0
+MarkupSafe==0.15
+chardet==3.0.4
+html5lib==0.95
+wsgiref==0.1.2

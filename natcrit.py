@@ -37,8 +37,6 @@ club_mapping = {
     u'O.L.G. St. Vith ARDOC': u'O.L.G. St. Vith "ARDOC"',
     u'P\xe9gase': u'C.O. P\xe9gase',
     u'O.L.V.E.': u'O.L.V. Eifel',
-    u'C.O. Li\xc3\xa8ge': u'C.O. Li\xe8ge',
-    u'Alta\xc3\xafr C.O.': u'Alta\xefr C.O.',
 }
 
 # whitelisted categories
@@ -138,7 +136,7 @@ for competition in competitions:
         event.is_last = True
 
     # Parse result list into a data structure
-    with open("data/"+date+".htm") as f:
+    with open("data/"+date+".htm", 'rb') as f:
         print "Now processing %s"%(date)
         currentCategory = None
         
