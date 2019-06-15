@@ -1,13 +1,14 @@
 #!/usr/bin/python3
 
 import argparse
+import collections
 import datetime
 import json
 import xml.etree.ElementTree as ET
 
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, List
+from typing import Counter, Dict, List
 
 import jinja2
 
@@ -74,6 +75,12 @@ class Category:
                 return result.score
         return 0
 
+    def add_result(self, result: Result):
+        self.results.append(result)
+
+    def remove_result(self, result: Result):
+        self.results.remove(result)
+
 
 @dataclass
 class Event:
@@ -81,6 +88,7 @@ class Event:
     name: str
     location: str
     categories: List[Category]
+    reclassify: Dict[str, List[str]]
     is_last: bool = False
 
     def find_category(self, name: str) -> Category:
@@ -106,7 +114,8 @@ def category_from_data(data) -> Category:
 
 def event_from_data(data, config) -> Event:
     categories = [category_from_data(v) for v in data['categories'].values()]
-    event = Event(config['date'], config['name'], config['location'], categories)
+    reclassify = config['reclassify'] if 'reclassify' in config else {}
+    event = Event(config['date'], config['name'], config['location'], categories, reclassify)
     if 'is_last' in config and config['is_last'] is True:
         event.is_last = True
     return event
@@ -147,6 +156,37 @@ def map_clubs(club_mapping: Dict[str, str], events: List[Event]) -> List[str]:
                     if result.club not in unknown_clubs:
                         unknown_clubs.append(result.club)
     return sorted(unknown_clubs)
+
+
+def find_preferred_category(result: Result, events: List[Event]) -> str:
+    categories: Counter[str] = collections.Counter()
+    for event in events:
+        for category in event.categories:
+            for r in category.results:
+                if result.name == r.name and result.club == r.club:
+                    categories.update([category.name])
+
+    return categories.most_common(1)[0][0]
+
+
+def reclassify_runners(events: List[Event]):
+    for event in events:
+        if len(event.reclassify) == 0:
+            continue
+
+        for original, to in event.reclassify.items():
+            new_categories = {new_name: Category(new_name, []) for new_name in to if new_name != original}
+
+            original_category = event.find_category(original)
+            results = [result for result in original_category.results]
+            for result in results:
+                preferred_category = find_preferred_category(result, events)
+                if preferred_category == original or preferred_category not in to:
+                    continue
+                new_categories[preferred_category].add_result(result)
+                original_category.remove_result(result)
+
+            event.categories += new_categories.values()
 
 
 def find_runners_in_category(category_name: str, events: List[Event], clubs: Dict[str, str]) -> List[Runner]:
@@ -225,6 +265,8 @@ if __name__ == '__main__':
         print('These unknown clubs appear in the results:')
         for club in unknown_clubs:
             print(f'  {club}')
+
+    reclassify_runners(events)
 
     jinja_env = jinja2.Environment(
         loader=jinja2.PackageLoader('natcrit', 'templates'),

@@ -30,7 +30,11 @@
         {
             "date": "2019-05-19",
             "name": "BK Sprint",
-            "location": "Overpelt"
+            "location": "Overpelt",
+            "reclassify": {
+                "D21": ["DE", "D21", "DB"],
+                "H21": ["HE", "H21", "HB"]
+            }
         }
     ]
 }
