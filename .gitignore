@@ -3,3 +3,7 @@ lib/
 include/
 output/
 .idea/
+venv/
+.vscode/
+.mypy_cache
+__pycache__/

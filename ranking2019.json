@@ -1,0 +1,36 @@
+{
+    "year": 2019,
+    "event_count": 6,
+    "events": [
+        {
+            "date": "2019-02-17",
+            "name": "Nationale 1",
+            "location": "Schönefeld"
+        },
+        {
+            "date": "2019-03-17",
+            "name": "Nationale 2",
+            "location": "Lommel"
+        },
+        {
+            "date": "2019-03-31",
+            "name": "Nationale Sprint",
+            "location": "Lichtaart"
+        },
+        {
+            "date": "2019-04-28",
+            "name": "Nationale MD",
+            "location": "St. Vith"
+        },
+        {
+            "date": "2019-05-12",
+            "name": "BK Middle",
+            "location": "Stambruges"
+        },
+        {
+            "date": "2019-05-19",
+            "name": "BK Sprint",
+            "location": "Overpelt"
+        }
+    ]
+}

@@ -1,371 +1,261 @@
-#!/usr/bin/env python2
+#!/usr/bin/python3
 
-import re
+import argparse
+import datetime
+import json
+import xml.etree.ElementTree as ET
 
-import html5lib
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Dict, List
 
-from html5lib import treebuilders
-from xml.etree import cElementTree
+import jinja2
 
-from mako.template import Template
+NORMAL_SCORE = [30, 27, 25, 23, 21, 19, 17, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+EXTRA_SCORE = [45, 40, 37, 35, 32, 29, 26, 23, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 
-# namespaceHTMLElements=False: work around bug in html5lib 0.90
-parser = html5lib.HTMLParser(tree=treebuilders.getTreeBuilder("etree", cElementTree),namespaceHTMLElements=False)
+RANKING_CATEGORIES = ['D-10', 'D-12', 'D-14', 'D-16', 'D-18', 'D-20', 'DE', 'D21', 'DB', 'D35', 'D40', 'D45', 'D50', 'D55', 'D60', 'D65', 'D70', 'D75', 'D80', 'D85', 'H-10', 'H-12', 'H-14', 'H-16', 'H-18', 'H-20', 'HE', 'H21', 'HB', 'H35', 'H40', 'H45', 'H50', 'H55', 'H60', 'H65', 'H70', 'H75', 'H80', 'H85']
 
-# Ranking events
-#competitions = ["20110327", "20110417md", "20110522", "20110703", "20110904", "20110911", "20110918md", "20111002last"]
-#competitions = [ "20120226", "20120304md", "20120318", "20120325", "20120415md", "20120909",
-#"20120916", "20121007last" ]
-#competitions = ["20120304md"]
-#competitions = [ "20130224", "20130303", "20130324", "20130407", "20130623", "20130825", "20130908", "20130915last" ]
-#competitions = ["20140223", "20140302", "20140323", "20140427", "20140511", "20140914", "20140928", "20141019last"]
-#competitions = ["20150222", "20150301", "20150308", "20150412", "20150621", "20150829", "20150830", "20150913last"]
-#competitions = ["20160228", "20160320", "20160410", "20160827", "20160904", "20160911", "20161009", "20161016last"]
-#competitions = ["20170219", "20170226", "20170409", "20170611", "20170625", "20170827", "20170924", "20171001last"]
-competitions = ["20180225", "20180304", "20180325", "20180429", "20180506", "20180902", "20180930", "20181007", "20181014", "20181021last"]
-max_count = 8
-
-# scoring lists
-points = [30, 27, 25, 23, 21, 19, 17, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
-lastpoints = [45, 40, 37, 35, 32, 29, 26, 23, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
-
-# whitelisted clubs
-club_whitelist = [u'Omega', u'hamok', u'O.L.G. St. Vith "ARDOC"', u'O.L.G. St. Vith ARDOC', u'TROL', u'B.A.B.A.', u'ASUB', u'C.O. Li\xe8ge', u'C.O. Li\xc3\xa8ge', u'C.O.M.B.', u'C.O. P\xe9gase', u'Hermathenae', u'K.O.L.', u'Alta\xefr C.O.', u'Alta\xc3\xafr C.O.', u'O.L.V. Eifel', u'Borasca', u'N.S.V. Amel', u'Balise 10', u'Hainaut O.C.', u'H.O.C.',u'C.L.O. Chiny',u'Les Raptors', u'C.O. Militaire Belge', u'E.P.O.S.', u'SUD O LUX']
-
-# club mapping
-club_mapping = {
-    u'O.L.G. St. Vith ARDOC': u'O.L.G. St. Vith "ARDOC"',
-    u'P\xe9gase': u'C.O. P\xe9gase',
-    u'O.L.V.E.': u'O.L.V. Eifel',
+RANKING_CLUBS = {
+    'Altaïr C.O.': 'Altaïr C.O.',
+    'ASUB': 'ASUB',
+    'Balise 10': 'Balise 10',
+    'Borasca': 'Borasca',
+    'C.O. Liège': 'C.O. Liège',
+    'C.O. Pégase': 'C.O. Pégase',
+    'C.O.M.B': 'C.O.M.B',
+    'C.O. Militaire Belge': 'C.O.M.B.',
+    'hamok': 'hamok',
+    'Hainaut O.C.': 'Hainaut O.C.',
+    'Hermathenae': 'Hermathenae',
+    'K.O.L.': 'K.O.L.',
+    'N.S.V. Amel': 'N.S.V. Amel',
+    'O.L.G. St. Vith "ARDOC"': 'O.L.G. St. Vith ARDOC',
+    'O.L.G. St. Vith ARDOC': 'O.L.G. St. Vith ARDOC',
+    'O.L.V. Eifel': 'O.L.V. Eifel',
+    'O.L.V.E.': 'O.L.V. Eifel',
+    'Omega': 'Omega',
+    'Pégase': 'C.O. Pégase',
+    'SUD O LUX': 'SUD O LUX',
+    'TROL': 'TROL',
 }
 
-# whitelisted categories
-categories = ['D-10', 'D-12', 'D-14', 'D-16', 'D-18', 'D-20', 'DE', 'D21', 'DB', 'D35', 'D40', 'D45', 'D50', 'D55', 'D60', 'D65', 'D70', 'D75', 'D80', 'D85', 'H-10', 'H-12', 'H-14', 'H-16', 'H-18', 'H-20', 'HE', 'H21', 'HB', 'H35', 'H40', 'H45', 'H50', 'H55', 'H60', 'H65', 'H70', 'H75', 'H80', 'H85']
-
-md_mapping = {
-    "D. Pupilles": ["D-12", "D-10"],
-    "D. Espoirs": ["D-16", "D-14"],
-    "D. Juniores": ["D-20", "D-18"],
-    "D. Junioren": ["D-20", "D-18"],
-    "D. Open": ["DE", "D35", "D21", "DB"],
-    "D. Masters A": ["D40", "D45"],
-    "D. Masters B": ["D50", "D55"],
-    "D. Masters C": ["D60", "D65"],
-    "D. Masters D": ["D70", "D75", "D80", "D85"],
-    "H. Pupilles": ["H-12", "H-10"],
-    "H. Espoirs": ["H-16", "H-14"],
-    "H. Juniors": ["H-20", "H-18"],
-    "H. Junioren": ["H-20", "H-18"],
-    "H. Open": ["HE", "H35", "H21", "HB"],
-    "H. Masters A": ["H40", "H45"],
-    "H. Masters B": ["H50", "H55"],
-    "H. Masters C": ["H60", "H65"],
-    "H. Masters D": ["H70", "H75", "H80", "H85"],
-    }
-
-# Helper classes
-class Event:
-    name = None
-    categories = None
-    
-    # special regularity fields
-    is_middle = False
-    is_last = False
-    
-    def __init__(self):
-        self.categories = []
-    
-    def to_text(self):
-        ret=[]
-        
-        for category in self.categories:
-            ret.append("Category %s"%(category.name))
-            for result in category.results:
-                ret.append("%s %s %s %s"%(result.name, result.club, result.time, result.score))
-        
-        return "\n".join(ret)
-
-class Category:
-    name = None
-    results = None
-    
-    def __init__(self):
-        self.results = []
-    
-    """ Map this category to a list of possible categories in a middle distance
-        race """
-    def get_md_mapping(self):
-        for k,v in md_mapping.items():
-            if k in self.name:
-                return v
-
-class Result:
-    name = None
-    club = None
-    time = None
-    score = None
-    
-    def __str__(self):
-        return "%s %s %s"%(self.name, self.club, self.time)
-
+@dataclass
 class Runner:
-    name = None
-    club = None
-    place = None
-    total = None
-    results = None
-    data = None
-    def __init__(self):
-        self.results = []
-        self.data = []
+    name: str
+    club: str
+    scores: List[int]
+    total: int = 0
+    place: int = 0
 
-events = []
 
-for competition in competitions:
-    # competitions have the following form:
-    # yyyymmdd[md][last]
-    event = Event()
-    events.append(event)
-    
-    date = competition[0:8]
-    
-    event.name = date
-    if "md" in competition:
-        event.is_middle = True
-    if "last" in competition:
+@dataclass
+class Result:
+    position: int
+    name: str
+    club: str
+    time: datetime.time
+    status: str
+    score: int = 0
+
+    def is_ok(self) -> bool:
+        return self.status == 'OK' and self.position != 0
+
+
+@dataclass
+class Category:
+    name: str
+    results: List[Result]
+
+    def find_score(self, runner: Runner) -> int:
+        for result in self.results:
+            if result.name == runner.name and result.club == runner.club:
+                return result.score
+        return 0
+
+
+@dataclass
+class Event:
+    date: str
+    name: str
+    location: str
+    categories: List[Category]
+    is_last: bool = False
+
+    def find_category(self, name: str) -> Category:
+        for category in self.categories:
+            if category.name == name:
+                return category
+        return Category(name, [])
+
+
+def result_from_data(data) -> Result:
+    position = int(data['position'])
+    name = data['name']
+    club = data['club']
+    time = datetime.time.fromisoformat(data['time'])
+    status = data['status']
+    return Result(position, name, club, time, status)
+
+
+def category_from_data(data) -> Category:
+    results = [result_from_data(result) for result in data['results']]
+    return Category(data['name'], results)
+
+
+def event_from_data(data, config) -> Event:
+    categories = [category_from_data(v) for v in data['categories'].values()]
+    event = Event(config['date'], config['name'], config['location'], categories)
+    if 'is_last' in config and config['is_last'] is True:
         event.is_last = True
+    return event
 
-    # Parse result list into a data structure
-    with open("data/"+date+".htm", 'rb') as f:
-        print "Now processing %s"%(date)
-        currentCategory = None
-        
-        root = parser.parse(f)
-        table = root.find(".//table[@class='ph']")
-        rows = table.findall(".//tr")
-        for row in rows:
-            # row can be a heading, a result or nonsense
-            heading = row.find(".//h2")
-            if heading is not None:
-                category = Category()
-                category.name = heading[0].text.strip()
-                
-                currentCategory = category
-                event.categories.append( category )
-                continue
-            
-            cells = row.findall(".//td")
-            # 8 children: webres
-            # 5 children: normal page, no nationality
-            # 6 children: normal page
-            # 9 children: new webres (2011/07/04)
-            # 10 children: newer webres (2015/03/28)
-            if len(cells) == 8 or len(cells) == 6 or len(cells) == 5 or len(cells) == 9 or len(cells) == 10:
-                place = cells[0].text
-                if place == '--':
-                    continue
 
-                # basic result
-                result = Result()
-                if len(cells) == 8 or len(cells) == 9:
-                    if len(cells[2]) == 0:
-                        # this skips decorative rows in new webres
-                        continue
-                    result.name = cells[2][0].text
-                    result.club = cells[5][0].text
-                    time = cells[6].text
-                elif len(cells) == 10:
-                    if len(cells[2]) == 0:
-                        # this skips decorative rows in new webres
-                        continue
-                    result.name = cells[2][0].text
-                    result.club = cells[6][0].text
-                    time = cells[7].text
-                elif len(cells) == 6:
-                    result.name = cells[1].text
-                    result.club = cells[3].text
-                    time = cells[4].text
-                elif len(cells) == 5:
-                    result.name = cells[1].text
-                    result.club = cells[2].text
-                    time = cells[3].text
-                # transform the time to seconds
-                if time is None:
-                    continue
-                parts = re.match("([0-9]+):([0-9]+):([0-9]+)|([0-9]+):([0-9]+)",time)
-                try:
-                    if parts.group(1) is not None:
-                        pass
-                except:
-                    continue
-                if parts.group(1) is not None:
-                    # hh:mm:ss
-                    hours = int(parts.group(1))
-                    minutes = int(parts.group(2))
-                    seconds = int(parts.group(3))
-                elif parts.group(4) is not None:
-                    # mm:ss
-                    hours = 0
-                    minutes = int(parts.group(4))
-                    seconds = int(parts.group(5))
-                else:
-                    # no valid time, means not a valid runner
-                    continue
-                result.time = (hours*60 + minutes)*60 + seconds
+def read_event(event):
+    date = event['date'].replace('-', '')
+    with open(f'data/{date}.json') as f:
+        return json.load(f)
 
-                result.name = result.name.strip()
-                result.club = result.club.strip()
 
+def assign_scores(category: Category, scoring: List[int]):
+    previous_time = None
+    previous_score = None
+    ok_results = [result for result in category.results if result.is_ok()]
+    for i, result in enumerate(sorted(ok_results, key=lambda r: r.time)):
+        if result.status != 'OK':
+            continue
+        if i > len(scoring) - 1:
+            result.score = scoring[-1]
+            continue
+        if previous_time is not None and previous_time == result.time:
+            result.score = previous_score
+            continue
+        previous_score = scoring[i]
+        previous_time = result.time
+        result.score = previous_score
+
+
+def map_clubs(club_mapping: Dict[str, str], events: List[Event]) -> List[str]:
+    unknown_clubs: List[str] = []
+    for event in events:
+        for category in event.categories:
+            for result in category.results:
                 if result.club in club_mapping:
                     result.club = club_mapping[result.club]
+                else:
+                    if result.club not in unknown_clubs:
+                        unknown_clubs.append(result.club)
+    return sorted(unknown_clubs)
 
-                currentCategory.results.append(result)
-                continue
 
-# Map middle distance races to normal categories
-# rule: a runner will be ranked in the highest category where he participated in
-
-# Generate a category<->runner mapping for all non-md races
-category_runner = {}
-for category in categories:
-    category_runner[category] = []
-for event in events:
-    if event.is_middle:
-        continue
-    
-    for category in event.categories:
-        if category.name not in categories:
-            continue
-        for result in category.results:
-            if result.name not in category_runner[category.name]:
-                category_runner[category.name].append(result.name)
-# create the standard categories for all md events
-for event in events:
-    if event.is_middle:
-        for name in categories:
-            category = Category()
-            category.name = name
-            event.categories.append(category)
-# Rank runners in the expected category
-for event in events:
-    if not event.is_middle:
-        continue
-    for category in event.categories:
-        possible_categories = category.get_md_mapping()
-        if possible_categories is None:
-            print "MD: drop %s"%(category.name)
-            continue
-        for result in category.results:
-            has_mapped = False
-            for mapping in possible_categories:
-                if result.name in category_runner[mapping]:
-                    # "mapping" is the category where the runner will be ranked
-                    target = [cat for cat in event.categories if cat.name==mapping ][0]
-                    target.results.append(result)
-                    has_mapped = True
-                    break
-            if not has_mapped:
-                # if we get here, the runner only ran md events, add to first category
-                target = [cat for cat in event.categories if cat.name==possible_categories[0]][0]
-                target.results.append(result)
-                print "MD: unable to determine mapping for %s"%(result)
-
-# Generate scores for events
-for event in events:
-    for category in event.categories:
-        # warn if we drop a category
-        if category.name not in categories:
-            print "%s: dropping category %s"%(event.name, category.name)
-            continue
-        # select the correct points to give to runners
-        if not event.is_last:
-            points_range = points
-        else:
-            points_range = lastpoints
-        # Assign points
-        def ressort(result):
-            return result.time
-        results = sorted(category.results, key=ressort)
-        for (result,score) in zip(results, points_range):
-            result.score = score
-        # postprocessing
-        prev_time = 0
-        prev_score = 0
-        for result in results:
-            # handle ex-aequo's
-            if result.time == prev_time:
-                result.score = prev_score
-            # default scores
-            if result.score is None:
-                result.score = 1
-            prev_time = result.time
-            prev_score = result.score
-    # output the event
-    main = Template(filename="templates/results.html")
-    f = open("output/%s.html"%(event.name),"w")
-    f.write(main.render_unicode(event=event).encode("utf-8"))
-    f.close()
-
-# Generate a ranking
-non_ranked = [] # keep track of all clubs that shouldn't be ranked
-for category in categories:
-    def sf(runner):
-        return runner.total
-    runners = {}
-    
-    # Get the results for this category for any event
-    races = []
+def find_runners_in_category(category_name: str, events: List[Event], clubs: Dict[str, str]) -> List[Runner]:
+    runners: Dict[str, Runner] = {}
     for event in events:
-        for cat in event.categories:
-            if cat.name == category:
-                races.append(cat)
-    for race in races:
-        for result in race.results:
-            # a runner can appear for multiple clubs, 
-            # only results for Belgian clubs are accepted.
-            if result.club not in club_whitelist:
-                if result.club not in non_ranked:
-                    non_ranked.append(result.club)
+        category = event.find_category(category_name)
+        for result in category.results:
+            if result.club not in clubs:
                 continue
-            if result.name not in runners:
-                runners[result.name] = Runner()
-                runners[result.name].name = result.name
-                runners[result.name].club = result.club
-            runners[result.name].results.append(result.score)
-    # Compute the total
-    for runner in runners:
-        runners[runner].total = sum(sorted(runners[runner].results, reverse=True)[0:max_count])
-    # Compute the place
-    place= 1
-    prev_score = 0
-    prev_place = 0
-    for runner in sorted(runners.values(), key=sf, reverse=True):
-        if runner.total == prev_score:
-            runner.place = prev_place
-        else:
-            runner.place = place
-            prev_place = place
-        prev_score = runner.total
-        place = place + 1
-    # produce the output
-    for runner in runners.values():
-        for competition in competitions:
-            # find competition results for this runner
-            date = competition[0:8]
-            event = [ event for event in events if event.name==date ][0]
-            cat = [ cat for cat in event.categories if cat.name==category ]
+            if result.name in runners:
+                continue
+            runners[result.name] = Runner(result.name, result.club, [])
+    return [runner for runner in runners.values()]
 
-            has_run = False
-            if len(cat) > 0:
-                for result in cat[0].results:
-                    if result.name==runner.name and result.club==runner.club:
-                        runner.data.append(result.score)
-                        has_run = True
-            if not has_run:
-                runner.data.append(0)
-    template = Template(filename="templates/ranking.html")
-    f = open("output/%s.html"%(category),"w")
-    f.write(template.render_unicode(categories=categories, category=category, runners=sorted(runners.values(),key=sf,reverse=True)).encode("utf-8"))
-    f.close()
-print "These clubs appear but aren't taken into account for the ranking:"
-print non_ranked
+
+def calculate_ranking(category_name: str, max_scores: int, runners: List[Runner], events: List[Event]):
+    for runner in runners:
+        for event in events:
+            category = event.find_category(category_name)
+            runner.scores.append(category.find_score(runner))
+
+        runner.total = sum(sorted(runner.scores, reverse=True)[0:max_scores])
+
+    previous_total = 0
+    previous_place = 0
+    for i, runner in enumerate(sorted(runners, key=lambda r: r.total, reverse=True), 1):
+        if previous_place != 0 and runner.total == previous_total:
+            runner.place = previous_place
+            continue
+        runner.place = i
+        previous_total = runner.total
+        previous_place = runner.place
+
+
+def generate_xml(output_dir: Path, year: int, events: List[Event]):
+    ranking = ET.Element('ranking')
+    for event in events:
+        e = ET.SubElement(ranking, 'event')
+        ET.SubElement(e, 'name').text = event.name
+        ET.SubElement(e, 'date').text = f': {event.date}'
+        ET.SubElement(e, 'location').text = event.location
+    ET.ElementTree(ranking).write(output_dir / f'N{year}.xml')
+
+
+def print_events(events: List[Event]):
+    for event in events:
+        for category in event.categories:
+            print(f'### {category.name} ###')
+            for result in category.results:
+                print(f'{result.time} {result.score} {result.name}')
+            print('')
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Generate Ranking')
+    parser.add_argument('--config', required=True, dest='config', type=argparse.FileType())
+
+    args = parser.parse_args()
+    config = json.load(args.config)
+
+    year = config['year']
+    event_count = config['event_count']
+    is_final = True if 'is_final' in config and config['is_final'] is True else False
+
+    events = [event_from_data(read_event(event), event) for event in config['events']]
+
+    for event in events:
+        for category in event.categories:
+            if event.is_last:
+                assign_scores(category, EXTRA_SCORE)
+            else:
+                assign_scores(category, NORMAL_SCORE)
+
+    unknown_clubs = map_clubs(RANKING_CLUBS, events)
+    if len(unknown_clubs) > 0:
+        print('These unknown clubs appear in the results:')
+        for club in unknown_clubs:
+            print(f'  {club}')
+
+    jinja_env = jinja2.Environment(
+        loader=jinja2.PackageLoader('natcrit3', 'templates'),
+        autoescape=jinja2.select_autoescape(['html', 'xml'])
+    )
+    ranking_template = jinja_env.get_template('ranking.j2.html')
+
+    output_dir = Path('output')
+    year_dir = output_dir / f'N{year}'
+    year_dir.mkdir(exist_ok=True)
+
+    generate_xml(output_dir, year, events)
+
+    with (output_dir / f'N{year}.htm').open(mode='w') as out:
+        out.write(jinja_env.get_template('year.j2.html').render(
+            year=year,
+            categories=RANKING_CATEGORIES,
+            today=datetime.date.today(),
+            is_final=is_final,
+            event_count=event_count,
+            events=events,
+        ))
+
+    for category_name in RANKING_CATEGORIES:
+        runners = find_runners_in_category(category_name, events, RANKING_CLUBS)
+        calculate_ranking(category_name, event_count, runners, events)
+
+        with (year_dir / f'{category_name}.html').open(mode='w') as out:
+            out.write(ranking_template.render(
+                year=year,
+                categories=RANKING_CATEGORIES,
+                event_count=event_count,
+                category_name=category_name,
+                runners=sorted(runners, key=lambda r: r.total, reverse=True)
+            ))

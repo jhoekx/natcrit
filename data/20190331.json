@@ -1,0 +1,3969 @@
+{
+    "date": "2019-03-31T10:00:00+00:00",
+    "name": "Nationale Sprint",
+    "location": "Bobbejaanland",
+    "categories": {
+        "D-10": {
+            "name": "D-10",
+            "distance": "980",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "0",
+                    "name": "Na\u00efs SILLIEN",
+                    "club": "C.O. P\u00e9gase",
+                    "time": "00:28:11",
+                    "status": "NCL"
+                },
+                {
+                    "position": "4",
+                    "name": "Lio LINTEN",
+                    "club": "K.O.L.",
+                    "time": "00:32:36",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Macey HAESENDONCKX",
+                    "club": "Indiv.",
+                    "time": "00:23:15",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Lucie CHATELAIN",
+                    "club": "Hermathenae",
+                    "time": "00:22:58",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Ana\u00efs MAZY",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:10:34",
+                    "status": "OK"
+                }
+            ]
+        },
+        "D-12": {
+            "name": "D-12",
+            "distance": "1160",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "7",
+                    "name": "Diet VAN MIERLO",
+                    "club": "Omega",
+                    "time": "00:32:48",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Erine NEUWELS",
+                    "club": "Hainaut O.C.",
+                    "time": "00:32:05",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Liana THIELS",
+                    "club": "Omega",
+                    "time": "00:27:04",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Mara DE CLERCQ",
+                    "club": "TROL",
+                    "time": "00:26:37",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Fin MYLLE",
+                    "club": "hamok",
+                    "time": "00:23:46",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Jeanne RENARD",
+                    "club": "hamok",
+                    "time": "00:18:12",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Kiara NIJST",
+                    "club": "Omega",
+                    "time": "00:17:31",
+                    "status": "OK"
+                }
+            ]
+        },
+        "D-14": {
+            "name": "D-14",
+            "distance": "1290",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "0",
+                    "name": "Feike KERCKHOFS",
+                    "club": "Omega",
+                    "time": "00:20:41",
+                    "status": "NCL"
+                },
+                {
+                    "position": "17",
+                    "name": "Tess MARY",
+                    "club": "Hainaut O.C.",
+                    "time": "01:02:57",
+                    "status": "OK"
+                },
+                {
+                    "position": "16",
+                    "name": "Ilenia MOLA",
+                    "club": "Hainaut O.C.",
+                    "time": "00:47:08",
+                    "status": "OK"
+                },
+                {
+                    "position": "15",
+                    "name": "Zo\u00e9 CORBIAU",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:46:53",
+                    "status": "OK"
+                },
+                {
+                    "position": "14",
+                    "name": "Lina GORIS",
+                    "club": "K.O.L.",
+                    "time": "00:45:24",
+                    "status": "OK"
+                },
+                {
+                    "position": "13",
+                    "name": "Saintet\u00e9 IRERA",
+                    "club": "Hainaut O.C.",
+                    "time": "00:41:50",
+                    "status": "OK"
+                },
+                {
+                    "position": "12",
+                    "name": "Annelies LOECKX",
+                    "club": "Omega",
+                    "time": "00:38:44",
+                    "status": "OK"
+                },
+                {
+                    "position": "11",
+                    "name": "Lyna FRONHOFFS",
+                    "club": "ASUB",
+                    "time": "00:38:01",
+                    "status": "OK"
+                },
+                {
+                    "position": "10",
+                    "name": "Noor MARIEN",
+                    "club": "K.O.L.",
+                    "time": "00:37:25",
+                    "status": "OK"
+                },
+                {
+                    "position": "9",
+                    "name": "Juliette VIDAL",
+                    "club": "TROL",
+                    "time": "00:27:47",
+                    "status": "OK"
+                },
+                {
+                    "position": "8",
+                    "name": "Fee MYLLE",
+                    "club": "hamok",
+                    "time": "00:27:31",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "Maija TAILLIEU",
+                    "club": "K.O.L.",
+                    "time": "00:21:47",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Marie GILLET",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:21:03",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Hanne TIESTERS",
+                    "club": "Omega",
+                    "time": "00:20:39",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Noor DE MITS",
+                    "club": "TROL",
+                    "time": "00:20:27",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Maya RENARD",
+                    "club": "hamok",
+                    "time": "00:20:15",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Sofie BOSMANS",
+                    "club": "Omega",
+                    "time": "00:18:48",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Sarah ROOMAN",
+                    "club": "TROL",
+                    "time": "00:17:30",
+                    "status": "OK"
+                }
+            ]
+        },
+        "D-16": {
+            "name": "D-16",
+            "distance": "1720",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "0",
+                    "name": "Aster BREESCH",
+                    "club": "TROL",
+                    "time": "00:35:34",
+                    "status": "NCL"
+                },
+                {
+                    "position": "5",
+                    "name": "Jil MYLLE",
+                    "club": "hamok",
+                    "time": "00:32:47",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Lotte TIESTERS",
+                    "club": "Omega",
+                    "time": "00:27:00",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Naomi VAN OPSTAL",
+                    "club": "K.O.L.",
+                    "time": "00:22:56",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Florine DURIEUX",
+                    "club": "Alta\u00efr C.O.",
+                    "time": "00:19:51",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Tille DE SMUL",
+                    "club": "Omega",
+                    "time": "00:18:30",
+                    "status": "OK"
+                }
+            ]
+        },
+        "D-18": {
+            "name": "D-18",
+            "distance": "2080",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "0",
+                    "name": "Kato KEUPPENS",
+                    "club": "Omega",
+                    "time": "00:20:36",
+                    "status": "NCL"
+                },
+                {
+                    "position": "7",
+                    "name": "Ayko GHOOS",
+                    "club": "Indiv.",
+                    "time": "00:47:18",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Lene ELSEN",
+                    "club": "Omega",
+                    "time": "00:30:32",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Emma WILLEMSENS",
+                    "club": "Hermathenae",
+                    "time": "00:27:47",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Siel DE SMUL",
+                    "club": "Omega",
+                    "time": "00:26:15",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Emma MAES",
+                    "club": "K.O.L.",
+                    "time": "00:23:30",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Ga\u00eblle FRONHOFFS",
+                    "club": "ASUB",
+                    "time": "00:22:17",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Laurence DEFRAIGNE",
+                    "club": "ASUB",
+                    "time": "00:19:25",
+                    "status": "OK"
+                }
+            ]
+        },
+        "D-20": {
+            "name": "D-20",
+            "distance": "2070",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "4",
+                    "name": "Lisa ELSEN",
+                    "club": "Omega",
+                    "time": "00:33:08",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Eske AERDEN",
+                    "club": "K.O.L.",
+                    "time": "00:29:54",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Sandrine DEFRAIGNE",
+                    "club": "ASUB",
+                    "time": "00:20:01",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Marine SILLIEN",
+                    "club": "C.O. P\u00e9gase",
+                    "time": "00:18:32",
+                    "status": "OK"
+                }
+            ]
+        },
+        "D10B": {
+            "name": "D10B",
+            "distance": "980",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "1",
+                    "name": "Ninthe WOLLES",
+                    "club": "hamok",
+                    "time": "00:29:11",
+                    "status": "OK"
+                }
+            ]
+        },
+        "D35": {
+            "name": "D35",
+            "distance": "2080",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "11",
+                    "name": "Annette SCHULZE",
+                    "club": "K\u00f6lner OL-Team",
+                    "time": "00:47:43",
+                    "status": "OK"
+                },
+                {
+                    "position": "10",
+                    "name": "Charline SADZOT",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:40:51",
+                    "status": "OK"
+                },
+                {
+                    "position": "9",
+                    "name": "Nancy TEUNCKENS",
+                    "club": "Omega",
+                    "time": "00:34:11",
+                    "status": "OK"
+                },
+                {
+                    "position": "8",
+                    "name": "Kim STEEGEN",
+                    "club": "K.O.L.",
+                    "time": "00:33:26",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "Fran\u00e7oise RENARD",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:32:02",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Maren PUSSAK",
+                    "club": "K\u00f6lner OL-Team",
+                    "time": "00:30:35",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Anneleen SPIESSENS",
+                    "club": "hamok",
+                    "time": "00:28:58",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Elke SWINKELS",
+                    "club": "TROL",
+                    "time": "00:28:49",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Marieke ADDIERS",
+                    "club": "Omega",
+                    "time": "00:28:40",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Imke VAN OPSTAL",
+                    "club": "K.O.L.",
+                    "time": "00:26:47",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Lieke VAN OPSTAL",
+                    "club": "K.O.L.",
+                    "time": "00:24:13",
+                    "status": "OK"
+                }
+            ]
+        },
+        "D40": {
+            "name": "D40",
+            "distance": "1720",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "0",
+                    "name": "Annabelle LIEGEOIS",
+                    "club": "Balise 10",
+                    "time": "00:39:49",
+                    "status": "NCL"
+                },
+                {
+                    "position": "14",
+                    "name": "Filipa FREITAS",
+                    "club": "CA Madeira",
+                    "time": "01:22:14",
+                    "status": "OK"
+                },
+                {
+                    "position": "13",
+                    "name": "Lies PROVOOST",
+                    "club": "Omega",
+                    "time": "00:39:17",
+                    "status": "OK"
+                },
+                {
+                    "position": "12",
+                    "name": "Rachel WINTHAGEN",
+                    "club": "Hermathenae",
+                    "time": "00:34:39",
+                    "status": "OK"
+                },
+                {
+                    "position": "11",
+                    "name": "Kerstin BUCHACKER",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:31:52",
+                    "status": "OK"
+                },
+                {
+                    "position": "10",
+                    "name": "Vanessa BOLSENS",
+                    "club": "TROL",
+                    "time": "00:28:43",
+                    "status": "OK"
+                },
+                {
+                    "position": "9",
+                    "name": "Ellen DESCHEPPER",
+                    "club": "TROL",
+                    "time": "00:28:15",
+                    "status": "OK"
+                },
+                {
+                    "position": "8",
+                    "name": "Elisabeth SCHUTJES",
+                    "club": "hamok",
+                    "time": "00:26:02",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "Ellen BOURGONJON",
+                    "club": "TROL",
+                    "time": "00:24:37",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Hilde BREESCH",
+                    "club": "TROL",
+                    "time": "00:23:40",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Greet PERSOON",
+                    "club": "TROL",
+                    "time": "00:23:05",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Laurence DRABS",
+                    "club": "ASUB",
+                    "time": "00:23:02",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Katja VAN OOSTERWIJCK",
+                    "club": "Omega",
+                    "time": "00:21:38",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "An FREDERICKX",
+                    "club": "ASUB",
+                    "time": "00:21:34",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Aline HERMANS",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:16:18",
+                    "status": "OK"
+                }
+            ]
+        },
+        "D45": {
+            "name": "D45",
+            "distance": "1570",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "0",
+                    "name": "Anja STYNEN",
+                    "club": "hamok",
+                    "time": "00:48:38",
+                    "status": "NCL"
+                },
+                {
+                    "position": "0",
+                    "name": "Sindy SAGGIORATO",
+                    "club": "Balise 10",
+                    "time": "00:24:09",
+                    "status": "NCL"
+                },
+                {
+                    "position": "14",
+                    "name": "Genevi\u00e8ve MICHILS",
+                    "club": "TROL",
+                    "time": "01:08:15",
+                    "status": "OK"
+                },
+                {
+                    "position": "13",
+                    "name": "Marijke DEBRUYNE",
+                    "club": "hamok",
+                    "time": "00:34:05",
+                    "status": "OK"
+                },
+                {
+                    "position": "12",
+                    "name": "Karin DECLERCQ",
+                    "club": "hamok",
+                    "time": "00:32:57",
+                    "status": "OK"
+                },
+                {
+                    "position": "11",
+                    "name": "Sylvia HENNES",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "00:30:30",
+                    "status": "OK"
+                },
+                {
+                    "position": "10",
+                    "name": "Florence BASTIN",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:29:41",
+                    "status": "OK"
+                },
+                {
+                    "position": "9",
+                    "name": "Ellen BOOMER",
+                    "club": "Omega",
+                    "time": "00:27:28",
+                    "status": "OK"
+                },
+                {
+                    "position": "8",
+                    "name": "Angelique DE GRANDE",
+                    "club": "Omega",
+                    "time": "00:27:24",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "Veerle TULLENEERS",
+                    "club": "Omega",
+                    "time": "00:26:25",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Bieke VAN ELSACKER",
+                    "club": "Omega",
+                    "time": "00:23:57",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Anne-Marie DELANGHE",
+                    "club": "K.O.L.",
+                    "time": "00:23:32",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Virginie DEHULLU",
+                    "club": "K.O.L.",
+                    "time": "00:23:09",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Ellen DE BIE",
+                    "club": "Omega",
+                    "time": "00:20:30",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Amber THYS",
+                    "club": "hamok",
+                    "time": "00:19:13",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "B\u00e9atrice DE LONGUEVILLE",
+                    "club": "ASUB",
+                    "time": "00:18:50",
+                    "status": "OK"
+                }
+            ]
+        },
+        "D50": {
+            "name": "D50",
+            "distance": "1570",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "0",
+                    "name": "Genevi\u00e8ve NYS",
+                    "club": "Hainaut O.C.",
+                    "time": "00:18:46",
+                    "status": "NCL"
+                },
+                {
+                    "position": "12",
+                    "name": "Maryline DEMEUSE",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:47:38",
+                    "status": "OK"
+                },
+                {
+                    "position": "11",
+                    "name": "C\u00e9cile VAN BRUSSEL",
+                    "club": "ASUB",
+                    "time": "00:41:27",
+                    "status": "OK"
+                },
+                {
+                    "position": "10",
+                    "name": "Corinne SERVAIS",
+                    "club": "ASUB",
+                    "time": "00:37:26",
+                    "status": "OK"
+                },
+                {
+                    "position": "9",
+                    "name": "Carine LAMBEAU",
+                    "club": "ASUB",
+                    "time": "00:33:10",
+                    "status": "OK"
+                },
+                {
+                    "position": "8",
+                    "name": "An VERBERNE",
+                    "club": "hamok",
+                    "time": "00:33:09",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "Jenny BUELENS",
+                    "club": "ASUB",
+                    "time": "00:28:47",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Marijs VANDEWEYER",
+                    "club": "hamok",
+                    "time": "00:27:29",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Katleen VAN DE MOORTEL",
+                    "club": "Omega",
+                    "time": "00:26:05",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Sarah FRANCIS",
+                    "club": "Southern Navigators",
+                    "time": "00:25:16",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Clare LINES",
+                    "club": "Southdowns",
+                    "time": "00:25:05",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Dunja VAN DE RIET",
+                    "club": "Olifant",
+                    "time": "00:23:55",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Kristel MERTENS",
+                    "club": "TROL",
+                    "time": "00:19:34",
+                    "status": "OK"
+                }
+            ]
+        },
+        "D55": {
+            "name": "D55",
+            "distance": "1300",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "14",
+                    "name": "Mia KINNAER",
+                    "club": "Omega",
+                    "time": "00:34:23",
+                    "status": "OK"
+                },
+                {
+                    "position": "13",
+                    "name": "Anne-Marie CEULEMANS",
+                    "club": "Balise 10",
+                    "time": "00:29:26",
+                    "status": "OK"
+                },
+                {
+                    "position": "12",
+                    "name": "Alexandra BAES",
+                    "club": "TROL",
+                    "time": "00:27:36",
+                    "status": "OK"
+                },
+                {
+                    "position": "11",
+                    "name": "Pascale FLAMION",
+                    "club": "Hainaut O.C.",
+                    "time": "00:27:08",
+                    "status": "OK"
+                },
+                {
+                    "position": "10",
+                    "name": "Francine SERRE",
+                    "club": "Alta\u00efr C.O.",
+                    "time": "00:26:29",
+                    "status": "OK"
+                },
+                {
+                    "position": "9",
+                    "name": "Ulrike KOUFF",
+                    "club": "OLV Uslar",
+                    "time": "00:24:51",
+                    "status": "OK"
+                },
+                {
+                    "position": "8",
+                    "name": "Greta MOLS",
+                    "club": "hamok",
+                    "time": "00:24:01",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "Barbara GLOWKA",
+                    "club": "TSC Eintracht Dortmund 48\/95",
+                    "time": "00:23:30",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Bernadette GOVAERTS",
+                    "club": "ASUB",
+                    "time": "00:23:07",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Hilde VERCAEREN",
+                    "club": "K.O.L.",
+                    "time": "00:21:55",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Leen WOUTERS",
+                    "club": "Omega",
+                    "time": "00:21:52",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Maria HENKES",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "00:21:37",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Betty DE MEYER",
+                    "club": "TROL",
+                    "time": "00:17:26",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Linda VERBRAKEN",
+                    "club": "TROL",
+                    "time": "00:15:24",
+                    "status": "OK"
+                }
+            ]
+        },
+        "D60": {
+            "name": "D60",
+            "distance": "1290",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "10",
+                    "name": "Fran\u00e7oise PIRET",
+                    "club": "C.O. Militaire Belge",
+                    "time": "01:00:47",
+                    "status": "OK"
+                },
+                {
+                    "position": "9",
+                    "name": "Nicole VAN DE CRUYS",
+                    "club": "K.O.L.",
+                    "time": "00:37:07",
+                    "status": "OK"
+                },
+                {
+                    "position": "8",
+                    "name": "Marie-Christine METTEN",
+                    "club": "K.O.L.",
+                    "time": "00:34:37",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "No\u00eblle CHOPRIX",
+                    "club": "Alta\u00efr C.O.",
+                    "time": "00:34:29",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Katinka MULDER",
+                    "club": "ARGUS",
+                    "time": "00:33:43",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Anita BAERTS",
+                    "club": "Borasca",
+                    "time": "00:32:10",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Simonne SILVI",
+                    "club": "K.O.L.",
+                    "time": "00:29:03",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Julienne VANREUSEL",
+                    "club": "hamok",
+                    "time": "00:25:03",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Marina DRIESEN",
+                    "club": "Omega",
+                    "time": "00:21:19",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Maggie ROACH",
+                    "club": "Luxembourg Orienteering",
+                    "time": "00:17:43",
+                    "status": "OK"
+                }
+            ]
+        },
+        "D65": {
+            "name": "D65",
+            "distance": "1290",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "0",
+                    "name": "Monica ROELING",
+                    "club": "TROL",
+                    "time": "00:25:37",
+                    "status": "NCL"
+                },
+                {
+                    "position": "8",
+                    "name": "Christiane TOEBINTE",
+                    "club": "Balise 10",
+                    "time": "00:43:15",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "Jane LEGROSCOLLARD",
+                    "club": "TROL",
+                    "time": "00:39:32",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Odette MORET",
+                    "club": "K.O.L.",
+                    "time": "00:32:41",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Lieve GEENS",
+                    "club": "TROL",
+                    "time": "00:28:39",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Lily-Anne COLE",
+                    "club": "TROL",
+                    "time": "00:28:03",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Paulette BLOMMEN",
+                    "club": "Omega",
+                    "time": "00:27:53",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Agn\u00e8s PONCELET",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:24:17",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Lisette EYKMANS",
+                    "club": "K.O.L.",
+                    "time": "00:23:06",
+                    "status": "OK"
+                }
+            ]
+        },
+        "D70": {
+            "name": "D70",
+            "distance": "1100",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "5",
+                    "name": "Maria DELARBRE",
+                    "club": "hamok",
+                    "time": "00:45:51",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Danielle NOLENS",
+                    "club": "hamok",
+                    "time": "00:40:39",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Marie-Christine BLANCHE",
+                    "club": "ASUB",
+                    "time": "00:39:50",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Gilberte MARIEN",
+                    "club": "K.O.L.",
+                    "time": "00:39:11",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Christa ZWIKKER",
+                    "club": "TROL",
+                    "time": "00:30:59",
+                    "status": "OK"
+                }
+            ]
+        },
+        "D75": {
+            "name": "D75",
+            "distance": "1100",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "1",
+                    "name": "H\u00e9l\u00e8ne GIELEN",
+                    "club": "hamok",
+                    "time": "01:09:10",
+                    "status": "OK"
+                }
+            ]
+        },
+        "D80": {
+            "name": "D80",
+            "distance": "1100",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "1",
+                    "name": "Roza GOOS",
+                    "club": "hamok",
+                    "time": "00:50:46",
+                    "status": "OK"
+                }
+            ]
+        },
+        "DB": {
+            "name": "DB",
+            "distance": "2070",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "1",
+                    "name": "Mirjam CALLAERT",
+                    "club": "TROL",
+                    "time": "01:23:36",
+                    "status": "OK"
+                }
+            ]
+        },
+        "DE": {
+            "name": "DE",
+            "distance": "2070",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "0",
+                    "name": "Martina PESCH",
+                    "club": "TSC Eintracht Dortmund 48\/95",
+                    "time": "00:53:37",
+                    "status": "NCL"
+                },
+                {
+                    "position": "0",
+                    "name": "Julie FRANSSENS",
+                    "club": "K.O.L.",
+                    "time": "00:34:01",
+                    "status": "NCL"
+                },
+                {
+                    "position": "0",
+                    "name": "Rasa ENGSTEDT",
+                    "club": "OK Linn\u00e9",
+                    "time": "00:23:04",
+                    "status": "NCL"
+                },
+                {
+                    "position": "23",
+                    "name": "Alice NEHT",
+                    "club": "K\u00f6lner OL-Team",
+                    "time": "00:47:10",
+                    "status": "OK"
+                },
+                {
+                    "position": "22",
+                    "name": "Sara DEBYSER",
+                    "club": "Omega",
+                    "time": "00:42:37",
+                    "status": "OK"
+                },
+                {
+                    "position": "21",
+                    "name": "Laura COX",
+                    "club": "WATO",
+                    "time": "00:35:06",
+                    "status": "OK"
+                },
+                {
+                    "position": "20",
+                    "name": "Amandine MALENGREAU",
+                    "club": "C.O. P\u00e9gase",
+                    "time": "00:31:13",
+                    "status": "OK"
+                },
+                {
+                    "position": "19",
+                    "name": "Maike MULLENDER",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "00:30:43",
+                    "status": "OK"
+                },
+                {
+                    "position": "18",
+                    "name": "Helena PLUYMERS",
+                    "club": "TROL",
+                    "time": "00:29:51",
+                    "status": "OK"
+                },
+                {
+                    "position": "17",
+                    "name": "Johanna RENKER",
+                    "club": "TSC Eintracht Dortmund 48\/95",
+                    "time": "00:29:18",
+                    "status": "OK"
+                },
+                {
+                    "position": "16",
+                    "name": "Iris CEULEMANS",
+                    "club": "TROL",
+                    "time": "00:28:01",
+                    "status": "OK"
+                },
+                {
+                    "position": "15",
+                    "name": "Aur\u00e9lie DESCHEPPER",
+                    "club": "Balise 10",
+                    "time": "00:28:00",
+                    "status": "OK"
+                },
+                {
+                    "position": "14",
+                    "name": "Renske GOOSSENS",
+                    "club": "TROL",
+                    "time": "00:26:55",
+                    "status": "OK"
+                },
+                {
+                    "position": "13",
+                    "name": "Margot VANDEMEULEBROEK",
+                    "club": "Indiv.",
+                    "time": "00:25:47",
+                    "status": "OK"
+                },
+                {
+                    "position": "12",
+                    "name": "Kerria ROWAN",
+                    "club": "Southdowns",
+                    "time": "00:25:43",
+                    "status": "OK"
+                },
+                {
+                    "position": "11",
+                    "name": "Kim TIREZ",
+                    "club": "Omega",
+                    "time": "00:25:37",
+                    "status": "OK"
+                },
+                {
+                    "position": "10",
+                    "name": "Magalie VERSTREPEN",
+                    "club": "Omega",
+                    "time": "00:25:22",
+                    "status": "OK"
+                },
+                {
+                    "position": "9",
+                    "name": "Annelies VERMONDEN",
+                    "club": "TROL",
+                    "time": "00:25:11",
+                    "status": "OK"
+                },
+                {
+                    "position": "8",
+                    "name": "Camilla SCOLINI",
+                    "club": "Omega",
+                    "time": "00:23:58",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "Charlotte THEYS",
+                    "club": "Omega",
+                    "time": "00:22:49",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Vanessa VAN BREEDAM",
+                    "club": "TROL",
+                    "time": "00:22:04",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Liesbeth VAN DE VELDE",
+                    "club": "Omega",
+                    "time": "00:20:39",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Fanny TILKIN",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:18:57",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Miek FABR\u00c9",
+                    "club": "Omega",
+                    "time": "00:18:56",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Daria MOSKALENKO",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:18:37",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Greet OEYEN",
+                    "club": "hamok",
+                    "time": "00:18:31",
+                    "status": "OK"
+                }
+            ]
+        },
+        "H-10": {
+            "name": "H-10",
+            "distance": "980",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "0",
+                    "name": "Ruben SEBA",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:29:43",
+                    "status": "NCL"
+                },
+                {
+                    "position": "9",
+                    "name": "Senne LINTEN",
+                    "club": "K.O.L.",
+                    "time": "00:32:34",
+                    "status": "OK"
+                },
+                {
+                    "position": "8",
+                    "name": "Thor WOLLES",
+                    "club": "hamok",
+                    "time": "00:31:49",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "Quinn HAESENDONCKX",
+                    "club": "Indiv.",
+                    "time": "00:23:15",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Cas VAN BRUGGEN",
+                    "club": "TROL",
+                    "time": "00:21:08",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Viek DE MITS",
+                    "club": "TROL",
+                    "time": "00:18:38",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Nathan JANSEN",
+                    "club": "Omega",
+                    "time": "00:18:12",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Sascha KURT",
+                    "club": "TROL",
+                    "time": "00:16:14",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Wout BOECKX",
+                    "club": "Omega",
+                    "time": "00:13:02",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Seger VAN DER TOORN",
+                    "club": "TROL",
+                    "time": "00:12:33",
+                    "status": "OK"
+                }
+            ]
+        },
+        "H-12": {
+            "name": "H-12",
+            "distance": "1160",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "14",
+                    "name": "Nathan SILLIEN",
+                    "club": "C.O. P\u00e9gase",
+                    "time": "00:33:30",
+                    "status": "OK"
+                },
+                {
+                    "position": "13",
+                    "name": "Bob DE CLEENE",
+                    "club": "TROL",
+                    "time": "00:27:07",
+                    "status": "OK"
+                },
+                {
+                    "position": "12",
+                    "name": "Tom BOSMANS",
+                    "club": "Omega",
+                    "time": "00:23:36",
+                    "status": "OK"
+                },
+                {
+                    "position": "11",
+                    "name": "Victor BROUWIER",
+                    "club": "Hermathenae",
+                    "time": "00:23:07",
+                    "status": "OK"
+                },
+                {
+                    "position": "10",
+                    "name": "Thor DE MITS",
+                    "club": "TROL",
+                    "time": "00:22:57",
+                    "status": "OK"
+                },
+                {
+                    "position": "9",
+                    "name": "Lo\u00efc CHATELAIN",
+                    "club": "Hermathenae",
+                    "time": "00:22:26",
+                    "status": "OK"
+                },
+                {
+                    "position": "8",
+                    "name": "Matthias HARMS",
+                    "club": "Wolf Haltern",
+                    "time": "00:22:18",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "Maximilian LOO",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "00:22:03",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Roald FRONHOFFS",
+                    "club": "ASUB",
+                    "time": "00:21:48",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Lander VERDUYCKT",
+                    "club": "Omega",
+                    "time": "00:18:42",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Stan DE CLERCQ",
+                    "club": "TROL",
+                    "time": "00:15:18",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Thomas JANSEN",
+                    "club": "Omega",
+                    "time": "00:14:14",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Torben AERDEN",
+                    "club": "K.O.L.",
+                    "time": "00:11:40",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Thomas DEBAERE",
+                    "club": "K.O.L.",
+                    "time": "00:11:11",
+                    "status": "OK"
+                }
+            ]
+        },
+        "H-14": {
+            "name": "H-14",
+            "distance": "1300",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "0",
+                    "name": "Maxime SCHOMMER",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "03:14:52",
+                    "status": "NCL"
+                },
+                {
+                    "position": "11",
+                    "name": "Mathias VAN LOON",
+                    "club": "TROL",
+                    "time": "00:57:39",
+                    "status": "OK"
+                },
+                {
+                    "position": "10",
+                    "name": "Sebastian LOO",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "00:42:26",
+                    "status": "OK"
+                },
+                {
+                    "position": "9",
+                    "name": "Lucas LAHOUSSE",
+                    "club": "Hainaut O.C.",
+                    "time": "00:28:01",
+                    "status": "OK"
+                },
+                {
+                    "position": "8",
+                    "name": "Attilio GIACONIA",
+                    "club": "Hainaut O.C.",
+                    "time": "00:27:57",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "Mathis BROUWIER",
+                    "club": "Hermathenae",
+                    "time": "00:19:41",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Arnaud MAZY",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:19:18",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Lucas HENDRICKX",
+                    "club": "hamok",
+                    "time": "00:18:46",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Einstine OKOA",
+                    "club": "Hainaut O.C.",
+                    "time": "00:17:12",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Mats DE SMUL",
+                    "club": "Omega",
+                    "time": "00:16:47",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Jorn KENNIS",
+                    "club": "hamok",
+                    "time": "00:16:25",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Rune DE CLERCQ",
+                    "club": "TROL",
+                    "time": "00:12:11",
+                    "status": "OK"
+                }
+            ]
+        },
+        "H-16": {
+            "name": "H-16",
+            "distance": "1570",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "0",
+                    "name": "Donovan LERAT",
+                    "club": "Hainaut O.C.",
+                    "time": "00:26:43",
+                    "status": "NCL"
+                },
+                {
+                    "position": "0",
+                    "name": "Everic MISTIAEN",
+                    "club": "Hainaut O.C.",
+                    "time": "00:26:21",
+                    "status": "NCL"
+                },
+                {
+                    "position": "0",
+                    "name": "Nisse VAN GELDER",
+                    "club": "Omega",
+                    "time": "00:22:11",
+                    "status": "NCL"
+                },
+                {
+                    "position": "11",
+                    "name": "Ilja SOOLS",
+                    "club": "Indiv.",
+                    "time": "12:32:06",
+                    "status": "OK"
+                },
+                {
+                    "position": "10",
+                    "name": "Simon DEVROYE",
+                    "club": "Omega",
+                    "time": "00:34:11",
+                    "status": "OK"
+                },
+                {
+                    "position": "9",
+                    "name": "Jonas WILLEMSENS",
+                    "club": "Hermathenae",
+                    "time": "00:26:22",
+                    "status": "OK"
+                },
+                {
+                    "position": "8",
+                    "name": "Pieter GOOSSENS",
+                    "club": "Omega",
+                    "time": "00:25:17",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "Jarne THIELS",
+                    "club": "Omega",
+                    "time": "00:22:05",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Wolf DE MITS",
+                    "club": "TROL",
+                    "time": "00:19:10",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Willem BAKELANTS",
+                    "club": "Omega",
+                    "time": "00:17:50",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Antoine MATTART",
+                    "club": "Hermathenae",
+                    "time": "00:16:38",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Lasse TAILLIEU",
+                    "club": "K.O.L.",
+                    "time": "00:16:33",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Joris SMET",
+                    "club": "TROL",
+                    "time": "00:16:23",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Ga\u00ebl AMERIJCKX",
+                    "club": "ASUB",
+                    "time": "00:16:09",
+                    "status": "OK"
+                }
+            ]
+        },
+        "H-18": {
+            "name": "H-18",
+            "distance": "2240",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "8",
+                    "name": "Miguel LORENO",
+                    "club": "C.O. Militaire Belge",
+                    "time": "00:37:46",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "Tim DEBYSER",
+                    "club": "Omega",
+                    "time": "00:29:44",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Dries VAN LOMMEL",
+                    "club": "K.O.L.",
+                    "time": "00:25:41",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Justin GILLET",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:25:13",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Joppe VAN MIERLO",
+                    "club": "Omega",
+                    "time": "00:22:17",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Matijs LOECKX",
+                    "club": "Omega",
+                    "time": "00:20:16",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "C\u00e9dric AMERIJCKX",
+                    "club": "ASUB",
+                    "time": "00:19:25",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Liam THIELS",
+                    "club": "Omega",
+                    "time": "00:17:52",
+                    "status": "OK"
+                }
+            ]
+        },
+        "H-20": {
+            "name": "H-20",
+            "distance": "2450",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "4",
+                    "name": "Fabio VANROSSOMME",
+                    "club": "Hainaut O.C.",
+                    "time": "00:56:16",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Lennard GHEYSELS",
+                    "club": "Omega",
+                    "time": "00:25:46",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Jens VAN LOMMEL",
+                    "club": "K.O.L.",
+                    "time": "00:25:01",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Guillaume EYEN",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:23:37",
+                    "status": "OK"
+                }
+            ]
+        },
+        "H10B": {
+            "name": "H10B",
+            "distance": "980",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "4",
+                    "name": "Bent KRAMPILTZ",
+                    "club": "hamok",
+                    "time": "00:18:28",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Iep SWINKELS",
+                    "club": "TROL",
+                    "time": "00:13:55",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Mees SWINKELS",
+                    "club": "TROL",
+                    "time": "00:12:27",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Daan COOLS",
+                    "club": "TROL",
+                    "time": "00:12:19",
+                    "status": "OK"
+                }
+            ]
+        },
+        "H35": {
+            "name": "H35",
+            "distance": "2240",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "0",
+                    "name": "Johannes HOCK",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "00:26:05",
+                    "status": "NCL"
+                },
+                {
+                    "position": "10",
+                    "name": "Hans TALLOEN",
+                    "club": "Omega",
+                    "time": "12:30:13",
+                    "status": "OK"
+                },
+                {
+                    "position": "9",
+                    "name": "Jan GILOT",
+                    "club": "Indiv.",
+                    "time": "00:58:24",
+                    "status": "OK"
+                },
+                {
+                    "position": "8",
+                    "name": "Joachim VERMEIR",
+                    "club": "Omega",
+                    "time": "00:33:31",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "Johannes M\u00dcLLER",
+                    "club": "K\u00f6lner OL-Team",
+                    "time": "00:33:16",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Sandro GRASSO",
+                    "club": "K.O.L.",
+                    "time": "00:32:30",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Tobias G\u00d6DDE",
+                    "club": "DJK Adler 07 Bottrop",
+                    "time": "00:29:54",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Raf VERSCHUEREN",
+                    "club": "Omega",
+                    "time": "00:27:03",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Wim BRIES",
+                    "club": "K.O.L.",
+                    "time": "00:26:07",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Jo LINTEN",
+                    "club": "K.O.L.",
+                    "time": "00:23:22",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Siegfried BAKELANTS",
+                    "club": "hamok",
+                    "time": "00:18:11",
+                    "status": "OK"
+                }
+            ]
+        },
+        "H40": {
+            "name": "H40",
+            "distance": "2240",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "0",
+                    "name": "Elie CORBIAU",
+                    "club": "Start-O",
+                    "time": "00:41:23",
+                    "status": "NCL"
+                },
+                {
+                    "position": "0",
+                    "name": "Pascal MYLLE",
+                    "club": "hamok",
+                    "time": "00:30:09",
+                    "status": "NCL"
+                },
+                {
+                    "position": "16",
+                    "name": "Kristof WOLLES",
+                    "club": "hamok",
+                    "time": "01:35:36",
+                    "status": "OK"
+                },
+                {
+                    "position": "15",
+                    "name": "David ENGSTEDT",
+                    "club": "OK Linn\u00e9",
+                    "time": "00:36:16",
+                    "status": "OK"
+                },
+                {
+                    "position": "14",
+                    "name": "Jan DELOBEL",
+                    "club": "Omega",
+                    "time": "00:34:22",
+                    "status": "OK"
+                },
+                {
+                    "position": "13",
+                    "name": "Micha\u00ebl BROUWIER",
+                    "club": "Hermathenae",
+                    "time": "00:32:17",
+                    "status": "OK"
+                },
+                {
+                    "position": "12",
+                    "name": "Stefaan SCHUTJES",
+                    "club": "hamok",
+                    "time": "00:31:43",
+                    "status": "OK"
+                },
+                {
+                    "position": "11",
+                    "name": "Kris VERDUYCKT",
+                    "club": "Omega",
+                    "time": "00:29:55",
+                    "status": "OK"
+                },
+                {
+                    "position": "10",
+                    "name": "J\u00fcrgen LOO",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "00:29:05",
+                    "status": "OK"
+                },
+                {
+                    "position": "9",
+                    "name": "Stephane WILLEMSENS",
+                    "club": "Hermathenae",
+                    "time": "00:28:57",
+                    "status": "OK"
+                },
+                {
+                    "position": "8",
+                    "name": "Jan BOECKX",
+                    "club": "Omega",
+                    "time": "00:28:56",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "Ken SCHEVERNELS",
+                    "club": "Omega",
+                    "time": "00:27:56",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Koen BOSMANS",
+                    "club": "Omega",
+                    "time": "00:26:11",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Vincent SILLIEN",
+                    "club": "C.O. P\u00e9gase",
+                    "time": "00:26:07",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Filiep DEBAERE",
+                    "club": "K.O.L.",
+                    "time": "00:24:33",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Kim JANSEN",
+                    "club": "Omega",
+                    "time": "00:23:20",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Tom MARIEN",
+                    "club": "K.O.L.",
+                    "time": "00:22:12",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Garnt SWINKELS",
+                    "club": "TROL",
+                    "time": "00:20:17",
+                    "status": "OK"
+                }
+            ]
+        },
+        "H45": {
+            "name": "H45",
+            "distance": "2080",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "0",
+                    "name": "Sandro RODRIGUES",
+                    "club": "CA Madeira",
+                    "time": "03:09:54",
+                    "status": "NCL"
+                },
+                {
+                    "position": "0",
+                    "name": "Kurt SMET",
+                    "club": "TROL",
+                    "time": "00:26:28",
+                    "status": "NCL"
+                },
+                {
+                    "position": "0",
+                    "name": "Eric MATTART",
+                    "club": "Hermathenae",
+                    "time": "00:23:01",
+                    "status": "NCL"
+                },
+                {
+                    "position": "0",
+                    "name": "Olivier DE SMUL",
+                    "club": "Omega",
+                    "time": "00:21:23",
+                    "status": "NCL"
+                },
+                {
+                    "position": "24",
+                    "name": "Stephane GOOSSENS",
+                    "club": "Hermathenae",
+                    "time": "00:38:32",
+                    "status": "OK"
+                },
+                {
+                    "position": "23",
+                    "name": "Steven TIESTERS",
+                    "club": "Omega",
+                    "time": "00:38:24",
+                    "status": "OK"
+                },
+                {
+                    "position": "22",
+                    "name": "Patrice LOMBET",
+                    "club": "Balise 10",
+                    "time": "00:33:13",
+                    "status": "OK"
+                },
+                {
+                    "position": "21",
+                    "name": "Kris VAN GELDER",
+                    "club": "Omega",
+                    "time": "00:31:42",
+                    "status": "OK"
+                },
+                {
+                    "position": "20",
+                    "name": "Arne TAILLIEU",
+                    "club": "K.O.L.",
+                    "time": "00:30:37",
+                    "status": "OK"
+                },
+                {
+                    "position": "19",
+                    "name": "Yves DE MITS",
+                    "club": "TROL",
+                    "time": "00:30:00",
+                    "status": "OK"
+                },
+                {
+                    "position": "18",
+                    "name": "Rik VAN BRUGGEN",
+                    "club": "TROL",
+                    "time": "00:29:54",
+                    "status": "OK"
+                },
+                {
+                    "position": "17",
+                    "name": "Jan VAN LOMMEL",
+                    "club": "K.O.L.",
+                    "time": "00:29:38",
+                    "status": "OK"
+                },
+                {
+                    "position": "16",
+                    "name": "Filip KENNIS",
+                    "club": "hamok",
+                    "time": "00:28:46",
+                    "status": "OK"
+                },
+                {
+                    "position": "15",
+                    "name": "Roman ELSEN",
+                    "club": "Omega",
+                    "time": "00:28:20",
+                    "status": "OK"
+                },
+                {
+                    "position": "14",
+                    "name": "Michael HOCK",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "00:26:54",
+                    "status": "OK"
+                },
+                {
+                    "position": "13",
+                    "name": "Tino NIJST",
+                    "club": "Omega",
+                    "time": "00:26:21",
+                    "status": "OK"
+                },
+                {
+                    "position": "12",
+                    "name": "Tom VAN LOMMEL",
+                    "club": "hamok",
+                    "time": "00:24:07",
+                    "status": "OK"
+                },
+                {
+                    "position": "11",
+                    "name": "Ralph KURT",
+                    "club": "TROL",
+                    "time": "00:23:52",
+                    "status": "OK"
+                },
+                {
+                    "position": "10",
+                    "name": "Christophe AMERIJCKX",
+                    "club": "ASUB",
+                    "time": "00:23:49",
+                    "status": "OK"
+                },
+                {
+                    "position": "9",
+                    "name": "Roel SMOLDERS",
+                    "club": "K.O.L.",
+                    "time": "00:23:36",
+                    "status": "OK"
+                },
+                {
+                    "position": "8",
+                    "name": "Alistair FRONHOFFS",
+                    "club": "ASUB",
+                    "time": "00:23:25",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "Bob DE CLERCQ",
+                    "club": "TROL",
+                    "time": "00:22:59",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Frederik LOECKX",
+                    "club": "Omega",
+                    "time": "00:21:58",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Stefan THIELS",
+                    "club": "Omega",
+                    "time": "00:21:22",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Ronny TIMMERS",
+                    "club": "hamok",
+                    "time": "00:21:19",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Jan-Gerard VAN DER TOORN",
+                    "club": "TROL",
+                    "time": "00:20:43",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Roland VAN LOON",
+                    "club": "KOVZ",
+                    "time": "00:19:01",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Marc KERCKHOFS",
+                    "club": "Omega",
+                    "time": "00:18:57",
+                    "status": "OK"
+                }
+            ]
+        },
+        "H50": {
+            "name": "H50",
+            "distance": "1720",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "0",
+                    "name": "Lorenzo CORNACCHIONE",
+                    "club": "Indiv.",
+                    "time": "02:11:02",
+                    "status": "NCL"
+                },
+                {
+                    "position": "0",
+                    "name": "Koen CROONS",
+                    "club": "Omega",
+                    "time": "00:30:45",
+                    "status": "NCL"
+                },
+                {
+                    "position": "0",
+                    "name": "Philippe PAPIN",
+                    "club": "VALMO",
+                    "time": "00:19:36",
+                    "status": "NCL"
+                },
+                {
+                    "position": "0",
+                    "name": "Frank AERDEN",
+                    "club": "K.O.L.",
+                    "time": "00:19:18",
+                    "status": "NCL"
+                },
+                {
+                    "position": "0",
+                    "name": "Wim VERVOORT",
+                    "club": "TROL",
+                    "time": "00:16:34",
+                    "status": "NCL"
+                },
+                {
+                    "position": "21",
+                    "name": "Jean THEATE",
+                    "club": "Hermathenae",
+                    "time": "00:54:57",
+                    "status": "OK"
+                },
+                {
+                    "position": "20",
+                    "name": "Fabien SCORNICIEL",
+                    "club": "C.O. Militaire Belge",
+                    "time": "00:33:45",
+                    "status": "OK"
+                },
+                {
+                    "position": "19",
+                    "name": "Patrick VANHAEREN",
+                    "club": "K.O.L.",
+                    "time": "00:32:59",
+                    "status": "OK"
+                },
+                {
+                    "position": "18",
+                    "name": "Paul CROTHERS",
+                    "club": "TROL",
+                    "time": "00:32:05",
+                    "status": "OK"
+                },
+                {
+                    "position": "17",
+                    "name": "Karl KEUPPENS",
+                    "club": "Omega",
+                    "time": "00:29:59",
+                    "status": "OK"
+                },
+                {
+                    "position": "16",
+                    "name": "Philippe VANROSSOMME",
+                    "club": "Hainaut O.C.",
+                    "time": "00:29:18",
+                    "status": "OK"
+                },
+                {
+                    "position": "15",
+                    "name": "Alex BUURLAGE",
+                    "club": "ARGUS",
+                    "time": "00:28:58",
+                    "status": "OK"
+                },
+                {
+                    "position": "14",
+                    "name": "Serge BAERT",
+                    "club": "N.S.V. Amel",
+                    "time": "00:27:57",
+                    "status": "OK"
+                },
+                {
+                    "position": "13",
+                    "name": "Dirk GODELAINE",
+                    "club": "hamok",
+                    "time": "00:26:57",
+                    "status": "OK"
+                },
+                {
+                    "position": "12",
+                    "name": "Geert DEBYSER",
+                    "club": "Omega",
+                    "time": "00:26:25",
+                    "status": "OK"
+                },
+                {
+                    "position": "11",
+                    "name": "Beno\u00eet DEFRAIGNE",
+                    "club": "ASUB",
+                    "time": "00:25:06",
+                    "status": "OK"
+                },
+                {
+                    "position": "10",
+                    "name": "Pierre-Michel DURIEUX",
+                    "club": "Alta\u00efr C.O.",
+                    "time": "00:25:02",
+                    "status": "OK"
+                },
+                {
+                    "position": "9",
+                    "name": "Gerrit VAN DE RIET",
+                    "club": "Olifant",
+                    "time": "00:23:24",
+                    "status": "OK"
+                },
+                {
+                    "position": "8",
+                    "name": "Bart MELLEBEEK",
+                    "club": "hamok",
+                    "time": "00:23:08",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "Christian HARMS",
+                    "club": "Wolf Haltern",
+                    "time": "00:20:58",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Andre DE VEIRMAN",
+                    "club": "TROL",
+                    "time": "00:20:49",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Robert LINES",
+                    "club": "Southdowns",
+                    "time": "00:20:38",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Wim GEERTS",
+                    "club": "hamok",
+                    "time": "00:20:02",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Pierre-Emmanuel DEMEUSE",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:19:09",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Guy TIREZ",
+                    "club": "K.O.L.",
+                    "time": "00:18:56",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Tony UDRIS",
+                    "club": "South Yorkshire Orienteers",
+                    "time": "00:17:47",
+                    "status": "OK"
+                }
+            ]
+        },
+        "H55": {
+            "name": "H55",
+            "distance": "1720",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "0",
+                    "name": "Jan THEYS",
+                    "club": "Omega",
+                    "time": "00:23:41",
+                    "status": "NCL"
+                },
+                {
+                    "position": "17",
+                    "name": "Danny SWERTS",
+                    "club": "hamok",
+                    "time": "00:32:09",
+                    "status": "OK"
+                },
+                {
+                    "position": "16",
+                    "name": "Bart TICKET",
+                    "club": "TROL",
+                    "time": "00:29:15",
+                    "status": "OK"
+                },
+                {
+                    "position": "15",
+                    "name": "Didier DARIMONT",
+                    "club": "ASUB",
+                    "time": "00:28:56",
+                    "status": "OK"
+                },
+                {
+                    "position": "14",
+                    "name": "Philippe DOFFIGNY",
+                    "club": "Balise 10",
+                    "time": "00:28:06",
+                    "status": "OK"
+                },
+                {
+                    "position": "13",
+                    "name": "Michel DICKBURT",
+                    "club": "VALMO",
+                    "time": "00:26:39",
+                    "status": "OK"
+                },
+                {
+                    "position": "12",
+                    "name": "Peter HOOGSTRATE",
+                    "club": "hamok",
+                    "time": "00:26:36",
+                    "status": "OK"
+                },
+                {
+                    "position": "11",
+                    "name": "Marc VAN DE MAELE",
+                    "club": "K.O.L.",
+                    "time": "00:25:21",
+                    "status": "OK"
+                },
+                {
+                    "position": "10",
+                    "name": "Koen MEYNEN",
+                    "club": "hamok",
+                    "time": "00:25:03",
+                    "status": "OK"
+                },
+                {
+                    "position": "9",
+                    "name": "Rudi AERTS",
+                    "club": "Omega",
+                    "time": "00:24:16",
+                    "status": "OK"
+                },
+                {
+                    "position": "8",
+                    "name": "Freddy HENKES",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "00:24:00",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "Jean-Manuel VERPOORTEN",
+                    "club": "Hermathenae",
+                    "time": "00:22:32",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Philippe TAELEMANS",
+                    "club": "ASUB",
+                    "time": "00:22:02",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Christian GILLET",
+                    "club": "ASUB",
+                    "time": "00:21:52",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Christian STOFFELS",
+                    "club": "Balise 10",
+                    "time": "00:21:30",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Luc CLOOSTERMANS",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:21:27",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Stephen GILMORE",
+                    "club": "Lagan Valley Orienteers",
+                    "time": "00:21:03",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Michel VAN LOON",
+                    "club": "TROL",
+                    "time": "00:20:55",
+                    "status": "OK"
+                },
+                {
+                    "position": "18",
+                    "name": "Guido TIMMERS",
+                    "club": "hamok",
+                    "time": "00:35:25",
+                    "status": "OK"
+                },
+                {
+                    "position": "19",
+                    "name": "Pierre DAVID",
+                    "club": "Balise 10",
+                    "time": "00:49:36",
+                    "status": "OK"
+                }
+            ]
+        },
+        "H60": {
+            "name": "H60",
+            "distance": "1300",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "0",
+                    "name": "Etienne VANDEGHINSTE",
+                    "club": "Alta\u00efr C.O.",
+                    "time": "00:36:58",
+                    "status": "NCL"
+                },
+                {
+                    "position": "23",
+                    "name": "Julien VAN BOSCH",
+                    "club": "TROL",
+                    "time": "00:53:30",
+                    "status": "OK"
+                },
+                {
+                    "position": "22",
+                    "name": "Paul BOLSENS",
+                    "club": "TROL",
+                    "time": "00:46:36",
+                    "status": "OK"
+                },
+                {
+                    "position": "21",
+                    "name": "Pierre DIEUDONNE",
+                    "club": "Balise 10",
+                    "time": "00:34:42",
+                    "status": "OK"
+                },
+                {
+                    "position": "20",
+                    "name": "Roger BOCKX",
+                    "club": "K.O.L.",
+                    "time": "00:30:18",
+                    "status": "OK"
+                },
+                {
+                    "position": "19",
+                    "name": "Philippe LELEUX",
+                    "club": "C.O. Militaire Belge",
+                    "time": "00:28:56",
+                    "status": "OK"
+                },
+                {
+                    "position": "18",
+                    "name": "Leo BAEYENS",
+                    "club": "Omega",
+                    "time": "00:27:52",
+                    "status": "OK"
+                },
+                {
+                    "position": "17",
+                    "name": "Eddie GEYPEN",
+                    "club": "K.O.L.",
+                    "time": "00:27:09",
+                    "status": "OK"
+                },
+                {
+                    "position": "16",
+                    "name": "Guy DECKX",
+                    "club": "hamok",
+                    "time": "00:25:23",
+                    "status": "OK"
+                },
+                {
+                    "position": "15",
+                    "name": "Jean-No\u00ebl DEBEHOGNE",
+                    "club": "ASUB",
+                    "time": "00:25:22",
+                    "status": "OK"
+                },
+                {
+                    "position": "14",
+                    "name": "Andr\u00e9 VANHULST",
+                    "club": "Balise 10",
+                    "time": "00:24:16",
+                    "status": "OK"
+                },
+                {
+                    "position": "13",
+                    "name": "Hans-Joachim GLOWKA",
+                    "club": "TSC Eintracht Dortmund 48\/95",
+                    "time": "00:22:55",
+                    "status": "OK"
+                },
+                {
+                    "position": "12",
+                    "name": "Johan CLAES",
+                    "club": "hamok",
+                    "time": "00:22:15",
+                    "status": "OK"
+                },
+                {
+                    "position": "11",
+                    "name": "Etienne DE WIT",
+                    "club": "K.O.L.",
+                    "time": "00:22:13",
+                    "status": "OK"
+                },
+                {
+                    "position": "10",
+                    "name": "Wim HOEKX",
+                    "club": "hamok",
+                    "time": "00:21:02",
+                    "status": "OK"
+                },
+                {
+                    "position": "9",
+                    "name": "Jackie VANDIJCK",
+                    "club": "K.O.L.",
+                    "time": "00:20:32",
+                    "status": "OK"
+                },
+                {
+                    "position": "8",
+                    "name": "Jacques HOFMANS",
+                    "club": "ASUB",
+                    "time": "00:20:12",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "Andrew COX",
+                    "club": "WATO",
+                    "time": "00:20:05",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "David ROACH",
+                    "club": "Luxembourg Orienteering",
+                    "time": "00:19:57",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Ferdinand GEBOERS",
+                    "club": "K.O.L.",
+                    "time": "00:19:47",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Herman JANSSEN",
+                    "club": "TROL",
+                    "time": "00:18:51",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Patrick WALLAERT",
+                    "club": "Omega",
+                    "time": "00:18:16",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Albert VAN CANEGHEM",
+                    "club": "K.O.L.",
+                    "time": "00:18:11",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Anne HEIKOOP",
+                    "club": "K.O.L.",
+                    "time": "00:16:48",
+                    "status": "OK"
+                }
+            ]
+        },
+        "H65": {
+            "name": "H65",
+            "distance": "1300",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "0",
+                    "name": "Daniel DANGRIAUX",
+                    "club": "C.O. Militaire Belge",
+                    "time": "00:34:20",
+                    "status": "NCL"
+                },
+                {
+                    "position": "20",
+                    "name": "Dominique SCHUTJES",
+                    "club": "hamok",
+                    "time": "00:31:28",
+                    "status": "OK"
+                },
+                {
+                    "position": "19",
+                    "name": "Jef VANHOUT",
+                    "club": "K.O.L.",
+                    "time": "00:31:17",
+                    "status": "OK"
+                },
+                {
+                    "position": "18",
+                    "name": "Marc CEULEMANS",
+                    "club": "TROL",
+                    "time": "00:28:55",
+                    "status": "OK"
+                },
+                {
+                    "position": "17",
+                    "name": "Jean BREDO",
+                    "club": "O.L.V. Eifel",
+                    "time": "00:28:28",
+                    "status": "OK"
+                },
+                {
+                    "position": "16",
+                    "name": "Juliaan LINTEN",
+                    "club": "K.O.L.",
+                    "time": "00:28:18",
+                    "status": "OK"
+                },
+                {
+                    "position": "15",
+                    "name": "Karl-Heinz SEEFELD",
+                    "club": "OLV Uslar",
+                    "time": "00:24:50",
+                    "status": "OK"
+                },
+                {
+                    "position": "14",
+                    "name": "Rudy CANTRE",
+                    "club": "K.O.L.",
+                    "time": "00:24:26",
+                    "status": "OK"
+                },
+                {
+                    "position": "13",
+                    "name": "Marc BRIERS",
+                    "club": "K.O.L.",
+                    "time": "00:23:10",
+                    "status": "OK"
+                },
+                {
+                    "position": "12",
+                    "name": "Ren\u00e9 STEENSSENS",
+                    "club": "Balise 10",
+                    "time": "00:22:15",
+                    "status": "OK"
+                },
+                {
+                    "position": "11",
+                    "name": "Eddie DE KERF",
+                    "club": "TROL",
+                    "time": "00:21:19",
+                    "status": "OK"
+                },
+                {
+                    "position": "10",
+                    "name": "Freddy SILLIEN",
+                    "club": "C.O. P\u00e9gase",
+                    "time": "00:20:01",
+                    "status": "OK"
+                },
+                {
+                    "position": "9",
+                    "name": "Klaus HELD",
+                    "club": "O.L.V. Eifel",
+                    "time": "00:19:55",
+                    "status": "OK"
+                },
+                {
+                    "position": "8",
+                    "name": "Jean-Pierre & Simonne DE BILZENEIRE",
+                    "club": "K.O.L.",
+                    "time": "00:19:08",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "Ivo TIMMERMANS",
+                    "club": "K.O.L.",
+                    "time": "00:19:03",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Luc HEUNINCKX",
+                    "club": "K.O.L.",
+                    "time": "00:19:02",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Rogier VANAKEN",
+                    "club": "Omega",
+                    "time": "00:18:44",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Alfred SIMKENS",
+                    "club": "K.O.L.",
+                    "time": "00:17:48",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Servais HICK",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:17:36",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Andre AERTS",
+                    "club": "hamok",
+                    "time": "00:15:37",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Roger HENDRICKX",
+                    "club": "hamok",
+                    "time": "00:14:57",
+                    "status": "OK"
+                }
+            ]
+        },
+        "H70": {
+            "name": "H70",
+            "distance": "1290",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "0",
+                    "name": "Ruud SCHONEWILLE",
+                    "club": "Borasca",
+                    "time": "00:27:32",
+                    "status": "NCL"
+                },
+                {
+                    "position": "18",
+                    "name": "Jozef DEN TROOSTER",
+                    "club": "Omega",
+                    "time": "00:47:31",
+                    "status": "OK"
+                },
+                {
+                    "position": "17",
+                    "name": "Andr\u00e9 VLIEGEN",
+                    "club": "O.L.V. Eifel",
+                    "time": "00:43:27",
+                    "status": "OK"
+                },
+                {
+                    "position": "16",
+                    "name": "Oswald VAN BOCKSTAL",
+                    "club": "TROL",
+                    "time": "00:39:54",
+                    "status": "OK"
+                },
+                {
+                    "position": "15",
+                    "name": "Maurice SEBA",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:39:11",
+                    "status": "OK"
+                },
+                {
+                    "position": "14",
+                    "name": "Georges DICKER",
+                    "club": "ASUB",
+                    "time": "00:35:06",
+                    "status": "OK"
+                },
+                {
+                    "position": "13",
+                    "name": "Vic VANDERSTRAETEN",
+                    "club": "hamok",
+                    "time": "00:33:01",
+                    "status": "OK"
+                },
+                {
+                    "position": "12",
+                    "name": "Georges TIMMERMANS",
+                    "club": "K.O.L.",
+                    "time": "00:31:51",
+                    "status": "OK"
+                },
+                {
+                    "position": "11",
+                    "name": "Guy CHATELAIN",
+                    "club": "Hermathenae",
+                    "time": "00:31:04",
+                    "status": "OK"
+                },
+                {
+                    "position": "10",
+                    "name": "Jos HOUBEN",
+                    "club": "K.O.L.",
+                    "time": "00:29:19",
+                    "status": "OK"
+                },
+                {
+                    "position": "9",
+                    "name": "Jean BAISIPONT",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:27:00",
+                    "status": "OK"
+                },
+                {
+                    "position": "8",
+                    "name": "Dirk ZWIKKER",
+                    "club": "TROL",
+                    "time": "00:25:46",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "Georges BARBIER",
+                    "club": "ASUB",
+                    "time": "00:25:07",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Jos BYLEMANS",
+                    "club": "K.O.L.",
+                    "time": "00:24:10",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Jos THYS",
+                    "club": "hamok",
+                    "time": "00:22:56",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Walter VAN KRUNCKELSVEN",
+                    "club": "Omega",
+                    "time": "00:22:44",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Eddie DESMEDT",
+                    "club": "TROL",
+                    "time": "00:22:35",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Frans WENS",
+                    "club": "TROL",
+                    "time": "00:19:58",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Mike IN 'T GROEN",
+                    "club": "TROL",
+                    "time": "00:16:10",
+                    "status": "OK"
+                }
+            ]
+        },
+        "H75": {
+            "name": "H75",
+            "distance": "1290",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "4",
+                    "name": "Jean OOMS",
+                    "club": "hamok",
+                    "time": "00:48:05",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Phil MELLEBEEK",
+                    "club": "hamok",
+                    "time": "00:44:18",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Jean-Pierre VAN DER CRUYS",
+                    "club": "ASUB",
+                    "time": "00:42:19",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Hubert GEUDENS",
+                    "club": "K.O.L.",
+                    "time": "00:27:48",
+                    "status": "OK"
+                }
+            ]
+        },
+        "H80": {
+            "name": "H80",
+            "distance": "1100",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "4",
+                    "name": "Jan VAN HEES",
+                    "club": "K.O.L.",
+                    "time": "00:52:11",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Bonaventur CLOOSTERMANS",
+                    "club": "hamok",
+                    "time": "00:44:23",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Pierre THEUNKENS",
+                    "club": "hamok",
+                    "time": "00:35:11",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Frans VAN DE MOORTEL",
+                    "club": "Omega",
+                    "time": "00:28:53",
+                    "status": "OK"
+                }
+            ]
+        },
+        "HE": {
+            "name": "HE",
+            "distance": "2450",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "0",
+                    "name": "Niklas GLOWKA",
+                    "club": "TSC Eintracht Dortmund 48\/95",
+                    "time": "02:41:39",
+                    "status": "NCL"
+                },
+                {
+                    "position": "0",
+                    "name": "Julien BEUKEN",
+                    "club": "WATO",
+                    "time": "02:39:33",
+                    "status": "NCL"
+                },
+                {
+                    "position": "0",
+                    "name": "Piotr DELANDMETER",
+                    "club": "ASUB",
+                    "time": "00:28:14",
+                    "status": "NCL"
+                },
+                {
+                    "position": "44",
+                    "name": "Winston FRANSSEN",
+                    "club": "TROL",
+                    "time": "01:00:55",
+                    "status": "OK"
+                },
+                {
+                    "position": "43",
+                    "name": "Daniel KELLY",
+                    "club": "WATO",
+                    "time": "00:58:20",
+                    "status": "OK"
+                },
+                {
+                    "position": "42",
+                    "name": "Mike BRULS",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "00:46:10",
+                    "status": "OK"
+                },
+                {
+                    "position": "41",
+                    "name": "Florian STERCKX",
+                    "club": "Balise 10",
+                    "time": "00:44:20",
+                    "status": "OK"
+                },
+                {
+                    "position": "40",
+                    "name": "Yelle VAN WAEYENBERGHE",
+                    "club": "TROL",
+                    "time": "00:42:33",
+                    "status": "OK"
+                },
+                {
+                    "position": "39",
+                    "name": "Bacchini FABIO",
+                    "club": "Omega",
+                    "time": "00:41:07",
+                    "status": "OK"
+                },
+                {
+                    "position": "38",
+                    "name": "Nuno RODRIGUES",
+                    "club": "Indiv.",
+                    "time": "00:38:38",
+                    "status": "OK"
+                },
+                {
+                    "position": "37",
+                    "name": "Ben VERVOORT",
+                    "club": "TROL",
+                    "time": "00:38:23",
+                    "status": "OK"
+                },
+                {
+                    "position": "36",
+                    "name": "Aleksander KOWALCZYK",
+                    "club": "Indiv.",
+                    "time": "00:36:23",
+                    "status": "OK"
+                },
+                {
+                    "position": "35",
+                    "name": "Leon VAN OS",
+                    "club": "Indiv.",
+                    "time": "00:35:43",
+                    "status": "OK"
+                },
+                {
+                    "position": "34",
+                    "name": "Vincent VERSTREPEN",
+                    "club": "Omega",
+                    "time": "00:34:04",
+                    "status": "OK"
+                },
+                {
+                    "position": "33",
+                    "name": "Rychon VAN PUTTE",
+                    "club": "hamok",
+                    "time": "00:32:53",
+                    "status": "OK"
+                },
+                {
+                    "position": "32",
+                    "name": "Remco HEREIJGERS",
+                    "club": "Olifant",
+                    "time": "00:32:44",
+                    "status": "OK"
+                },
+                {
+                    "position": "31",
+                    "name": "Stefan HERLE",
+                    "club": "K\u00f6lner OL-Team",
+                    "time": "00:32:29",
+                    "status": "OK"
+                },
+                {
+                    "position": "30",
+                    "name": "Tom GEYPEN",
+                    "club": "Omega",
+                    "time": "00:32:06",
+                    "status": "OK"
+                },
+                {
+                    "position": "29",
+                    "name": "Edward LINES",
+                    "club": "Southdowns",
+                    "time": "00:29:32",
+                    "status": "OK"
+                },
+                {
+                    "position": "28",
+                    "name": "Miel DEFERME",
+                    "club": "hamok",
+                    "time": "00:29:13",
+                    "status": "OK"
+                },
+                {
+                    "position": "27",
+                    "name": "Philippe CREFCOEUR",
+                    "club": "Alta\u00efr C.O.",
+                    "time": "00:27:58",
+                    "status": "OK"
+                },
+                {
+                    "position": "26",
+                    "name": "Wannes HENDRICKX",
+                    "club": "hamok",
+                    "time": "00:26:02",
+                    "status": "OK"
+                },
+                {
+                    "position": "25",
+                    "name": "Mark BURLEY",
+                    "club": "MDOC",
+                    "time": "00:25:42",
+                    "status": "OK"
+                },
+                {
+                    "position": "24",
+                    "name": "Jelle BAKELANTS",
+                    "club": "K.O.L.",
+                    "time": "00:25:38",
+                    "status": "OK"
+                },
+                {
+                    "position": "23",
+                    "name": "Glenn KELCHTERMANS",
+                    "club": "TROL",
+                    "time": "00:25:27",
+                    "status": "OK"
+                },
+                {
+                    "position": "22",
+                    "name": "Alexander LINES",
+                    "club": "Southdowns",
+                    "time": "00:25:26",
+                    "status": "OK"
+                },
+                {
+                    "position": "21",
+                    "name": "Sebastiaan LOOSEN",
+                    "club": "Omega",
+                    "time": "00:25:17",
+                    "status": "OK"
+                },
+                {
+                    "position": "20",
+                    "name": "Thomas BREDO",
+                    "club": "O.L.V. Eifel",
+                    "time": "00:25:08",
+                    "status": "OK"
+                },
+                {
+                    "position": "19",
+                    "name": "Nicolas LUDOVICY",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:24:58",
+                    "status": "OK"
+                },
+                {
+                    "position": "18",
+                    "name": "Arvid GLOWKA",
+                    "club": "TSC Eintracht Dortmund 48\/95",
+                    "time": "00:24:55",
+                    "status": "OK"
+                },
+                {
+                    "position": "17",
+                    "name": "Martijn HUS",
+                    "club": "K.O.L.",
+                    "time": "00:24:08",
+                    "status": "OK"
+                },
+                {
+                    "position": "16",
+                    "name": "Frederik MEYNEN",
+                    "club": "hamok",
+                    "time": "00:23:53",
+                    "status": "OK"
+                },
+                {
+                    "position": "15",
+                    "name": "Dieter COEN",
+                    "club": "TROL",
+                    "time": "00:23:26",
+                    "status": "OK"
+                },
+                {
+                    "position": "14",
+                    "name": "Christophe BERNARD",
+                    "club": "ASUB",
+                    "time": "00:22:42",
+                    "status": "OK"
+                },
+                {
+                    "position": "13",
+                    "name": "Alain MAZY",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:22:33",
+                    "status": "OK"
+                },
+                {
+                    "position": "12",
+                    "name": "Klaas MELLEBEEK",
+                    "club": "hamok",
+                    "time": "00:22:24",
+                    "status": "OK"
+                },
+                {
+                    "position": "11",
+                    "name": "Li\u00e9vin CREFCOEUR",
+                    "club": "Alta\u00efr C.O.",
+                    "time": "00:22:23",
+                    "status": "OK"
+                },
+                {
+                    "position": "10",
+                    "name": "Warre DE CUYPER",
+                    "club": "K.O.L.",
+                    "time": "00:22:00",
+                    "status": "OK"
+                },
+                {
+                    "position": "9",
+                    "name": "Jeroen HOEKX",
+                    "club": "hamok",
+                    "time": "00:21:54",
+                    "status": "OK"
+                },
+                {
+                    "position": "8",
+                    "name": "Julien GILLET",
+                    "club": "ASUB",
+                    "time": "00:21:53",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "Wouter LEEUWS",
+                    "club": "Omega",
+                    "time": "00:21:40",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Benjamin HOFMANS",
+                    "club": "ASUB",
+                    "time": "00:20:46",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Cl\u00e9ment DEMEUSE",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:20:26",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Thomas GILLET",
+                    "club": "ASUB",
+                    "time": "00:20:25",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Wouter HUS",
+                    "club": "K.O.L.",
+                    "time": "00:20:21",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Tomas HENDRICKX",
+                    "club": "hamok",
+                    "time": "00:19:52",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Tristan BLOEMEN",
+                    "club": "C.O. Li\u00e8ge",
+                    "time": "00:18:08",
+                    "status": "OK"
+                }
+            ]
+        },
+        "SD": {
+            "name": "SD",
+            "distance": "2630",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "0",
+                    "name": "Dennis VAN AELST",
+                    "club": "TROL",
+                    "time": "01:03:57",
+                    "status": "NCL"
+                },
+                {
+                    "position": "0",
+                    "name": "Bert VERVECKEN",
+                    "club": "TROL",
+                    "time": "01:03:44",
+                    "status": "NCL"
+                },
+                {
+                    "position": "0",
+                    "name": "Frank WEYLER",
+                    "club": "TROL",
+                    "time": "00:30:40",
+                    "status": "NCL"
+                },
+                {
+                    "position": "0",
+                    "name": "Vincent BROUWIER",
+                    "club": "Indiv.",
+                    "time": "00:57:24",
+                    "status": "OK"
+                },
+                {
+                    "position": "42",
+                    "name": "Michel OOMS",
+                    "club": "Omega",
+                    "time": "01:06:06",
+                    "status": "OK"
+                },
+                {
+                    "position": "41",
+                    "name": "Karen VAN DEN BRANDE",
+                    "club": "K.O.L.",
+                    "time": "01:05:14",
+                    "status": "OK"
+                },
+                {
+                    "position": "40",
+                    "name": "Lore STAES",
+                    "club": "K.O.L.",
+                    "time": "01:01:49",
+                    "status": "OK"
+                },
+                {
+                    "position": "39",
+                    "name": "Elly VAN OPSTAL",
+                    "club": "K.O.L.",
+                    "time": "00:56:09",
+                    "status": "OK"
+                },
+                {
+                    "position": "38",
+                    "name": "Elly VANHOUT",
+                    "club": "K.O.L.",
+                    "time": "00:52:45",
+                    "status": "OK"
+                },
+                {
+                    "position": "37",
+                    "name": "Dimitri BONGERS",
+                    "club": "K.O.L.",
+                    "time": "00:51:17",
+                    "status": "OK"
+                },
+                {
+                    "position": "36",
+                    "name": "Anja POTVIN",
+                    "club": "K.O.L.",
+                    "time": "00:49:50",
+                    "status": "OK"
+                },
+                {
+                    "position": "35",
+                    "name": "Jorran VAN DER HEIJDEN",
+                    "club": "TROL",
+                    "time": "00:47:16",
+                    "status": "OK"
+                },
+                {
+                    "position": "34",
+                    "name": "Dirk GORIS",
+                    "club": "K.O.L.",
+                    "time": "00:43:26",
+                    "status": "OK"
+                },
+                {
+                    "position": "33",
+                    "name": "Monique DEFFENSE",
+                    "club": "C.O. P\u00e9gase",
+                    "time": "00:43:21",
+                    "status": "OK"
+                },
+                {
+                    "position": "32",
+                    "name": "Marc ARNADI",
+                    "club": "Balise 10",
+                    "time": "00:42:49",
+                    "status": "OK"
+                },
+                {
+                    "position": "31",
+                    "name": "Mark VAN BRUGGEN",
+                    "club": "TROL",
+                    "time": "00:42:08",
+                    "status": "OK"
+                },
+                {
+                    "position": "30",
+                    "name": "Rob VELDEN",
+                    "club": "ARGUS",
+                    "time": "00:41:57",
+                    "status": "OK"
+                },
+                {
+                    "position": "29",
+                    "name": "Nathalie MYLLE",
+                    "club": "Indiv.",
+                    "time": "00:41:20",
+                    "status": "OK"
+                },
+                {
+                    "position": "28",
+                    "name": "Alfons BAKELANTS",
+                    "club": "K.O.L.",
+                    "time": "00:39:37",
+                    "status": "OK"
+                },
+                {
+                    "position": "27",
+                    "name": "Lien ADDIERS",
+                    "club": "Omega",
+                    "time": "00:37:17",
+                    "status": "OK"
+                },
+                {
+                    "position": "26",
+                    "name": "Guy THYS",
+                    "club": "TROL",
+                    "time": "00:37:14",
+                    "status": "OK"
+                },
+                {
+                    "position": "25",
+                    "name": "Sofie D'HONDT",
+                    "club": "Omega",
+                    "time": "00:37:02",
+                    "status": "OK"
+                },
+                {
+                    "position": "24",
+                    "name": "Matthias DOMS",
+                    "club": "Indiv.",
+                    "time": "00:36:06",
+                    "status": "OK"
+                },
+                {
+                    "position": "23",
+                    "name": "Ivan BATCHEV",
+                    "club": "KOVZ",
+                    "time": "00:35:44",
+                    "status": "OK"
+                },
+                {
+                    "position": "22",
+                    "name": "Maria PINTO LERENO",
+                    "club": "Indiv.",
+                    "time": "00:35:40",
+                    "status": "OK"
+                },
+                {
+                    "position": "21",
+                    "name": "Marie-Caroline LAURENT",
+                    "club": "ASUB",
+                    "time": "00:35:32",
+                    "status": "OK"
+                },
+                {
+                    "position": "20",
+                    "name": "Jan FRYDENLUND",
+                    "club": "hamok",
+                    "time": "00:35:30",
+                    "status": "OK"
+                },
+                {
+                    "position": "19",
+                    "name": "Yves MUYTERS",
+                    "club": "K.O.L.",
+                    "time": "00:33:45",
+                    "status": "OK"
+                },
+                {
+                    "position": "18",
+                    "name": "August VANNES",
+                    "club": "Omega",
+                    "time": "00:32:03",
+                    "status": "OK"
+                },
+                {
+                    "position": "17",
+                    "name": "Feline VANNES",
+                    "club": "Omega",
+                    "time": "00:31:52",
+                    "status": "OK"
+                },
+                {
+                    "position": "16",
+                    "name": "Joren THYS",
+                    "club": "TROL",
+                    "time": "00:31:17",
+                    "status": "OK"
+                },
+                {
+                    "position": "15",
+                    "name": "Annelies GEBOERS",
+                    "club": "K.O.L.",
+                    "time": "00:30:32",
+                    "status": "OK"
+                },
+                {
+                    "position": "14",
+                    "name": "Kris WYNEN",
+                    "club": "K.O.L.",
+                    "time": "00:30:21",
+                    "status": "OK"
+                },
+                {
+                    "position": "13",
+                    "name": "Mark HEIKOOP",
+                    "club": "Olifant",
+                    "time": "00:29:31",
+                    "status": "OK"
+                },
+                {
+                    "position": "12",
+                    "name": "Nick BRUNET",
+                    "club": "TROL",
+                    "time": "00:29:13",
+                    "status": "OK"
+                },
+                {
+                    "position": "11",
+                    "name": "Tim DILEN",
+                    "club": "K.O.L.",
+                    "time": "00:29:08",
+                    "status": "OK"
+                },
+                {
+                    "position": "10",
+                    "name": "Albert Jan KUIPER",
+                    "club": "KOVZ",
+                    "time": "00:28:51",
+                    "status": "OK"
+                },
+                {
+                    "position": "9",
+                    "name": "Jur RINGERS",
+                    "club": "hamok",
+                    "time": "00:28:38",
+                    "status": "OK"
+                },
+                {
+                    "position": "8",
+                    "name": "Dolf LEPPENS",
+                    "club": "K.O.L.",
+                    "time": "00:28:22",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "Masja VAN DE VEN",
+                    "club": "KOVZ",
+                    "time": "00:27:53",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Jan MARIEN",
+                    "club": "K.O.L.",
+                    "time": "00:26:15",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Bruno PARMENTIER",
+                    "club": "ASUB",
+                    "time": "00:26:07",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Julia KREKELS",
+                    "club": "TROL",
+                    "time": "00:25:45",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Steven JOCHEMS",
+                    "club": "KOVZ",
+                    "time": "00:24:59",
+                    "status": "OK"
+                },
+                {
+                    "position": "2",
+                    "name": "Dani\u00eblle DEWICKERE",
+                    "club": "TROL",
+                    "time": "00:24:42",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Olaf WOERTEL",
+                    "club": "KOVZ",
+                    "time": "00:22:53",
+                    "status": "OK"
+                }
+            ]
+        },
+        "SE": {
+            "name": "SE",
+            "distance": "1810",
+            "climb": "0",
+            "results": [
+                {
+                    "position": "0",
+                    "name": "Yoni STAALS",
+                    "club": "Indiv.",
+                    "time": "00:20:53",
+                    "status": "NCL"
+                },
+                {
+                    "position": "21",
+                    "name": "Ruben HENDRICKX",
+                    "club": "hamok",
+                    "time": "01:08:26",
+                    "status": "OK"
+                },
+                {
+                    "position": "20",
+                    "name": "Jana BRIES",
+                    "club": "K.O.L.",
+                    "time": "00:59:11",
+                    "status": "OK"
+                },
+                {
+                    "position": "19",
+                    "name": "Bram BRIES",
+                    "club": "K.O.L.",
+                    "time": "00:59:07",
+                    "status": "OK"
+                },
+                {
+                    "position": "18",
+                    "name": "Tony STALS",
+                    "club": "Indiv.",
+                    "time": "00:58:13",
+                    "status": "OK"
+                },
+                {
+                    "position": "17",
+                    "name": "Vince WALLYN",
+                    "club": "Indiv.",
+                    "time": "00:56:41",
+                    "status": "OK"
+                },
+                {
+                    "position": "16",
+                    "name": "Ellie VAN HOUT",
+                    "club": "Indiv.",
+                    "time": "00:51:59",
+                    "status": "OK"
+                },
+                {
+                    "position": "15",
+                    "name": "Seppe CAUWENBERGHE",
+                    "club": "Indiv.",
+                    "time": "00:51:47",
+                    "status": "OK"
+                },
+                {
+                    "position": "14",
+                    "name": "Sam VAN CAUWENBERGHE",
+                    "club": "K.O.L.",
+                    "time": "00:51:43",
+                    "status": "OK"
+                },
+                {
+                    "position": "13",
+                    "name": "Filip BROSENS",
+                    "club": "TROL",
+                    "time": "00:46:51",
+                    "status": "OK"
+                },
+                {
+                    "position": "12",
+                    "name": "Mette TIESTERS",
+                    "club": "Omega",
+                    "time": "00:40:50",
+                    "status": "OK"
+                },
+                {
+                    "position": "11",
+                    "name": "Noa SMOLDERS",
+                    "club": "K.O.L.",
+                    "time": "00:37:29",
+                    "status": "OK"
+                },
+                {
+                    "position": "10",
+                    "name": "Martine MAMPAEY",
+                    "club": "TROL",
+                    "time": "00:37:26",
+                    "status": "OK"
+                },
+                {
+                    "position": "9",
+                    "name": "Dirk SPIESSENS",
+                    "club": "TROL",
+                    "time": "00:36:15",
+                    "status": "OK"
+                },
+                {
+                    "position": "8",
+                    "name": "Witse BOECKX",
+                    "club": "Omega",
+                    "time": "00:36:13",
+                    "status": "OK"
+                },
+                {
+                    "position": "7",
+                    "name": "Clara COX",
+                    "club": "Omega",
+                    "time": "00:33:53",
+                    "status": "OK"
+                },
+                {
+                    "position": "6",
+                    "name": "Co TOPS",
+                    "club": "KOVZ",
+                    "time": "00:33:11",
+                    "status": "OK"
+                },
+                {
+                    "position": "5",
+                    "name": "Rik VERHAEGE",
+                    "club": "Omega",
+                    "time": "00:32:13",
+                    "status": "OK"
+                },
+                {
+                    "position": "4",
+                    "name": "Vincent RIGOUTS",
+                    "club": "TROL",
+                    "time": "00:30:51",
+                    "status": "OK"
+                },
+                {
+                    "position": "3",
+                    "name": "Jana COX",
+                    "club": "WATO",
+                    "time": "00:30:16",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Hanne CROONS",
+                    "club": "Indiv.",
+                    "time": "00:26:04",
+                    "status": "OK"
+                },
+                {
+                    "position": "1",
+                    "name": "Dries CROONS",
+                    "club": "Indiv.",
+                    "time": "00:26:04",
+                    "status": "OK"
+                }
+            ]
+        }
+    }
+}

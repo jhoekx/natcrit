@@ -1,0 +1,65 @@
+{% macro stand()-%}
+{% if is_final -%}
+eindstand
+{%- else -%}
+tussenstand
+{%- endif -%}
+{%- endmacro -%}
+{% macro classement()-%}
+{% if is_final -%}
+classement final
+{%- else -%}
+classement
+{%- endif -%}
+{%- endmacro -%}
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="N2011.css">
+
+<title>Belgian national regularity {{ year }}</title>
+
+<h1 id="top">Belgian National Regularity</h1>
+<ul id="women">
+{% for cat in categories if cat[0] == "D" -%}
+    <li><a href="N{{ year }}/{{ cat }}.html">{{ cat }}</a>
+{% endfor -%}
+</ul>
+<ul id="men">
+{% for cat in categories if cat[0] == "H" -%}
+    <li><a href="N{{ year }}/{{ cat }}.html">{{ cat }}</a>
+{% endfor -%}
+</ul>
+
+<h2>{{ year }}</h2>
+<p>Beste oriëntatievriend,<br>
+Cher orienteur,</p>
+<p>Op deze pagina vindt u de {{ stand() }} van het nationaal regelmatigheidscriterium.<br>
+Sur cette page vous trouvez le {{ classement() }} du challenge de régularité nationale.</p>
+<table class="races">
+    <tr>
+        <td colspan="3">Updated {{ today }}</td>
+    </tr>
+{% for event in events %}
+    <tr>
+        <td>{{ event.name }}
+        <td>: {{ event.date }}
+        <td>{{ event.location }}
+{% endfor %}
+</table>
+<p>{{ stand()|capitalize }} op basis van de {{ event_count }} beste resultaten van {{ events|count }} wedstrijden.<br>
+{{ classement()|capitalize }} sur base des {{ event_count }} meilleurs résultats des {{ events| count }} compétitions</p>
+<p>De gegevens werden verwerkt door Wim en Jeroen Hoekx.<br>
+Bij opmerkingen gelieve te mailen naar <a href="mailto:hoekx.battiau@scarlet.be">hoekx.battiau@scarlet.be</a><br>
+Elaboré par Wim et Jeroen Hoekx<br>
+Avez-vous une remarque, envoyez un mail à <a href="mailto:hoekx.battiau@scarlet.be">hoekx.battiau@scarlet.be</a></p>
+
+{% set comma = joiner(',') -%}
+<p>Archive:
+{%- for y in range(1999, today.year + 1) -%}
+{% if y == year -%}
+{{ comma() }} {{ year }}
+{%- else -%}
+{{ comma() }} <a href="N{{ y }}.htm">{{ y }}</a>
+{%- endif -%}
+{% endfor -%}
+</p>
