@@ -40,6 +40,7 @@ RANKING_CLUBS = {
     'TROL': 'TROL',
 }
 
+
 @dataclass
 class Runner:
     name: str
@@ -226,7 +227,7 @@ if __name__ == '__main__':
             print(f'  {club}')
 
     jinja_env = jinja2.Environment(
-        loader=jinja2.PackageLoader('natcrit3', 'templates'),
+        loader=jinja2.PackageLoader('natcrit', 'templates'),
         autoescape=jinja2.select_autoescape(['html', 'xml'])
     )
     ranking_template = jinja_env.get_template('ranking.j2.html')
