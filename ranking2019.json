@@ -1,6 +1,6 @@
 {
     "year": 2019,
-    "event_count": 6,
+    "event_count": 8,
     "events": [
         {
             "date": "2019-02-17",
@@ -35,6 +35,21 @@
                 "D21": ["DE", "D21", "DB"],
                 "H21": ["HE", "H21", "HB"]
             }
+        },
+        {
+            "date": "2019-08-25",
+            "name": "BK Interclub",
+            "location": "Spa"
+        },
+        {
+            "date": "2019-09-01",
+            "name": "Nationale 3",
+            "location": "Nassogne"
+        },
+        {
+            "date": "2019-09-08",
+            "name": "BK Long",
+            "location": "Dilsen"
         }
     ]
 }
