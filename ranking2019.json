@@ -1,6 +1,7 @@
 {
     "year": 2019,
     "event_count": 8,
+    "is_final": true,
     "events": [
         {
             "date": "2019-02-17",
@@ -50,6 +51,12 @@
             "date": "2019-09-08",
             "name": "BK Long",
             "location": "Dilsen"
+        },
+        {
+            "date": "2019-09-22",
+            "name": "Nationale 4",
+            "location": "Seraing",
+            "is_last": true
         }
     ]
 }
