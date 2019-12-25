@@ -2,6 +2,7 @@
 
 import argparse
 import collections
+import csv
 import datetime
 import json
 import xml.etree.ElementTree as ET
@@ -290,15 +291,20 @@ if __name__ == '__main__':
             events=events,
         ))
 
-    for category_name in RANKING_CATEGORIES:
-        runners = find_runners_in_category(category_name, events, RANKING_CLUBS)
-        calculate_ranking(category_name, event_count, runners, events)
+    with (year_dir / 'summary.csv').open('w', newline='') as summary:
+        summary_csv = csv.writer(summary)
+        for category_name in RANKING_CATEGORIES:
+            runners = find_runners_in_category(category_name, events, RANKING_CLUBS)
+            calculate_ranking(category_name, event_count, runners, events)
 
-        with (year_dir / f'{category_name}.html').open(mode='w') as out:
-            out.write(ranking_template.render(
-                year=year,
-                categories=RANKING_CATEGORIES,
-                event_count=event_count,
-                category_name=category_name,
-                runners=sorted(runners, key=lambda r: r.total, reverse=True)
-            ))
+            with (year_dir / f'{category_name}.html').open(mode='w') as out:
+                out.write(ranking_template.render(
+                    year=year,
+                    categories=RANKING_CATEGORIES,
+                    event_count=event_count,
+                    category_name=category_name,
+                    runners=sorted(runners, key=lambda r: r.total, reverse=True)
+                ))
+
+            for runner in runners:
+                summary_csv.writerow([runner.name, category_name, runner.total])
