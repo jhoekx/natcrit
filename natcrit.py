@@ -20,6 +20,7 @@ RANKING_CATEGORIES = ['D-10', 'D-12', 'D-14', 'D-16', 'D-18', 'D-20', 'DE', 'D21
 
 RANKING_CLUBS = {
     'Altaïr C.O.': 'Altaïr C.O.',
+    'Antwerp Orienteers': 'Antwerp Orienteers',
     'ASUB': 'ASUB',
     'Balise 10': 'Balise 10',
     'Borasca': 'Borasca',
