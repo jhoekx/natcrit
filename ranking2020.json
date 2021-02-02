@@ -1,0 +1,53 @@
+{
+    "year": 2020,
+    "event_count": 7,
+    "is_final": true,
+    "events": [
+        {
+            "date": "2020-02-16",
+            "name": "Nationale 1",
+            "location": "Pijnven"
+        },
+        {
+            "date": "2020-03-08",
+            "name": "Nationale 2",
+            "location": "Baudour"
+        },
+        {
+            "date": "2020-08-29",
+            "name": "Nationale MD",
+            "location": "Spa"
+        },
+        {
+            "date": "2020-09-13",
+            "name": "Nationale Sprint",
+            "location": "Herve"
+        },
+        {
+            "date": "2020-09-20",
+            "name": "Nationale 3",
+            "location": "Hechtel"
+        },
+        {
+            "date": "2020-09-27",
+            "name": "BK Long",
+            "location": "Stambruges"
+        },
+        {
+            "date": "2020-10-04",
+            "name": "Nationale MD",
+            "location": "Kasterlee"
+        },
+        {
+            "date": "2020-10-11",
+            "name": "BK Interclub",
+            "location": "Leopoldsburg"
+        },
+        {
+            "date": "2020-10-18",
+            "name": "BK Middle",
+            "location": "Hechtel",
+            "is_last": true
+        }
+    ]
+}
