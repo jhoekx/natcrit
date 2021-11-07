@@ -40,6 +40,7 @@ RANKING_CLUBS = {
     'Omega': 'Omega',
     'Pégase': 'C.O. Pégase',
     'SUD O LUX': 'SUD O LUX',
+    'ThOR': 'ThOR',
     'TROL': 'TROL',
 }
 

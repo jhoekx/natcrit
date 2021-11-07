@@ -1,0 +1,38 @@
+{
+    "year": 2021,
+    "event_count": 5,
+    "is_final": true,
+    "events": [
+        {
+            "date": "2021-06-20",
+            "name": "Nationale LD",
+            "location": "Botrange"
+        },
+        {
+            "date": "2021-06-26",
+            "name": "BK Middle",
+            "location": "Spa"
+        },
+        {
+            "date": "2021-08-29",
+            "name": "BK Interclub",
+            "location": "Vivy"
+        },
+        {
+            "date": "2021-09-19",
+            "name": "BK Long",
+            "location": "Koersel"
+        },
+        {
+            "date": "2021-09-25",
+            "name": "BK Sprint",
+            "location": "Vilvoorde"
+        },
+        {
+            "date": "2021-11-06",
+            "name": "Nationale LD",
+            "location": "Dilsen",
+            "is_last": true
+        }
+    ]
+}
