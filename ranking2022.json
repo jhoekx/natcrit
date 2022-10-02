@@ -1,0 +1,60 @@
+{
+    "year": 2022,
+    "event_count": 8,
+    "is_final": false,
+    "events": [
+        {
+            "date": "2022-02-20",
+            "name": "Nationale 1",
+            "location": "Nomont - Famelette"
+        },
+        {
+            "date": "2022-03-13",
+            "name": "Nationale 2",
+            "location": "Ravels"
+        },
+        {
+            "date": "2022-03-20",
+            "name": "Nationale Middle",
+            "location": "Braine-Le-Comte"
+        },
+        {
+            "date": "2022-03-27",
+            "name": "BK Middle",
+            "location": "Helchteren"
+        },
+        {
+            "date": "2022-05-15",
+            "name": "BK Sprint",
+            "location": "Couvin",
+            "reclassify": {
+                "D21": ["DE", "D21", "DB"],
+                "H21": ["HE", "H21", "HB"]
+            }
+        },
+        {
+            "date": "2022-06-26",
+            "name": "Nationale 3",
+            "location": "Huy"
+        },
+        {
+            "date": "2022-08-21",
+            "name": "Nationale 4",
+            "location": "Hechtel"
+        },
+        {
+            "date": "2022-09-04",
+            "name": "BK Long",
+            "location": "Schlierbach"
+        },
+        {
+            "date": "2022-09-25",
+            "name": "Nationale Sprint",
+            "location": "Geraardsbergen",
+            "reclassify": {
+                "D21": ["DE", "D21", "DB"],
+                "H21": ["HE", "H21", "HB"]
+            }
+        }
+    ]
+}

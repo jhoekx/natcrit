@@ -9,7 +9,7 @@ import xml.etree.ElementTree as ET
 
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Counter, Dict, List
+from typing import Counter, Optional
 
 import jinja2
 
@@ -20,11 +20,13 @@ RANKING_CATEGORIES = ['D-10', 'D-12', 'D-14', 'D-16', 'D-18', 'D-20', 'DE', 'D21
 
 RANKING_CLUBS = {
     'Altaïr C.O.': 'Altaïr C.O.',
+    'Altaïr Orientation': 'Altaïr C.O.',
     'Antwerp Orienteers': 'Antwerp Orienteers',
     'ASUB': 'ASUB',
     'Balise 10': 'Balise 10',
     'Borasca': 'Borasca',
     'C.O. Liège': 'C.O. Liège',
+    'CO Liège': 'C.O. Liège',
     'C.O. Pégase': 'C.O. Pégase',
     'C.O.M.B': 'C.O.M.B',
     'C.O. Militaire Belge': 'C.O.M.B.',
@@ -32,13 +34,16 @@ RANKING_CLUBS = {
     'Hainaut O.C.': 'Hainaut O.C.',
     'Hermathenae': 'Hermathenae',
     'K.O.L.': 'K.O.L.',
+    'LOST': 'LOST',
     'N.S.V. Amel': 'N.S.V. Amel',
     'O.L.G. St. Vith "ARDOC"': 'O.L.G. St. Vith ARDOC',
     'O.L.G. St. Vith ARDOC': 'O.L.G. St. Vith ARDOC',
     'O.L.V. Eifel': 'O.L.V. Eifel',
     'O.L.V.E.': 'O.L.V. Eifel',
+    'OLV Eifel': 'O.L.V. Eifel',
     'Omega': 'Omega',
     'Pégase': 'C.O. Pégase',
+    'Pégase CO': 'C.O. Pégase',
     'SUD O LUX': 'SUD O LUX',
     'ThOR': 'ThOR',
     'TROL': 'TROL',
@@ -49,7 +54,7 @@ RANKING_CLUBS = {
 class Runner:
     name: str
     club: str
-    scores: List[int]
+    scores: list[int]
     total: int = 0
     place: int = 0
 
@@ -59,18 +64,18 @@ class Result:
     position: int
     name: str
     club: str
-    time: datetime.time
+    time: Optional[datetime.time]
     status: str
     score: int = 0
 
     def is_ok(self) -> bool:
-        return self.status == 'OK' and self.position != 0
+        return self.status == 'OK' and self.position != 0 and self.time != None
 
 
 @dataclass
 class Category:
     name: str
-    results: List[Result]
+    results: list[Result]
 
     def find_score(self, runner: Runner) -> int:
         for result in self.results:
@@ -90,8 +95,8 @@ class Event:
     date: str
     name: str
     location: str
-    categories: List[Category]
-    reclassify: Dict[str, List[str]]
+    categories: list[Category]
+    reclassify: dict[str, list[str]]
     is_last: bool = False
 
     def find_category(self, name: str) -> Category:
@@ -105,7 +110,7 @@ def result_from_data(data) -> Result:
     position = int(data['position'])
     name = data['name']
     club = data['club']
-    time = datetime.time.fromisoformat(data['time'])
+    time = datetime.time.fromisoformat(data['time']) if data['time'] is not None else None
     status = data['status']
     return Result(position, name, club, time, status)
 
@@ -130,7 +135,7 @@ def read_event(event):
         return json.load(f)
 
 
-def assign_scores(category: Category, scoring: List[int]):
+def assign_scores(category: Category, scoring: list[int]):
     previous_time = None
     previous_score = None
     ok_results = [result for result in category.results if result.is_ok()]
@@ -148,8 +153,8 @@ def assign_scores(category: Category, scoring: List[int]):
         result.score = previous_score
 
 
-def map_clubs(club_mapping: Dict[str, str], events: List[Event]) -> List[str]:
-    unknown_clubs: List[str] = []
+def map_clubs(club_mapping: dict[str, str], events: list[Event]) -> list[str]:
+    unknown_clubs: list[str] = []
     for event in events:
         for category in event.categories:
             for result in category.results:
@@ -161,7 +166,7 @@ def map_clubs(club_mapping: Dict[str, str], events: List[Event]) -> List[str]:
     return sorted(unknown_clubs)
 
 
-def find_preferred_category(result: Result, events: List[Event]) -> str:
+def find_preferred_category(result: Result, events: list[Event]) -> str:
     categories: Counter[str] = collections.Counter()
     for event in events:
         for category in event.categories:
@@ -172,7 +177,7 @@ def find_preferred_category(result: Result, events: List[Event]) -> str:
     return categories.most_common(1)[0][0]
 
 
-def reclassify_runners(events: List[Event]):
+def reclassify_runners(events: list[Event]):
     for event in events:
         if len(event.reclassify) == 0:
             continue
@@ -192,8 +197,8 @@ def reclassify_runners(events: List[Event]):
             event.categories += new_categories.values()
 
 
-def find_runners_in_category(category_name: str, events: List[Event], clubs: Dict[str, str]) -> List[Runner]:
-    runners: Dict[str, Runner] = {}
+def find_runners_in_category(category_name: str, events: list[Event], clubs: dict[str, str]) -> list[Runner]:
+    runners: dict[str, Runner] = {}
     for event in events:
         category = event.find_category(category_name)
         for result in category.results:
@@ -205,7 +210,7 @@ def find_runners_in_category(category_name: str, events: List[Event], clubs: Dic
     return [runner for runner in runners.values()]
 
 
-def calculate_ranking(category_name: str, max_scores: int, runners: List[Runner], events: List[Event]):
+def calculate_ranking(category_name: str, max_scores: int, runners: list[Runner], events: list[Event]):
     for runner in runners:
         for event in events:
             category = event.find_category(category_name)
@@ -224,7 +229,7 @@ def calculate_ranking(category_name: str, max_scores: int, runners: List[Runner]
         previous_place = runner.place
 
 
-def generate_xml(output_dir: Path, year: int, events: List[Event]):
+def generate_xml(output_dir: Path, year: int, events: list[Event]):
     ranking = ET.Element('ranking')
     for event in events:
         e = ET.SubElement(ranking, 'event')
@@ -234,7 +239,7 @@ def generate_xml(output_dir: Path, year: int, events: List[Event]):
     ET.ElementTree(ranking).write(output_dir / f'N{year}.xml')
 
 
-def print_events(events: List[Event]):
+def print_events(events: list[Event]):
     for event in events:
         for category in event.categories:
             print(f'### {category.name} ###')
@@ -243,7 +248,7 @@ def print_events(events: List[Event]):
             print('')
 
 
-if __name__ == '__main__':
+def run():
     parser = argparse.ArgumentParser(description='Generate Ranking')
     parser.add_argument('--config', required=True, dest='config', type=argparse.FileType())
 
@@ -310,3 +315,7 @@ if __name__ == '__main__':
 
             for runner in runners:
                 summary_csv.writerow([runner.name, category_name, runner.total])
+
+
+if __name__ == '__main__':
+    run()
