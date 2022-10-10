@@ -1,7 +1,7 @@
 {
     "year": 2022,
     "event_count": 8,
-    "is_final": false,
+    "is_final": true,
     "events": [
         {
             "date": "2022-02-20",
@@ -55,6 +55,11 @@
                 "D21": ["DE", "D21", "DB"],
                 "H21": ["HE", "H21", "HB"]
             }
+        },
+        {
+            "date": "2022-10-09",
+            "name": "Interclub",
+            "location": "Eksel"
         }
     ]
 }
