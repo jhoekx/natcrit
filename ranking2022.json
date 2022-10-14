@@ -59,7 +59,8 @@
         {
             "date": "2022-10-09",
             "name": "Interclub",
-            "location": "Eksel"
+            "location": "Eksel",
+            "is_last": true
         }
     ]
 }
