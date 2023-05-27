@@ -1,0 +1,41 @@
+{
+    "year": 2023,
+    "event_count": 6,
+    "is_final": false,
+    "events": [
+        {
+            "date": "2023-03-12",
+            "name": "Nationale 1",
+            "location": "Hèvrement"
+        },
+        {
+            "date": "2023-03-19",
+            "name": "Nationale 2",
+            "location": "Kasterlee"
+        },
+        {
+            "date": "2023-03-26",
+            "name": "BK Middle",
+            "location": "Banneux"
+        },
+        {
+            "date": "2023-04-16",
+            "name": "Nationale 3",
+            "location": "St.Vith"
+        },
+        {
+            "date": "2023-05-07",
+            "name": "Nationale Sprint",
+            "location": "La Roche-en-Ardenne"
+        },
+        {
+            "date": "2023-05-14",
+            "name": "BK Sprint",
+            "location": "Borgloon",
+            "reclassify": {
+                "D21": ["DE", "D21", "DB"],
+                "H21": ["HE", "H21", "HB"]
+            }
+        }
+    ]
+}
