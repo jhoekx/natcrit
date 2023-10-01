@@ -184,7 +184,7 @@
                     "ageclass": null
                 },
                 {
-                    "position": 0,
+                    "position": 1,
                     "name": "Chlo\u00e9 ROBERT",
                     "club": "CO Li\u00e8ge",
                     "time": "00:26:19.000",
@@ -368,7 +368,7 @@
             "climb": 55,
             "results": [
                 {
-                    "position": 0,
+                    "position": 1,
                     "name": "Lieke VAN OPSTAL",
                     "club": "K.O.L.",
                     "time": "00:23:08.000",
@@ -880,7 +880,7 @@
             "climb": 35,
             "results": [
                 {
-                    "position": 0,
+                    "position": 1,
                     "name": "Monica ROELING",
                     "club": "TROL",
                     "time": "00:21:28.000",
@@ -1657,7 +1657,7 @@
             "climb": 70,
             "results": [
                 {
-                    "position": 0,
+                    "position": 1,
                     "name": "Raul CORDON PEREZ",
                     "club": "CO Li\u00e8ge",
                     "time": "00:32:44.000",
@@ -1667,7 +1667,7 @@
                     "ABSO": "20-758"
                 },
                 {
-                    "position": 0,
+                    "position": 1,
                     "name": "Ronald SOMERS",
                     "club": "K.O.L.",
                     "time": "00:30:06.000",
@@ -1911,7 +1911,7 @@
             "climb": 45,
             "results": [
                 {
-                    "position": 0,
+                    "position": 1,
                     "name": "Roland VAN LOON",
                     "club": "hamok",
                     "time": "00:21:19.000",
@@ -2411,7 +2411,7 @@
             "climb": 50,
             "results": [
                 {
-                    "position": 0,
+                    "position": 1,
                     "name": "Giel PARDOEL",
                     "club": "TROL",
                     "time": "00:25:08.000",
@@ -2715,7 +2715,7 @@
             "climb": 40,
             "results": [
                 {
-                    "position": 0,
+                    "position": 1,
                     "name": "Mike IN 'T GROEN",
                     "club": "TROL",
                     "time": "00:20:09.000",
