@@ -1,7 +1,7 @@
 {
     "year": 2023,
-    "event_count": 6,
-    "is_final": false,
+    "event_count": 8,
+    "is_final": true,
     "events": [
         {
             "date": "2023-03-12",
@@ -36,6 +36,27 @@
                 "D21": ["DE", "D21", "DB"],
                 "H21": ["HE", "H21", "HB"]
             }
+        },
+        {
+            "date": "2023-08-27",
+            "name": "BK Interclub",
+            "location": "Virton"
+        },
+        {
+            "date": "2023-09-03",
+            "name": "BK Long",
+            "location": "Kasterlee"
+        },
+        {
+            "date": "2023-09-24",
+            "name": "Nationale MD",
+            "location": "Maasmechelen"
+        },
+        {
+            "date": "2023-10-01",
+            "name": "Nationale 4",
+            "location": "Helchteren",
+            "is_last": true
         }
     ]
 }
