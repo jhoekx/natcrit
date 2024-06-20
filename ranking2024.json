@@ -1,0 +1,41 @@
+{
+    "year": 2024,
+    "event_count": 8,
+    "is_final": false,
+    "events": [
+        {
+            "date": "2024-03-03",
+            "name": "Nationale 1",
+            "location": "Leopoldsburg"
+        },
+        {
+            "date": "2024-03-10",
+            "name": "BK Middle",
+            "location": "Achel"
+        },
+        {
+            "date": "2024-03-17",
+            "name": "Nationale MD",
+            "location": "Wéris"
+        },
+        {
+            "date": "2024-04-14",
+            "name": "Nationale 2",
+            "location": "St.Vith"
+        },
+        {
+            "date": "2024-05-05",
+            "name": "Nationale Sprint",
+            "location": "Bree"
+        },
+        {
+            "date": "2024-05-26",
+            "name": "BK Sprint",
+            "location": "Gembloux",
+            "reclassify": {
+                "D21": ["DE", "D21", "DB"],
+                "H21": ["HE", "H21", "HB"]
+            }
+        }
+    ]
+}
