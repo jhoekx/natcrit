@@ -294,7 +294,7 @@ def run():
             categories=RANKING_CATEGORIES,
             today=datetime.date.today(),
             is_final=is_final,
-            event_count=event_count,
+            event_count=min(event_count, len(events)),
             events=events,
         ))
 
