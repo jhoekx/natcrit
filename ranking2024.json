@@ -36,6 +36,11 @@
                 "D21": ["DE", "D21", "DB"],
                 "H21": ["HE", "H21", "HB"]
             }
+        },
+        {
+            "date": "2024-06-23",
+            "name": "Nationale 3",
+            "location": "Daverdisse"
         }
     ]
 }
