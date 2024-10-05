@@ -41,6 +41,16 @@
             "date": "2024-06-23",
             "name": "Nationale 3",
             "location": "Daverdisse"
+        },
+        {
+            "date": "2024-09-01",
+            "name": "BK Long",
+            "location": "Arlon"
+        },
+        {
+            "date": "2024-09-15",
+            "name": "Nationale 4",
+            "location": "Pelt"
         }
     ]
 }
