@@ -1,7 +1,7 @@
 {
     "year": 2024,
     "event_count": 8,
-    "is_final": false,
+    "is_final": true,
     "events": [
         {
             "date": "2024-03-03",
@@ -51,6 +51,12 @@
             "date": "2024-09-15",
             "name": "Nationale 4",
             "location": "Pelt"
+        },
+        {
+            "date": "2024-10-06",
+            "name": "BK Interclub",
+            "location": "Oudsbergen",
+            "is_last": true
         }
     ]
 }
