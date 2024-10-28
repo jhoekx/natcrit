@@ -13,40 +13,135 @@ from typing import Counter, Optional
 
 import jinja2
 
-NORMAL_SCORE = [30, 27, 25, 23, 21, 19, 17, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
-EXTRA_SCORE = [45, 40, 37, 35, 32, 29, 26, 23, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+NORMAL_SCORE = [
+    30,
+    27,
+    25,
+    23,
+    21,
+    19,
+    17,
+    15,
+    14,
+    13,
+    12,
+    11,
+    10,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+]
+EXTRA_SCORE = [
+    45,
+    40,
+    37,
+    35,
+    32,
+    29,
+    26,
+    23,
+    21,
+    20,
+    19,
+    18,
+    17,
+    16,
+    15,
+    14,
+    13,
+    12,
+    11,
+    10,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+]
 
-RANKING_CATEGORIES = ['D-10', 'D-12', 'D-14', 'D-16', 'D-18', 'D-20', 'DE', 'D21', 'DB', 'D35', 'D40', 'D45', 'D50', 'D55', 'D60', 'D65', 'D70', 'D75', 'D80', 'D85', 'H-10', 'H-12', 'H-14', 'H-16', 'H-18', 'H-20', 'HE', 'H21', 'HB', 'H35', 'H40', 'H45', 'H50', 'H55', 'H60', 'H65', 'H70', 'H75', 'H80', 'H85', 'H90']
+RANKING_CATEGORIES = [
+    "D-10",
+    "D-12",
+    "D-14",
+    "D-16",
+    "D-18",
+    "D-20",
+    "DE",
+    "D21",
+    "DB",
+    "D35",
+    "D40",
+    "D45",
+    "D50",
+    "D55",
+    "D60",
+    "D65",
+    "D70",
+    "D75",
+    "D80",
+    "D85",
+    "H-10",
+    "H-12",
+    "H-14",
+    "H-16",
+    "H-18",
+    "H-20",
+    "HE",
+    "H21",
+    "HB",
+    "H35",
+    "H40",
+    "H45",
+    "H50",
+    "H55",
+    "H60",
+    "H65",
+    "H70",
+    "H75",
+    "H80",
+    "H85",
+    "H90",
+]
 
 RANKING_CLUBS = {
-    'Altaïr C.O.': 'Altaïr C.O.',
-    'Altaïr Orientation': 'Altaïr C.O.',
-    'Antwerp Orienteers': 'Antwerp Orienteers',
-    'ASUB': 'ASUB',
-    'Balise 10': 'Balise 10',
-    'Borasca': 'Borasca',
-    'C.O. Liège': 'C.O. Liège',
-    'CO Liège': 'C.O. Liège',
-    'C.O. Pégase': 'C.O. Pégase',
-    'C.O.M.B': 'C.O.M.B',
-    'C.O. Militaire Belge': 'C.O.M.B.',
-    'hamok': 'hamok',
-    'Hainaut O.C.': 'Hainaut O.C.',
-    'Hermathenae': 'Hermathenae',
-    'K.O.L.': 'K.O.L.',
-    'LOST': 'LOST',
-    'N.S.V. Amel': 'N.S.V. Amel',
-    'O.L.G. St. Vith "ARDOC"': 'O.L.G. St. Vith ARDOC',
-    'O.L.G. St. Vith ARDOC': 'O.L.G. St. Vith ARDOC',
-    'O.L.V. Eifel': 'O.L.V. Eifel',
-    'O.L.V.E.': 'O.L.V. Eifel',
-    'OLV Eifel': 'O.L.V. Eifel',
-    'Omega': 'Omega',
-    'Pégase': 'C.O. Pégase',
-    'Pégase CO': 'C.O. Pégase',
-    'SUD O LUX': 'SUD O LUX',
-    'ThOR': 'ThOR',
-    'TROL': 'TROL',
+    "Altaïr C.O.": "Altaïr C.O.",
+    "Altaïr Orientation": "Altaïr C.O.",
+    "Antwerp Orienteers": "Antwerp Orienteers",
+    "ASUB": "ASUB",
+    "Balise 10": "Balise 10",
+    "Borasca": "Borasca",
+    "C.O. Liège": "C.O. Liège",
+    "CO Liège": "C.O. Liège",
+    "C.O. Pégase": "C.O. Pégase",
+    "C.O.M.B": "C.O.M.B",
+    "C.O. Militaire Belge": "C.O.M.B.",
+    "hamok": "hamok",
+    "Hainaut O.C.": "Hainaut O.C.",
+    "Hermathenae": "Hermathenae",
+    "K.O.L.": "K.O.L.",
+    "LOST": "LOST",
+    "N.S.V. Amel": "N.S.V. Amel",
+    'O.L.G. St. Vith "ARDOC"': "O.L.G. St. Vith ARDOC",
+    "O.L.G. St. Vith ARDOC": "O.L.G. St. Vith ARDOC",
+    "O.L.V. Eifel": "O.L.V. Eifel",
+    "O.L.V.E.": "O.L.V. Eifel",
+    "OLV Eifel": "O.L.V. Eifel",
+    "Omega": "Omega",
+    "Pégase": "C.O. Pégase",
+    "Pégase CO": "C.O. Pégase",
+    "SUD O LUX": "SUD O LUX",
+    "ThOR": "ThOR",
+    "TROL": "TROL",
 }
 
 
@@ -69,7 +164,7 @@ class Result:
     score: int = 0
 
     def is_ok(self) -> bool:
-        return self.status == 'OK' and self.position != 0 and self.time != None
+        return self.status == "OK" and self.position != 0 and self.time is not None
 
 
 @dataclass
@@ -107,31 +202,35 @@ class Event:
 
 
 def result_from_data(data) -> Result:
-    position = int(data['position'])
-    name = data['name']
-    club = data['club']
-    time = datetime.time.fromisoformat(data['time']) if data['time'] is not None else None
-    status = data['status']
+    position = int(data["position"])
+    name = data["name"]
+    club = data["club"]
+    time = (
+        datetime.time.fromisoformat(data["time"]) if data["time"] is not None else None
+    )
+    status = data["status"]
     return Result(position, name, club, time, status)
 
 
 def category_from_data(data) -> Category:
-    results = [result_from_data(result) for result in data['results']]
-    return Category(data['name'], results)
+    results = [result_from_data(result) for result in data["results"]]
+    return Category(data["name"], results)
 
 
 def event_from_data(data, config) -> Event:
-    categories = [category_from_data(v) for v in data['categories'].values()]
-    reclassify = config['reclassify'] if 'reclassify' in config else {}
-    event = Event(config['date'], config['name'], config['location'], categories, reclassify)
-    if 'is_last' in config and config['is_last'] is True:
+    categories = [category_from_data(v) for v in data["categories"].values()]
+    reclassify = config["reclassify"] if "reclassify" in config else {}
+    event = Event(
+        config["date"], config["name"], config["location"], categories, reclassify
+    )
+    if "is_last" in config and config["is_last"] is True:
         event.is_last = True
     return event
 
 
 def read_event(event):
-    date = event['date'].replace('-', '')
-    with open(f'data/{date}.json') as f:
+    date = event["date"].replace("-", "")
+    with open(f"data/{date}.json") as f:
         return json.load(f)
 
 
@@ -140,7 +239,7 @@ def assign_scores(category: Category, scoring: list[int]):
     previous_score = None
     ok_results = [result for result in category.results if result.is_ok()]
     for i, result in enumerate(sorted(ok_results, key=lambda r: r.time)):
-        if result.status != 'OK':
+        if result.status != "OK":
             continue
         if i > len(scoring) - 1:
             result.score = scoring[-1]
@@ -166,13 +265,17 @@ def map_clubs(club_mapping: dict[str, str], events: list[Event]) -> list[str]:
     return sorted(unknown_clubs)
 
 
-def find_preferred_category(result: Result, events: list[Event]) -> str:
+def find_preferred_category(result: Result, events: list[Event], to: list[str]) -> str | None:
     categories: Counter[str] = collections.Counter()
     for event in events:
         for category in event.categories:
             for r in category.results:
                 if result.name == r.name and result.club == r.club:
-                    categories.update([category.name])
+                    if category.name in to:
+                        categories.update([category.name])
+
+    if len(categories) == 0:
+        return None
 
     return categories.most_common(1)[0][0]
 
@@ -183,13 +286,21 @@ def reclassify_runners(events: list[Event]):
             continue
 
         for original, to in event.reclassify.items():
-            new_categories = {new_name: Category(new_name, []) for new_name in to if new_name != original}
+            new_categories = {
+                new_name: Category(new_name, [])
+                for new_name in to
+                if new_name != original
+            }
 
             original_category = event.find_category(original)
             results = [result for result in original_category.results]
             for result in results:
-                preferred_category = find_preferred_category(result, events)
-                if preferred_category == original or preferred_category not in to:
+                preferred_category = find_preferred_category(
+                    result,
+                    [other_event for other_event in events if other_event != event],
+                    to,
+                )
+                if preferred_category is None or preferred_category == original or preferred_category not in to:
                     continue
                 new_categories[preferred_category].add_result(result)
                 original_category.remove_result(result)
@@ -197,7 +308,9 @@ def reclassify_runners(events: list[Event]):
             event.categories += new_categories.values()
 
 
-def find_runners_in_category(category_name: str, events: list[Event], clubs: dict[str, str]) -> list[Runner]:
+def find_runners_in_category(
+    category_name: str, events: list[Event], clubs: dict[str, str]
+) -> list[Runner]:
     runners: dict[str, Runner] = {}
     for event in events:
         category = event.find_category(category_name)
@@ -210,7 +323,9 @@ def find_runners_in_category(category_name: str, events: list[Event], clubs: dic
     return [runner for runner in runners.values()]
 
 
-def calculate_ranking(category_name: str, max_scores: int, runners: list[Runner], events: list[Event]):
+def calculate_ranking(
+    category_name: str, max_scores: int, runners: list[Runner], events: list[Event]
+):
     for runner in runners:
         for event in events:
             category = event.find_category(category_name)
@@ -230,36 +345,38 @@ def calculate_ranking(category_name: str, max_scores: int, runners: list[Runner]
 
 
 def generate_xml(output_dir: Path, year: int, events: list[Event]):
-    ranking = ET.Element('ranking')
+    ranking = ET.Element("ranking")
     for event in events:
-        e = ET.SubElement(ranking, 'event')
-        ET.SubElement(e, 'name').text = event.name
-        ET.SubElement(e, 'date').text = f': {event.date}'
-        ET.SubElement(e, 'location').text = event.location
-    ET.ElementTree(ranking).write(output_dir / f'N{year}.xml')
+        e = ET.SubElement(ranking, "event")
+        ET.SubElement(e, "name").text = event.name
+        ET.SubElement(e, "date").text = f": {event.date}"
+        ET.SubElement(e, "location").text = event.location
+    ET.ElementTree(ranking).write(output_dir / f"N{year}.xml")
 
 
 def print_events(events: list[Event]):
     for event in events:
         for category in event.categories:
-            print(f'### {category.name} ###')
+            print(f"### {category.name} ###")
             for result in category.results:
-                print(f'{result.time} {result.score} {result.name}')
-            print('')
+                print(f"{result.time} {result.score} {result.name}")
+            print("")
 
 
 def run():
-    parser = argparse.ArgumentParser(description='Generate Ranking')
-    parser.add_argument('--config', required=True, dest='config', type=argparse.FileType())
+    parser = argparse.ArgumentParser(description="Generate Ranking")
+    parser.add_argument(
+        "--config", required=True, dest="config", type=argparse.FileType()
+    )
 
     args = parser.parse_args()
     config = json.load(args.config)
 
-    year = config['year']
-    event_count = config['event_count']
-    is_final = True if 'is_final' in config and config['is_final'] is True else False
+    year = config["year"]
+    event_count = config["event_count"]
+    is_final = True if "is_final" in config and config["is_final"] is True else False
 
-    events = [event_from_data(read_event(event), event) for event in config['events']]
+    events = [event_from_data(read_event(event), event) for event in config["events"]]
 
     for event in events:
         for category in event.categories:
@@ -270,52 +387,56 @@ def run():
 
     unknown_clubs = map_clubs(RANKING_CLUBS, events)
     if len(unknown_clubs) > 0:
-        print('These unknown clubs appear in the results:')
+        print("These unknown clubs appear in the results:")
         for club in unknown_clubs:
-            print(f'  {club}')
+            print(f"  {club}")
 
     reclassify_runners(events)
 
     jinja_env = jinja2.Environment(
-        loader=jinja2.PackageLoader('natcrit', 'templates'),
-        autoescape=jinja2.select_autoescape(['html', 'xml'])
+        loader=jinja2.PackageLoader("natcrit", "templates"),
+        autoescape=jinja2.select_autoescape(["html", "xml"]),
     )
-    ranking_template = jinja_env.get_template('ranking.j2.html')
+    ranking_template = jinja_env.get_template("ranking.j2.html")
 
-    output_dir = Path('output')
-    year_dir = output_dir / f'N{year}'
+    output_dir = Path("output")
+    year_dir = output_dir / f"N{year}"
     year_dir.mkdir(exist_ok=True)
 
     generate_xml(output_dir, year, events)
 
-    with (output_dir / f'N{year}.htm').open(mode='w') as out:
-        out.write(jinja_env.get_template('year.j2.html').render(
-            year=year,
-            categories=RANKING_CATEGORIES,
-            today=datetime.date.today(),
-            is_final=is_final,
-            event_count=min(event_count, len(events)),
-            events=events,
-        ))
+    with (output_dir / f"N{year}.htm").open(mode="w") as out:
+        out.write(
+            jinja_env.get_template("year.j2.html").render(
+                year=year,
+                categories=RANKING_CATEGORIES,
+                today=datetime.date.today(),
+                is_final=is_final,
+                event_count=min(event_count, len(events)),
+                events=events,
+            )
+        )
 
-    with (year_dir / 'summary.csv').open('w', newline='') as summary:
+    with (year_dir / "summary.csv").open("w", newline="") as summary:
         summary_csv = csv.writer(summary)
         for category_name in RANKING_CATEGORIES:
             runners = find_runners_in_category(category_name, events, RANKING_CLUBS)
             calculate_ranking(category_name, event_count, runners, events)
 
-            with (year_dir / f'{category_name}.html').open(mode='w') as out:
-                out.write(ranking_template.render(
-                    year=year,
-                    categories=RANKING_CATEGORIES,
-                    event_count=event_count,
-                    category_name=category_name,
-                    runners=sorted(runners, key=lambda r: r.total, reverse=True)
-                ))
+            with (year_dir / f"{category_name}.html").open(mode="w") as out:
+                out.write(
+                    ranking_template.render(
+                        year=year,
+                        categories=RANKING_CATEGORIES,
+                        event_count=event_count,
+                        category_name=category_name,
+                        runners=sorted(runners, key=lambda r: r.total, reverse=True),
+                    )
+                )
 
             for runner in runners:
                 summary_csv.writerow([runner.name, category_name, runner.total])
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     run()
