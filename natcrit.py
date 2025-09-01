@@ -140,6 +140,7 @@ RANKING_CLUBS = {
     "Pégase": "C.O. Pégase",
     "Pégase CO": "C.O. Pégase",
     "SUD O LUX": "SUD O LUX",
+    "Sudolux": "SUD O LUX",
     "ThOR": "ThOR",
     "TROL": "TROL",
 }

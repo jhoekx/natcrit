@@ -1,0 +1,36 @@
+{
+    "year": 2025,
+    "event_count": 8,
+    "is_final": true,
+    "events": [
+        {
+            "date": "2025-02-23",
+            "name": "Nationale MD",
+            "location": "Zutendaal"
+        },
+        {
+            "date": "2025-03-16",
+            "name": "Nationale 1",
+            "location": "Achel"
+        },
+        {
+            "date": "2025-03-23",
+            "name": "Nationale 2",
+            "location": "Virton"
+        },
+        {
+            "date": "2025-05-11",
+            "name": "BK Sprint",
+            "location": "Aalst",
+            "reclassify": {
+                "D21": ["DE", "D21", "DB"],
+                "H21": ["HE", "H21", "HB"]
+            }
+        },
+        {
+            "date": "2025-06-29",
+            "name": "Nationale 3",
+            "location": "Nassogne"
+        }
+    ]
+}
