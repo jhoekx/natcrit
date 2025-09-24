@@ -31,6 +31,16 @@
             "date": "2025-06-29",
             "name": "Nationale 3",
             "location": "Nassogne"
+        },
+        {
+            "date": "2025-09-07",
+            "name": "BK Middle",
+            "location": "Chantemelle"
+        },
+        {
+            "date": "2025-09-21",
+            "name": "Nationale 4",
+            "location": "Lanaken"
         }
     ]
 }
