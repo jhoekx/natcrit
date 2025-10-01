@@ -1,7 +1,7 @@
 {
     "year": 2025,
-    "event_count": 8,
-    "is_final": true,
+    "event_count": 9,
+    "is_final": false,
     "events": [
         {
             "date": "2025-02-23",
@@ -41,6 +41,11 @@
             "date": "2025-09-21",
             "name": "Nationale 4",
             "location": "Lanaken"
+        },
+        {
+            "date": "2025-09-28",
+            "name": "BK Interclub",
+            "location": "Arlon"
         }
     ]
 }
