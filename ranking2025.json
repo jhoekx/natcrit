@@ -1,7 +1,7 @@
 {
     "year": 2025,
-    "event_count": 9,
-    "is_final": false,
+    "event_count": 7,
+    "is_final": true,
     "events": [
         {
             "date": "2025-02-23",
@@ -46,6 +46,12 @@
             "date": "2025-09-28",
             "name": "BK Interclub",
             "location": "Arlon"
+        },
+        {
+            "date": "2025-10-19",
+            "name": "BK Long",
+            "location": "Houthalen",
+            "is_last": true
         }
     ]
 }
