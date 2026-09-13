@@ -52,6 +52,8 @@ Runner.prototype.checkCounts = function () {
 		requiredEntries = 5;
 	} else if (year < 2018) {
 		requiredEntries = 6;
+	} else if (year === 2020 || year === 2025 || year === 2026) {
+		requiredEntries = 7;
 	}
 	
 	if (this.rankingEntries.length > requiredEntries && this.zeroValues <= 2) {
