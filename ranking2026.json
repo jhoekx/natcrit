@@ -1,0 +1,57 @@
+{
+    "year": 2026,
+    "event_count": 7,
+    "is_final": true,
+    "events": [
+        {
+            "date": "2026-03-08",
+            "name": "Nationale 1",
+            "location": "Tessenderlo"
+        },
+        {
+            "date": "2026-03-22",
+            "name": "Nationale 2",
+            "location": "Genk"
+        },
+        {
+            "date": "2026-03-28",
+            "name": "Nationale MD",
+            "location": "Ethe"
+        },
+        {
+            "date": "2026-03-29",
+            "name": "Nationale 3",
+            "location": "Châtillon"
+        },
+        {
+            "date": "2026-05-17",
+            "name": "Nationale Sprint",
+            "location": "Lier"
+        },
+        {
+            "date": "2026-05-24",
+            "name": "BK Sprint",
+            "location": "Malmedy",
+            "reclassify": {
+                "D21": ["DE", "D21", "DB"],
+                "H21": ["HE", "H21", "HB"]
+            }
+        },
+        {
+            "date": "2026-07-05",
+            "name": "Nationale 4",
+            "location": "Membach"
+        },
+        {
+            "date": "2026-08-30",
+            "name": "BK Long",
+            "location": "Wéris"
+        },
+        {
+            "date": "2026-09-05",
+            "name": "BK Middle",
+            "location": "Champlon",
+            "is_last": true
+        }
+    ]
+}

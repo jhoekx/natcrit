@@ -1,0 +1,3942 @@
+{
+    "date": "2026-03-29T10:00:00+02:00",
+    "name": "Nationale Longue Distance",
+    "location": "Ch\u00e2tillon",
+    "isLive": 0,
+    "categories": {
+        "LD": {
+            "name": "LD",
+            "distance": 9500,
+            "climb": 150,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Dominique STAS",
+                    "club": "LOST",
+                    "time": "01:59:03.000",
+                    "controlcard": 7211855,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "49-069"
+                }
+            ]
+        },
+        "SD": {
+            "name": "SD",
+            "distance": 4200,
+            "climb": 105,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Fran\u00e7ois HANZEN",
+                    "club": "CO Li\u00e8ge",
+                    "time": "00:29:54.000",
+                    "controlcard": 8001086,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "20-595"
+                },
+                {
+                    "position": 2,
+                    "name": "Thomas VAN DER KLEIJ",
+                    "club": "hamok",
+                    "time": "00:33:28.000",
+                    "controlcard": 8085830,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "32-389"
+                },
+                {
+                    "position": 3,
+                    "name": "Tim HILLEN",
+                    "club": "Omega",
+                    "time": "00:43:28.000",
+                    "controlcard": 8514917,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-376"
+                },
+                {
+                    "position": 4,
+                    "name": "Karl VERVOORT",
+                    "club": "TROL",
+                    "time": "00:46:34.000",
+                    "controlcard": 8124124,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-030"
+                },
+                {
+                    "position": 5,
+                    "name": "Fred TOSSERAMS",
+                    "club": "TROL",
+                    "time": "00:54:07.000",
+                    "controlcard": 8611039,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-100"
+                },
+                {
+                    "position": 6,
+                    "name": "An KESSELAERS",
+                    "club": "Omega",
+                    "time": "00:54:18.000",
+                    "controlcard": 2026135,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-374"
+                },
+                {
+                    "position": 7,
+                    "name": "Hugo SILLIEN",
+                    "club": "P\u00e9gase CO",
+                    "time": "00:55:40.000",
+                    "controlcard": 500786,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "14-473"
+                },
+                {
+                    "position": 8,
+                    "name": "Jorran VAN DER HEIJDEN",
+                    "club": "TROL",
+                    "time": "00:55:52.000",
+                    "controlcard": 7777900,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-675"
+                },
+                {
+                    "position": 9,
+                    "name": "Maximilian LOO",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "01:06:25.000",
+                    "controlcard": 8526147,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "23-371"
+                },
+                {
+                    "position": 10,
+                    "name": "Fin MYLLE",
+                    "club": "hamok",
+                    "time": "01:06:50.000",
+                    "controlcard": 8013000,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "32-926"
+                },
+                {
+                    "position": 11,
+                    "name": "Frank AERDEN",
+                    "club": "K.O.L.",
+                    "time": "01:07:34.000",
+                    "controlcard": 2068652,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "31-616"
+                },
+                {
+                    "position": 12,
+                    "name": "Marijs VANDEWEYER",
+                    "club": "hamok",
+                    "time": "01:08:49.000",
+                    "controlcard": 8004205,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "32-603"
+                },
+                {
+                    "position": 13,
+                    "name": "Lyam BOSMANS",
+                    "club": "TROL",
+                    "time": "01:12:32.000",
+                    "controlcard": 8660035,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-122"
+                },
+                {
+                    "position": 14,
+                    "name": "Aur\u00e9lien UYTTERSPROT",
+                    "club": "SUD O LUX",
+                    "time": "01:26:30.000",
+                    "controlcard": 1323905,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "39-086"
+                },
+                {
+                    "position": 15,
+                    "name": "Julius GARRAY",
+                    "club": "P\u00e9gase CO",
+                    "time": "01:34:18.000",
+                    "controlcard": 7002242,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "14-492"
+                },
+                {
+                    "position": 16,
+                    "name": "Val\u00e9rie WAMBERSY",
+                    "club": "Hermathenae",
+                    "time": "02:22:26.000",
+                    "controlcard": 1902908,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-822"
+                },
+                {
+                    "position": 0,
+                    "name": "Melissa LEMOINE",
+                    "club": "Indiv.",
+                    "time": null,
+                    "controlcard": 1902910,
+                    "status": "NCL",
+                    "ageclass": null
+                }
+            ]
+        },
+        "LE": {
+            "name": "LE",
+            "distance": 5900,
+            "climb": 150,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "John WILHELMS",
+                    "club": "ASUB",
+                    "time": "00:44:50.000",
+                    "controlcard": 7901104,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-579"
+                },
+                {
+                    "position": 2,
+                    "name": "Mathieu LEMERCIER",
+                    "club": "Tout Azimut Fameck",
+                    "time": "00:57:02.000",
+                    "controlcard": 8057957,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 3,
+                    "name": "Jean-Jacques ONATE",
+                    "club": "Scapa Nancy",
+                    "time": "01:02:54.000",
+                    "controlcard": 1603774,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 4,
+                    "name": "Bernard VENDRIX",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "01:19:21.000",
+                    "controlcard": 8001579,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "23-407"
+                },
+                {
+                    "position": 5,
+                    "name": "Cl\u00e9ment MARTIN",
+                    "club": "Indiv.",
+                    "time": "01:19:25.000",
+                    "controlcard": 1902907,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 6,
+                    "name": "Ulf CLAESSON",
+                    "club": "ulricehamns OK",
+                    "time": "01:22:26.000",
+                    "controlcard": 8533701,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 7,
+                    "name": "Jan VANHOUT",
+                    "club": "K.O.L.",
+                    "time": "01:22:39.000",
+                    "controlcard": 1113038,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "31-986"
+                },
+                {
+                    "position": 8,
+                    "name": "No\u00e9 MARTIN",
+                    "club": "Indiv.",
+                    "time": "01:25:56.000",
+                    "controlcard": 1902932,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 9,
+                    "name": "Dmitriy KURASHKIN",
+                    "club": "Indiv.",
+                    "time": "01:35:32.000",
+                    "controlcard": 1902906,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 10,
+                    "name": "Paul KESSELAERS",
+                    "club": "Omega",
+                    "time": "01:40:16.000",
+                    "controlcard": 8006143,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-570"
+                },
+                {
+                    "position": 11,
+                    "name": "Maarten BOSCH",
+                    "club": "ASUB",
+                    "time": "01:45:33.000",
+                    "controlcard": 7000824,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-1091"
+                },
+                {
+                    "position": 12,
+                    "name": "Anne TAYMANS",
+                    "club": "LOST",
+                    "time": "02:02:29.000",
+                    "controlcard": 1010188,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "49-006"
+                },
+                {
+                    "position": 13,
+                    "name": "Denis THOMAS",
+                    "club": "ASUB",
+                    "time": "02:05:53.000",
+                    "controlcard": 1902916,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-1123"
+                },
+                {
+                    "position": 14,
+                    "name": "Claire CHRETIEN",
+                    "club": "ASUB",
+                    "time": "02:05:55.000",
+                    "controlcard": 1902927,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-1093"
+                },
+                {
+                    "position": 0,
+                    "name": "Alain DARDENNE",
+                    "club": "Indiv.",
+                    "time": null,
+                    "controlcard": 1902929,
+                    "status": "NCL",
+                    "ageclass": null
+                },
+                {
+                    "position": 0,
+                    "name": "Maud STORME",
+                    "club": "P\u00e9gase CO",
+                    "time": null,
+                    "controlcard": 1160503,
+                    "status": "NCL",
+                    "ageclass": null,
+                    "ABSO": "14-476"
+                }
+            ]
+        },
+        "SE": {
+            "name": "SE",
+            "distance": 4200,
+            "climb": 95,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Anne-Marie DELANGHE",
+                    "club": "K.O.L.",
+                    "time": "01:20:06.000",
+                    "controlcard": 1411001,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "31-604"
+                },
+                {
+                    "position": 2,
+                    "name": "No\u00eblle CHOPRIX",
+                    "club": "Alta\u00efr Orientation",
+                    "time": "01:43:39.000",
+                    "controlcard": 8001083,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "04-437"
+                },
+                {
+                    "position": 3,
+                    "name": "Cl\u00e9mence HENRION",
+                    "club": "Indiv.",
+                    "time": "01:54:40.000",
+                    "controlcard": 1902917,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 4,
+                    "name": "Corinne FLOCK",
+                    "club": "Indiv.",
+                    "time": "01:54:44.000",
+                    "controlcard": 1902923,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 5,
+                    "name": "Paul BOLSENS",
+                    "club": "TROL",
+                    "time": "01:56:06.000",
+                    "controlcard": 8518903,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-074"
+                },
+                {
+                    "position": 6,
+                    "name": "Lotte VAN BOVEN",
+                    "club": "TROL",
+                    "time": "01:57:27.000",
+                    "controlcard": 7040527,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-671"
+                },
+                {
+                    "position": 0,
+                    "name": "Viviane LATRAN",
+                    "club": "Indiv.",
+                    "time": null,
+                    "controlcard": 1902905,
+                    "status": "NCL",
+                    "ageclass": null
+                },
+                {
+                    "position": 0,
+                    "name": "Nicole LEROY",
+                    "club": "Indiv.",
+                    "time": null,
+                    "controlcard": 1902915,
+                    "status": "NCL",
+                    "ageclass": null
+                },
+                {
+                    "position": 0,
+                    "name": "Laurie LEMOINE",
+                    "club": "Indiv.",
+                    "time": null,
+                    "controlcard": 1902925,
+                    "status": "NCL",
+                    "ageclass": null
+                },
+                {
+                    "position": 0,
+                    "name": "Chris VAN PAEMELEN",
+                    "club": "TROL",
+                    "time": null,
+                    "controlcard": 8532716,
+                    "status": "NCL",
+                    "ageclass": null,
+                    "ABSO": "30-137"
+                },
+                {
+                    "position": 0,
+                    "name": "Maryline DEMEUSE",
+                    "club": "CO Li\u00e8ge",
+                    "time": null,
+                    "controlcard": 1994000,
+                    "status": "NCL",
+                    "ageclass": null,
+                    "ABSO": "20-473"
+                }
+            ]
+        },
+        "H90": {
+            "name": "H90",
+            "distance": 2700,
+            "climb": 50,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Frans VAN DE MOORTEL",
+                    "club": "Omega",
+                    "time": "00:51:32.000",
+                    "controlcard": 8006156,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-039"
+                }
+            ]
+        },
+        "H85": {
+            "name": "H85",
+            "distance": 2700,
+            "climb": 50,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Alfons BOSCH",
+                    "club": "TROL",
+                    "time": "00:58:04.000",
+                    "controlcard": 8245246,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-063"
+                }
+            ]
+        },
+        "H80": {
+            "name": "H80",
+            "distance": 3600,
+            "climb": 90,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Guy TAILLANDIER",
+                    "club": "0801GE OSCM (France)",
+                    "time": "00:46:05.000",
+                    "controlcard": 8527785,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 2,
+                    "name": "Mike IN 'T GROEN",
+                    "club": "TROL",
+                    "time": "00:53:16.000",
+                    "controlcard": 8654993,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-457"
+                },
+                {
+                    "position": 3,
+                    "name": "Dirk ZWIKKER",
+                    "club": "TROL",
+                    "time": "01:02:20.000",
+                    "controlcard": 8338811,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-539"
+                },
+                {
+                    "position": 4,
+                    "name": "Mark VAN BRUGGEN",
+                    "club": "TROL",
+                    "time": "01:14:34.000",
+                    "controlcard": 7300569,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-001"
+                },
+                {
+                    "position": 5,
+                    "name": "Georges RENNOTTE",
+                    "club": "Hermathenae",
+                    "time": "01:19:27.000",
+                    "controlcard": 8509010,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-604"
+                }
+            ]
+        },
+        "H75": {
+            "name": "H75",
+            "distance": 4200,
+            "climb": 105,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Freddy SILLIEN",
+                    "club": "P\u00e9gase CO",
+                    "time": "00:45:57.000",
+                    "controlcard": 8290147,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "14-169"
+                },
+                {
+                    "position": 2,
+                    "name": "Jean BREDO",
+                    "club": "OLV Eifel",
+                    "time": "00:48:50.000",
+                    "controlcard": 8131051,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "17-282"
+                },
+                {
+                    "position": 3,
+                    "name": "Frans WENS",
+                    "club": "TROL",
+                    "time": "00:54:31.000",
+                    "controlcard": 8513862,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-290"
+                },
+                {
+                    "position": 4,
+                    "name": "Dominique SCHUTJES",
+                    "club": "hamok",
+                    "time": "00:58:17.000",
+                    "controlcard": 8526145,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "32-074"
+                },
+                {
+                    "position": 5,
+                    "name": "Pierre PARMENTIER",
+                    "club": "ASUB",
+                    "time": "01:06:56.000",
+                    "controlcard": 1301922,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-656"
+                },
+                {
+                    "position": 6,
+                    "name": "Anton BUYTAERT",
+                    "club": "Omega",
+                    "time": "01:12:05.000",
+                    "controlcard": 8002098,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-471"
+                },
+                {
+                    "position": 7,
+                    "name": "Juliaan LINTEN",
+                    "club": "K.O.L.",
+                    "time": "01:16:33.000",
+                    "controlcard": 406304,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "31-026"
+                },
+                {
+                    "position": 8,
+                    "name": "Robert SCUVEE",
+                    "club": "CO Li\u00e8ge",
+                    "time": "01:18:03.000",
+                    "controlcard": 49107,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "20-059"
+                },
+                {
+                    "position": 9,
+                    "name": "Jose Miguel PELEATO",
+                    "club": "Luxembourg Orienteering",
+                    "time": "01:36:15.000",
+                    "controlcard": 8533514,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "LuxOC-1160"
+                }
+            ]
+        },
+        "H70": {
+            "name": "H70",
+            "distance": 5300,
+            "climb": 140,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Daniel WILLEMSENS",
+                    "club": "Hermathenae",
+                    "time": "01:00:17.000",
+                    "controlcard": 7212088,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-614"
+                },
+                {
+                    "position": 2,
+                    "name": "Roger BOCKX",
+                    "club": "K.O.L.",
+                    "time": "01:03:01.000",
+                    "controlcard": 1030341,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "31-340"
+                },
+                {
+                    "position": 3,
+                    "name": "Jean-Pierre KELLENS",
+                    "club": "K.O.L.",
+                    "time": "01:08:21.000",
+                    "controlcard": 8222280,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "31-143"
+                },
+                {
+                    "position": 4,
+                    "name": "Luc HEUNINCKX",
+                    "club": "K.O.L.",
+                    "time": "01:11:27.000",
+                    "controlcard": 8524437,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "31-043"
+                },
+                {
+                    "position": 5,
+                    "name": "Bruno VANDERMEULEN",
+                    "club": "CO Li\u00e8ge",
+                    "time": "01:12:22.000",
+                    "controlcard": 8040953,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "20-105"
+                },
+                {
+                    "position": 6,
+                    "name": "Etienne VANDEGHINSTE",
+                    "club": "Alta\u00efr Orientation",
+                    "time": "01:12:30.000",
+                    "controlcard": 8001085,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "04-435"
+                },
+                {
+                    "position": 7,
+                    "name": "Patrick BLEYENS",
+                    "club": "TROL",
+                    "time": "01:22:39.000",
+                    "controlcard": 1414130,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-768"
+                },
+                {
+                    "position": 0,
+                    "name": "Heinrich G\u00d6TTE",
+                    "club": "OLF Mainz (Germany)",
+                    "time": null,
+                    "controlcard": 2068667,
+                    "status": "NCL",
+                    "ageclass": null
+                }
+            ]
+        },
+        "H65": {
+            "name": "H65",
+            "distance": 5700,
+            "climb": 130,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Bart VAN DE MOORTEL",
+                    "club": "Omega",
+                    "time": "00:49:41.000",
+                    "controlcard": 8001502,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-038"
+                },
+                {
+                    "position": 2,
+                    "name": "Wiet LAENEN",
+                    "club": "TROL",
+                    "time": "00:50:25.000",
+                    "controlcard": 8333220,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-295"
+                },
+                {
+                    "position": 3,
+                    "name": "Patrick MOSSOUX",
+                    "club": "P\u00e9gase CO",
+                    "time": "00:51:48.000",
+                    "controlcard": 8536436,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "14-192"
+                },
+                {
+                    "position": 4,
+                    "name": "Luc WERKX",
+                    "club": "Balise 10",
+                    "time": "01:02:33.000",
+                    "controlcard": 1421279,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "33-483"
+                },
+                {
+                    "position": 5,
+                    "name": "Andr\u00e9 PIERLOT",
+                    "club": "SUD O LUX",
+                    "time": "01:02:42.000",
+                    "controlcard": 8010955,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "39-163"
+                },
+                {
+                    "position": 6,
+                    "name": "Patrick WALLAERT",
+                    "club": "Omega",
+                    "time": "01:10:21.000",
+                    "controlcard": 8660040,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-731"
+                },
+                {
+                    "position": 7,
+                    "name": "Werner HOFFMANN",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "01:10:47.000",
+                    "controlcard": 8196106,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "23-240"
+                },
+                {
+                    "position": 8,
+                    "name": "Christian IMBRECHTS",
+                    "club": "ASUB",
+                    "time": "01:18:15.000",
+                    "controlcard": 7030115,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-819"
+                },
+                {
+                    "position": 9,
+                    "name": "Jean-Pol HOULMONT",
+                    "club": "SUD O LUX",
+                    "time": "01:19:56.000",
+                    "controlcard": 8080959,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "39-161"
+                },
+                {
+                    "position": 10,
+                    "name": "Etienne DE WIT",
+                    "club": "K.O.L.",
+                    "time": "01:23:13.000",
+                    "controlcard": 1411005,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "31-081"
+                },
+                {
+                    "position": 11,
+                    "name": "Marc VANDEMEULEBROEK",
+                    "club": "ASUB",
+                    "time": "01:24:49.000",
+                    "controlcard": 1670417,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-936"
+                },
+                {
+                    "position": 12,
+                    "name": "Thierry BIGONVILLE",
+                    "club": "SUD O LUX",
+                    "time": "01:37:41.000",
+                    "controlcard": 8538249,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "39-059"
+                },
+                {
+                    "position": 13,
+                    "name": "Jacques FLORIN",
+                    "club": "SUD O LUX",
+                    "time": "01:37:45.000",
+                    "controlcard": 8100561,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "39-160"
+                },
+                {
+                    "position": 14,
+                    "name": "Pascal MOREAU",
+                    "club": "ASUB",
+                    "time": "02:01:10.000",
+                    "controlcard": 7500933,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-408"
+                },
+                {
+                    "position": 15,
+                    "name": "Peter VANDE LOOCK",
+                    "club": "K.O.L.",
+                    "time": "12:25:58.000",
+                    "controlcard": 8007648,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "31-651"
+                }
+            ]
+        },
+        "H60": {
+            "name": "H60",
+            "distance": 5900,
+            "climb": 150,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Iwan VIS",
+                    "club": "SUD O LUX",
+                    "time": "00:44:40.000",
+                    "controlcard": 8190366,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "39-005"
+                },
+                {
+                    "position": 2,
+                    "name": "Robert THEISS",
+                    "club": "OLV Eifel",
+                    "time": "00:48:03.000",
+                    "controlcard": 8003672,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "17-404"
+                },
+                {
+                    "position": 3,
+                    "name": "Marc MEEUWSSEN",
+                    "club": "TROL",
+                    "time": "00:54:32.000",
+                    "controlcard": 8101015,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-411"
+                },
+                {
+                    "position": 4,
+                    "name": "Serge BAERT",
+                    "club": "OLV Eifel",
+                    "time": "00:56:31.000",
+                    "controlcard": 8391968,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "17-402"
+                },
+                {
+                    "position": 5,
+                    "name": "Marc DEPAUE",
+                    "club": "SUD O LUX",
+                    "time": "00:57:43.000",
+                    "controlcard": 8523178,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "39-014"
+                },
+                {
+                    "position": 6,
+                    "name": "Erik VAN DYCK",
+                    "club": "TROL",
+                    "time": "00:57:44.000",
+                    "controlcard": 8321201,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-247"
+                },
+                {
+                    "position": 7,
+                    "name": "Hendrik VAN HOEY",
+                    "club": "TROL",
+                    "time": "00:57:50.000",
+                    "controlcard": 8052185,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-230"
+                },
+                {
+                    "position": 8,
+                    "name": "Rudi AERTS",
+                    "club": "Omega",
+                    "time": "01:01:45.000",
+                    "controlcard": 8006151,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-155"
+                },
+                {
+                    "position": 9,
+                    "name": "Nikolaj WANNER",
+                    "club": "OLG Siegerland (Germany)",
+                    "time": "01:03:59.000",
+                    "controlcard": 8625747,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 10,
+                    "name": "Philippe TAELEMANS",
+                    "club": "ASUB",
+                    "time": "01:06:49.000",
+                    "controlcard": 8205907,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-890"
+                },
+                {
+                    "position": 11,
+                    "name": "Steven JOCHEMS",
+                    "club": "TROL",
+                    "time": "01:07:14.000",
+                    "controlcard": 8110715,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-1121"
+                },
+                {
+                    "position": 12,
+                    "name": "Karl KEUPPENS",
+                    "club": "Omega",
+                    "time": "01:08:15.000",
+                    "controlcard": 8581561,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-075"
+                },
+                {
+                    "position": 13,
+                    "name": "Freddy HENKES",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "01:10:34.000",
+                    "controlcard": 8196288,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "23-011"
+                },
+                {
+                    "position": 14,
+                    "name": "Koen MERTENS",
+                    "club": "TROL",
+                    "time": "01:11:47.000",
+                    "controlcard": 1450697,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-756"
+                },
+                {
+                    "position": 15,
+                    "name": "Hans DE WIT",
+                    "club": "K.O.L.",
+                    "time": "01:12:18.000",
+                    "controlcard": 8516525,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "31-421"
+                },
+                {
+                    "position": 16,
+                    "name": "R\u00e9ginald FORGET",
+                    "club": "Indiv.",
+                    "time": "01:12:31.000",
+                    "controlcard": 1902919,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 17,
+                    "name": "Pim VAN DER WIJK",
+                    "club": "Antwerp Orienteers",
+                    "time": "01:18:12.000",
+                    "controlcard": 8177199,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "48-038"
+                },
+                {
+                    "position": 18,
+                    "name": "Olivier GUENIN",
+                    "club": "5116GE ASO Sillery (France)",
+                    "time": "01:24:43.000",
+                    "controlcard": 8002356,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "50-035"
+                },
+                {
+                    "position": 19,
+                    "name": "Phil CONWAY",
+                    "club": "Guildford Orienteers (United Kingdom)",
+                    "time": "01:25:57.000",
+                    "controlcard": 8529547,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 20,
+                    "name": "Guy MATERNE",
+                    "club": "CO Li\u00e8ge",
+                    "time": "01:36:18.000",
+                    "controlcard": 8543648,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "20-886"
+                }
+            ]
+        },
+        "H55": {
+            "name": "H55",
+            "distance": 6600,
+            "climb": 140,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Renaud VAN WETTER",
+                    "club": "SUD O LUX",
+                    "time": "00:53:30.000",
+                    "controlcard": 8664144,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "39-164"
+                },
+                {
+                    "position": 2,
+                    "name": "Olivier DE SMUL",
+                    "club": "Omega",
+                    "time": "00:54:01.000",
+                    "controlcard": 8281070,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-488"
+                },
+                {
+                    "position": 3,
+                    "name": "Patrick MENGAL",
+                    "club": "Balise 10",
+                    "time": "00:57:09.000",
+                    "controlcard": 8237902,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "33-568"
+                },
+                {
+                    "position": 4,
+                    "name": "Gunther DEFERME",
+                    "club": "hamok",
+                    "time": "00:57:46.000",
+                    "controlcard": 8509373,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "32-423"
+                },
+                {
+                    "position": 5,
+                    "name": "Olivier CHATTLAIN",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "00:58:56.000",
+                    "controlcard": 8099071,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "23-186"
+                },
+                {
+                    "position": 6,
+                    "name": "Rudy ROOMAN",
+                    "club": "Antwerp Orienteers",
+                    "time": "00:59:46.000",
+                    "controlcard": 8071169,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "48-024"
+                },
+                {
+                    "position": 7,
+                    "name": "Christophe BARBIER",
+                    "club": "Hermathenae",
+                    "time": "01:00:09.000",
+                    "controlcard": 8117130,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-748"
+                },
+                {
+                    "position": 8,
+                    "name": "Pierre-Emmanuel DEMEUSE",
+                    "club": "CO Li\u00e8ge",
+                    "time": "01:00:48.000",
+                    "controlcard": 8664175,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "20-454"
+                },
+                {
+                    "position": 9,
+                    "name": "Michael HENNES",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "01:04:06.000",
+                    "controlcard": 2140838,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "23-194"
+                },
+                {
+                    "position": 10,
+                    "name": "Donald VAN BOVEN",
+                    "club": "TROL",
+                    "time": "01:06:17.000",
+                    "controlcard": 8270471,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-249"
+                },
+                {
+                    "position": 11,
+                    "name": "Wim VERVOORT",
+                    "club": "TROL",
+                    "time": "01:06:36.000",
+                    "controlcard": 8630901,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-059"
+                },
+                {
+                    "position": 12,
+                    "name": "Christophe SCHNEIDER",
+                    "club": "5116GE ASO Sillery (France)",
+                    "time": "01:06:40.000",
+                    "controlcard": 8099167,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 13,
+                    "name": "Yves DE MITS",
+                    "club": "TROL",
+                    "time": "01:14:21.000",
+                    "controlcard": 8518912,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-358"
+                },
+                {
+                    "position": 14,
+                    "name": "Yves GOMREE",
+                    "club": "Hainaut O.C.",
+                    "time": "01:22:59.000",
+                    "controlcard": 8667616,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "15-385"
+                },
+                {
+                    "position": 15,
+                    "name": "Robert REUTER",
+                    "club": "CO Li\u00e8ge",
+                    "time": "01:23:07.000",
+                    "controlcard": 7001082,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "20-696"
+                },
+                {
+                    "position": 16,
+                    "name": "Fabrice RICHARD",
+                    "club": "SUD O LUX",
+                    "time": "01:28:04.000",
+                    "controlcard": 1503723,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "39-135"
+                },
+                {
+                    "position": 16,
+                    "name": "Beno\u00eet DEFRAIGNE",
+                    "club": "ASUB",
+                    "time": "01:28:04.000",
+                    "controlcard": 8172005,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-281"
+                },
+                {
+                    "position": 18,
+                    "name": "Pierre-Michel DURIEUX",
+                    "club": "Alta\u00efr Orientation",
+                    "time": "01:40:21.000",
+                    "controlcard": 8100217,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "04-452"
+                },
+                {
+                    "position": 0,
+                    "name": "Stephan VIS",
+                    "club": "CO Li\u00e8ge",
+                    "time": null,
+                    "controlcard": 8240368,
+                    "status": "NCL",
+                    "ageclass": null,
+                    "ABSO": "20-517"
+                }
+            ]
+        },
+        "H50": {
+            "name": "H50",
+            "distance": 7500,
+            "climb": 160,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Vincent SILLIEN",
+                    "club": "P\u00e9gase CO",
+                    "time": "00:55:50.000",
+                    "controlcard": 8506808,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "14-463"
+                },
+                {
+                    "position": 2,
+                    "name": "Guido LENGES",
+                    "club": "OLV Eifel",
+                    "time": "00:57:02.000",
+                    "controlcard": 8719030,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "17-407"
+                },
+                {
+                    "position": 3,
+                    "name": "Nicolas SILLIEN",
+                    "club": "P\u00e9gase CO",
+                    "time": "00:57:58.000",
+                    "controlcard": 8010105,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "14-171"
+                },
+                {
+                    "position": 4,
+                    "name": "Stefaan SCHUTJES",
+                    "club": "hamok",
+                    "time": "01:00:54.000",
+                    "controlcard": 4944,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "32-072"
+                },
+                {
+                    "position": 5,
+                    "name": "Markus PROLINGHEUER",
+                    "club": "TUS Karlsruhe-R\u00fcppurr (Germany)",
+                    "time": "01:00:55.000",
+                    "controlcard": 8026672,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 6,
+                    "name": "Quentin GILLET",
+                    "club": "CO Li\u00e8ge",
+                    "time": "01:02:31.000",
+                    "controlcard": 8003157,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "20-348"
+                },
+                {
+                    "position": 7,
+                    "name": "Kim JANSEN",
+                    "club": "Omega",
+                    "time": "01:03:34.000",
+                    "controlcard": 8000688,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-525"
+                },
+                {
+                    "position": 8,
+                    "name": "Fran\u00e7ois LAMBERT",
+                    "club": "ThOR",
+                    "time": "01:10:21.000",
+                    "controlcard": 8535665,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "50-016"
+                },
+                {
+                    "position": 9,
+                    "name": "Mathieu VAN VYVE",
+                    "club": "LOST",
+                    "time": "01:10:23.000",
+                    "controlcard": 8021075,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "49-043"
+                },
+                {
+                    "position": 10,
+                    "name": "Yann MAREIGNER",
+                    "club": "5116GE ASO Sillery (France)",
+                    "time": "01:11:19.000",
+                    "controlcard": 8210672,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 11,
+                    "name": "J\u00fcrgen LOO",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "01:13:48.000",
+                    "controlcard": 8526143,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "23-141"
+                },
+                {
+                    "position": 12,
+                    "name": "Chris SCOTT",
+                    "club": "Luxembourg Orienteering",
+                    "time": "01:13:50.000",
+                    "controlcard": 8002548,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "LuxOC-1081"
+                },
+                {
+                    "position": 13,
+                    "name": "Marc CUPERS",
+                    "club": "Hermathenae",
+                    "time": "01:14:53.000",
+                    "controlcard": 8533492,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-830"
+                },
+                {
+                    "position": 14,
+                    "name": "Stephane WILLEMSENS",
+                    "club": "Hermathenae",
+                    "time": "01:16:41.000",
+                    "controlcard": 8240575,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-613"
+                },
+                {
+                    "position": 15,
+                    "name": "G\u00e9rald SOUWEINE",
+                    "club": "ASUB",
+                    "time": "01:16:50.000",
+                    "controlcard": 8004333,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-381"
+                },
+                {
+                    "position": 16,
+                    "name": "Yves ARNO",
+                    "club": "Hainaut O.C.",
+                    "time": "01:20:03.000",
+                    "controlcard": 7208660,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "15-439"
+                },
+                {
+                    "position": 17,
+                    "name": "Didier DOHOGNE",
+                    "club": "CO Li\u00e8ge",
+                    "time": "01:20:42.000",
+                    "controlcard": 7002573,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "20-786"
+                },
+                {
+                    "position": 18,
+                    "name": "R\u00e9gis OLIVIER",
+                    "club": "5116GE ASO Sillery (France)",
+                    "time": "01:21:43.000",
+                    "controlcard": 8207202,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 19,
+                    "name": "Guillaume COLLIN",
+                    "club": "ThOR",
+                    "time": "01:29:14.000",
+                    "controlcard": 8220872,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "50-087"
+                },
+                {
+                    "position": 20,
+                    "name": "Olivier DUYME",
+                    "club": "5116GE ASO Sillery (France)",
+                    "time": "01:30:08.000",
+                    "controlcard": 8310773,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 21,
+                    "name": "Alexandre DAUBENFELD",
+                    "club": "ASUB",
+                    "time": "01:30:21.000",
+                    "controlcard": 7211802,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-483"
+                },
+                {
+                    "position": 22,
+                    "name": "Laurent MATHIAS",
+                    "club": "SUD O LUX",
+                    "time": "01:30:27.000",
+                    "controlcard": 8526141,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "39-094"
+                },
+                {
+                    "position": 23,
+                    "name": "Michael BROUWIER",
+                    "club": "Hermathenae",
+                    "time": "01:31:37.000",
+                    "controlcard": 8031998,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-726"
+                },
+                {
+                    "position": 24,
+                    "name": "Auke SCHILDER",
+                    "club": "Alta\u00efr Orientation",
+                    "time": "01:36:59.000",
+                    "controlcard": 8260572,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "04-464"
+                },
+                {
+                    "position": 25,
+                    "name": "Peter COKELAERE",
+                    "club": "Omega",
+                    "time": "01:47:10.000",
+                    "controlcard": 8006144,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-927"
+                },
+                {
+                    "position": 26,
+                    "name": "Bernard HAAS",
+                    "club": "SUD O LUX",
+                    "time": "01:47:24.000",
+                    "controlcard": 8131222,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "39-129"
+                },
+                {
+                    "position": 27,
+                    "name": "Micha\u00ebl DUPRET",
+                    "club": "Hermathenae",
+                    "time": "01:55:12.000",
+                    "controlcard": 8100771,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-734"
+                },
+                {
+                    "position": 28,
+                    "name": "Fr\u00e9d\u00e9ric PICARD",
+                    "club": "CO Li\u00e8ge",
+                    "time": "01:59:40.000",
+                    "controlcard": 8097221,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "20-633"
+                },
+                {
+                    "position": 0,
+                    "name": "Philippe VANSCHUYTBROECK",
+                    "club": "P\u00e9gase CO",
+                    "time": null,
+                    "controlcard": 8335512,
+                    "status": "NCL",
+                    "ageclass": null,
+                    "ABSO": "14-445"
+                }
+            ]
+        },
+        "H45": {
+            "name": "H45",
+            "distance": 9500,
+            "climb": 150,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Christophe BERNARD",
+                    "club": "ASUB",
+                    "time": "01:04:28.000",
+                    "controlcard": 7502517,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-556"
+                },
+                {
+                    "position": 2,
+                    "name": "Fabien PASQUASY",
+                    "club": "Hermathenae",
+                    "time": "01:07:14.000",
+                    "controlcard": 8220678,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-809"
+                },
+                {
+                    "position": 3,
+                    "name": "Julien GAFFURI",
+                    "club": "SUD O LUX",
+                    "time": "01:19:58.000",
+                    "controlcard": 8220011,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "39-045"
+                },
+                {
+                    "position": 4,
+                    "name": "Patrick MAYERES",
+                    "club": "Hermathenae",
+                    "time": "01:25:22.000",
+                    "controlcard": 8010779,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-667"
+                },
+                {
+                    "position": 5,
+                    "name": "Raimonds BRICIS",
+                    "club": "Alta\u00efr Orientation",
+                    "time": "01:28:43.000",
+                    "controlcard": 8006330,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "04-521"
+                },
+                {
+                    "position": 6,
+                    "name": "Kristof WOLLES",
+                    "club": "hamok",
+                    "time": "01:33:40.000",
+                    "controlcard": 8513570,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "32-940"
+                },
+                {
+                    "position": 7,
+                    "name": "Simon DE VOGHEL",
+                    "club": "ThOR",
+                    "time": "01:38:49.000",
+                    "controlcard": 8534685,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "50-089"
+                },
+                {
+                    "position": 8,
+                    "name": "Ronald SOMERS",
+                    "club": "K.O.L.",
+                    "time": "01:39:04.000",
+                    "controlcard": 8020110,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "31-615"
+                },
+                {
+                    "position": 9,
+                    "name": "Jan BOECKX",
+                    "club": "Omega",
+                    "time": "01:44:44.000",
+                    "controlcard": 7005066,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-135"
+                },
+                {
+                    "position": 10,
+                    "name": "Adrien MICHEL",
+                    "club": "ThOR",
+                    "time": "01:47:22.000",
+                    "controlcard": 1500988,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "50-031"
+                },
+                {
+                    "position": 11,
+                    "name": "Peter GHEQUI\u00c8RE",
+                    "club": "TROL",
+                    "time": "01:51:44.000",
+                    "controlcard": 8664154,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-1090"
+                },
+                {
+                    "position": 12,
+                    "name": "Samu\u00ebl TONNEAU",
+                    "club": "OLV Eifel",
+                    "time": "02:44:53.000",
+                    "controlcard": 347878,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "17-377"
+                },
+                {
+                    "position": 0,
+                    "name": "Raf MAES",
+                    "club": "hamok",
+                    "time": null,
+                    "controlcard": 8531099,
+                    "status": "NCL",
+                    "ageclass": null,
+                    "ABSO": "32-271"
+                }
+            ]
+        },
+        "H40": {
+            "name": "H40",
+            "distance": 9500,
+            "climb": 150,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Jeroen HOEKX",
+                    "club": "hamok",
+                    "time": "01:05:32.000",
+                    "controlcard": 7002030,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "32-505"
+                },
+                {
+                    "position": 2,
+                    "name": "Desmond FRANSSEN",
+                    "club": "TROL",
+                    "time": "01:12:54.000",
+                    "controlcard": 8050553,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-322"
+                },
+                {
+                    "position": 3,
+                    "name": "Pierre GERARD",
+                    "club": "P\u00e9gase CO",
+                    "time": "01:38:23.000",
+                    "controlcard": 8535667,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "14-341"
+                },
+                {
+                    "position": 0,
+                    "name": "Arnaud BAILLET",
+                    "club": "6013HF LABO2 (France)",
+                    "time": null,
+                    "controlcard": 8304035,
+                    "status": "NCL",
+                    "ageclass": null
+                }
+            ]
+        },
+        "H35": {
+            "name": "H35",
+            "distance": 10500,
+            "climb": 175,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Fran\u00e7ois VAN DER OUDERAA",
+                    "club": "ASUB",
+                    "time": "01:14:59.000",
+                    "controlcard": 8511160,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-189"
+                },
+                {
+                    "position": 2,
+                    "name": "Michel BASTIN",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "01:15:44.000",
+                    "controlcard": 8518924,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "23-102"
+                },
+                {
+                    "position": 3,
+                    "name": "Bert MARIEN",
+                    "club": "K.O.L.",
+                    "time": "01:19:16.000",
+                    "controlcard": 1458671,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "31-165"
+                },
+                {
+                    "position": 4,
+                    "name": "Camille ANDRE",
+                    "club": "ThOR",
+                    "time": "01:28:30.000",
+                    "controlcard": 8260891,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "50-048"
+                },
+                {
+                    "position": 5,
+                    "name": "Alain MAZY",
+                    "club": "CO Li\u00e8ge",
+                    "time": "01:32:12.000",
+                    "controlcard": 8031997,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "20-392"
+                },
+                {
+                    "position": 6,
+                    "name": "Coen CLAASSEN",
+                    "club": "hamok",
+                    "time": "01:32:29.000",
+                    "controlcard": 8071656,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "32-314"
+                },
+                {
+                    "position": 7,
+                    "name": "Jean-Claude JIMENEZ",
+                    "club": "hamok",
+                    "time": "02:11:37.000",
+                    "controlcard": 1210707,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "32-546"
+                }
+            ]
+        },
+        "H21": {
+            "name": "H21",
+            "distance": 9500,
+            "climb": 150,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Basile DOUCY",
+                    "club": "SUD O LUX",
+                    "time": "01:33:22.000",
+                    "controlcard": 1974564,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "39-122"
+                },
+                {
+                    "position": 2,
+                    "name": "Jeffrey DE RYCKE",
+                    "club": "TROL",
+                    "time": "01:34:02.000",
+                    "controlcard": 8664152,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-1099"
+                },
+                {
+                    "position": 3,
+                    "name": "Wolf DE MITS",
+                    "club": "TROL",
+                    "time": "01:43:00.000",
+                    "controlcard": 8457221,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-633"
+                },
+                {
+                    "position": 4,
+                    "name": "Noah BACKES",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "01:45:29.000",
+                    "controlcard": 8331415,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "23-346"
+                },
+                {
+                    "position": 5,
+                    "name": "Youri BIRARO",
+                    "club": "ThOR",
+                    "time": "02:16:35.000",
+                    "controlcard": 8536446,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "50-071"
+                }
+            ]
+        },
+        "HE": {
+            "name": "HE",
+            "distance": 15100,
+            "climb": 310,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Brent VLEUGELS",
+                    "club": "Antwerp Orienteers",
+                    "time": "01:35:17.000",
+                    "controlcard": 8200795,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "48-054"
+                },
+                {
+                    "position": 2,
+                    "name": "Rune DE CLERCQ",
+                    "club": "TROL",
+                    "time": "01:36:07.000",
+                    "controlcard": 8383240,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-717"
+                },
+                {
+                    "position": 3,
+                    "name": "Nico CEUNEN",
+                    "club": "hamok",
+                    "time": "01:40:24.000",
+                    "controlcard": 8000680,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "32-243"
+                },
+                {
+                    "position": 4,
+                    "name": "Thibaut ROBINSON",
+                    "club": "ThOR",
+                    "time": "01:41:50.000",
+                    "controlcard": 8643983,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "50-003"
+                },
+                {
+                    "position": 5,
+                    "name": "Cl\u00e9ment DEMEUSE",
+                    "club": "CO Li\u00e8ge",
+                    "time": "01:42:10.000",
+                    "controlcard": 8664165,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "20-456"
+                },
+                {
+                    "position": 6,
+                    "name": "Corentin TONNEAU",
+                    "club": "OLV Eifel",
+                    "time": "01:43:15.000",
+                    "controlcard": 8031993,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "17-312"
+                },
+                {
+                    "position": 7,
+                    "name": "Joost TALLOEN",
+                    "club": "Omega",
+                    "time": "01:45:19.000",
+                    "controlcard": 8522582,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-253"
+                },
+                {
+                    "position": 8,
+                    "name": "Simon KREKELS",
+                    "club": "TROL",
+                    "time": "01:51:50.000",
+                    "controlcard": 8333943,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-414"
+                },
+                {
+                    "position": 9,
+                    "name": "Mindaugas NAKVOSAS",
+                    "club": "OSK Sakas (Lithuania)",
+                    "time": "02:00:01.000",
+                    "controlcard": 8116034,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 10,
+                    "name": "S\u00e9bastien HENROTTE",
+                    "club": "SUD O LUX",
+                    "time": "02:14:33.000",
+                    "controlcard": 8681006,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "39-009"
+                },
+                {
+                    "position": 11,
+                    "name": "Johannes HEINSOO",
+                    "club": "ThOR",
+                    "time": "02:15:57.000",
+                    "controlcard": 8508060,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "50-054"
+                },
+                {
+                    "position": 12,
+                    "name": "Thomas BREDO",
+                    "club": "OLV Eifel",
+                    "time": "02:18:02.000",
+                    "controlcard": 8070492,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "17-340"
+                },
+                {
+                    "position": 13,
+                    "name": "Merlijn VAN RUMST",
+                    "club": "Omega",
+                    "time": "02:20:14.000",
+                    "controlcard": 8000693,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-589"
+                },
+                {
+                    "position": 14,
+                    "name": "Sergey ANANYEV",
+                    "club": "KOVZ",
+                    "time": "02:26:24.000",
+                    "controlcard": 8117931,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 15,
+                    "name": "Jean-Fran\u00e7ois DEBEN",
+                    "club": "SUD O LUX",
+                    "time": "02:43:22.000",
+                    "controlcard": 1160686,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "39-030"
+                },
+                {
+                    "position": 16,
+                    "name": "Tomas THORBURN",
+                    "club": "TROL",
+                    "time": "03:09:17.000",
+                    "controlcard": 8534101,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-1255"
+                },
+                {
+                    "position": 17,
+                    "name": "Simon COEN",
+                    "club": "ThOR",
+                    "time": "03:14:38.000",
+                    "controlcard": 8536429,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "50-136"
+                },
+                {
+                    "position": 0,
+                    "name": "Gr\u00e9goire VANDEGHINSTE",
+                    "club": "Hainaut O.C.",
+                    "time": null,
+                    "controlcard": 8050399,
+                    "status": "NCL",
+                    "ageclass": null,
+                    "ABSO": "15-563"
+                },
+                {
+                    "position": 0,
+                    "name": "Kobe VANDELANOTTE",
+                    "club": "TROL",
+                    "time": null,
+                    "controlcard": 8532714,
+                    "status": "NCL",
+                    "ageclass": null,
+                    "ABSO": "30-1267"
+                },
+                {
+                    "position": 0,
+                    "name": "Oleksandr RYBAKOV",
+                    "club": "Luxembourg Orienteering",
+                    "time": null,
+                    "controlcard": 8091876,
+                    "status": "NCL",
+                    "ageclass": null,
+                    "ABSO": "LuxOC-1459"
+                }
+            ]
+        },
+        "JWOC H": {
+            "name": "JWOC H",
+            "distance": 10500,
+            "climb": 175,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Mats DE SMUL",
+                    "club": "Omega",
+                    "time": "01:03:13.000",
+                    "controlcard": 8006146,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-208"
+                },
+                {
+                    "position": 2,
+                    "name": "Diego BOMBAERTS",
+                    "club": "LOST",
+                    "time": "01:06:34.000",
+                    "controlcard": 8181457,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "49-030"
+                },
+                {
+                    "position": 3,
+                    "name": "Mathis BROUWIER",
+                    "club": "Hermathenae",
+                    "time": "01:06:37.000",
+                    "controlcard": 8020606,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-740"
+                },
+                {
+                    "position": 4,
+                    "name": "Thomas JANSEN",
+                    "club": "Omega",
+                    "time": "01:07:37.000",
+                    "controlcard": 8003985,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-528"
+                },
+                {
+                    "position": 5,
+                    "name": "Bob DE CLEENE",
+                    "club": "TROL",
+                    "time": "01:09:27.000",
+                    "controlcard": 8518919,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-947"
+                },
+                {
+                    "position": 6,
+                    "name": "Victor BROUWIER",
+                    "club": "Hermathenae",
+                    "time": "01:10:39.000",
+                    "controlcard": 8310808,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-749"
+                },
+                {
+                    "position": 7,
+                    "name": "Tim LEMY STORME",
+                    "club": "P\u00e9gase CO",
+                    "time": "01:11:32.000",
+                    "controlcard": 8110149,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "14-475"
+                },
+                {
+                    "position": 8,
+                    "name": "Arnaud MAZY",
+                    "club": "CO Li\u00e8ge",
+                    "time": "01:12:02.000",
+                    "controlcard": 8518931,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "20-520"
+                },
+                {
+                    "position": 9,
+                    "name": "Pjotr MERTENS",
+                    "club": "TROL",
+                    "time": "01:18:44.000",
+                    "controlcard": 8518904,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-279"
+                },
+                {
+                    "position": 10,
+                    "name": "Linus CLAESSON",
+                    "club": "TROL",
+                    "time": "01:27:28.000",
+                    "controlcard": 8510964,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-1256"
+                },
+                {
+                    "position": 11,
+                    "name": "Wout BOECKX",
+                    "club": "Omega",
+                    "time": "01:28:14.000",
+                    "controlcard": 8006134,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-484"
+                },
+                {
+                    "position": 12,
+                    "name": "Torben AERDEN",
+                    "club": "K.O.L.",
+                    "time": "01:44:39.000",
+                    "controlcard": 8234316,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "31-363"
+                }
+            ]
+        },
+        "EYOC H": {
+            "name": "EYOC H",
+            "distance": 7500,
+            "climb": 160,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Nathan JANSEN",
+                    "club": "Omega",
+                    "time": "00:47:44.000",
+                    "controlcard": 8310934,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-527"
+                },
+                {
+                    "position": 2,
+                    "name": "Thor WOLLES",
+                    "club": "hamok",
+                    "time": "00:48:07.000",
+                    "controlcard": 8030075,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "32-943"
+                },
+                {
+                    "position": 3,
+                    "name": "Elias COKELAERE",
+                    "club": "Omega",
+                    "time": "00:52:02.000",
+                    "controlcard": 8006133,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-925"
+                },
+                {
+                    "position": 4,
+                    "name": "Luca LENGES",
+                    "club": "OLV Eifel",
+                    "time": "00:56:47.000",
+                    "controlcard": 8042412,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "17-414"
+                },
+                {
+                    "position": 5,
+                    "name": "Colin VENDRIX",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "00:57:19.000",
+                    "controlcard": 8509032,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "23-408"
+                },
+                {
+                    "position": 6,
+                    "name": "Emile PASQUASY",
+                    "club": "Hermathenae",
+                    "time": "00:57:35.000",
+                    "controlcard": 8099041,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-808"
+                },
+                {
+                    "position": 7,
+                    "name": "Kobe DEFERM",
+                    "club": "hamok",
+                    "time": "01:10:35.000",
+                    "controlcard": 8508103,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "32-961"
+                },
+                {
+                    "position": 0,
+                    "name": "Robin FAUCONNIER",
+                    "club": "CO Li\u00e8ge",
+                    "time": null,
+                    "controlcard": 8518929,
+                    "status": "NCL",
+                    "ageclass": null,
+                    "ABSO": "20-614"
+                }
+            ]
+        },
+        "H-18": {
+            "name": "H-18",
+            "distance": 9500,
+            "climb": 150,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Tom LEMERCIER",
+                    "club": "Tout Azimut Fameck",
+                    "time": "01:01:20.000",
+                    "controlcard": 8041957,
+                    "status": "OK",
+                    "ageclass": null
+                }
+            ]
+        },
+        "H-16": {
+            "name": "H-16",
+            "distance": 6600,
+            "climb": 140,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Viek DE MITS",
+                    "club": "TROL",
+                    "time": "00:55:47.000",
+                    "controlcard": 8518915,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-701"
+                },
+                {
+                    "position": 2,
+                    "name": "Emil PROLINGHEUER",
+                    "club": "TUS Karlsruhe-R\u00fcppurr (Germany)",
+                    "time": "00:58:01.000",
+                    "controlcard": 8233455,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 3,
+                    "name": "Louis LEMERCIER",
+                    "club": "Tout Azimut Fameck",
+                    "time": "01:01:29.000",
+                    "controlcard": 8099170,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 4,
+                    "name": "L\u00e9o COLLARD",
+                    "club": "5116GE ASO Sillery (France)",
+                    "time": "01:06:28.000",
+                    "controlcard": 8050711,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 5,
+                    "name": "No\u00e9 BALLIEU",
+                    "club": "ASUB",
+                    "time": "01:25:46.000",
+                    "controlcard": 1601483,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-1070"
+                },
+                {
+                    "position": 6,
+                    "name": "Alexander MAES",
+                    "club": "hamok",
+                    "time": "01:29:51.000",
+                    "controlcard": 7000766,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "32-273"
+                },
+                {
+                    "position": 7,
+                    "name": "Simon BASTIN",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "01:34:53.000",
+                    "controlcard": 8506818,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "23-378"
+                }
+            ]
+        },
+        "H-14": {
+            "name": "H-14",
+            "distance": 4200,
+            "climb": 95,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Lorick CASTEELS",
+                    "club": "CO Li\u00e8ge",
+                    "time": "00:36:42.000",
+                    "controlcard": 8542864,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "20-664"
+                },
+                {
+                    "position": 2,
+                    "name": "Arne WILSSENS",
+                    "club": "TROL",
+                    "time": "00:40:39.000",
+                    "controlcard": 2140842,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-265"
+                },
+                {
+                    "position": 3,
+                    "name": "Quentin LAROCHE",
+                    "club": "ASUB",
+                    "time": "00:49:06.000",
+                    "controlcard": 1549899,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-1040"
+                },
+                {
+                    "position": 4,
+                    "name": "Idalio FRANCOIS BALBONI",
+                    "club": "ASUB",
+                    "time": "00:50:44.000",
+                    "controlcard": 1009938,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-1042"
+                },
+                {
+                    "position": 5,
+                    "name": "Thomas CHATTLAIN",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "00:53:45.000",
+                    "controlcard": 8312120,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "23-379"
+                },
+                {
+                    "position": 6,
+                    "name": "Florent CAMUT",
+                    "club": "ASUB",
+                    "time": "01:04:40.000",
+                    "controlcard": 1549900,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-1124"
+                },
+                {
+                    "position": 7,
+                    "name": "Gabin JANNETTA",
+                    "club": "5116GE ASO Sillery (France)",
+                    "time": "01:05:23.000",
+                    "controlcard": 1511677,
+                    "status": "OK",
+                    "ageclass": null
+                }
+            ]
+        },
+        "H-12": {
+            "name": "H-12",
+            "distance": 2300,
+            "climb": 40,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Romain HANZEN",
+                    "club": "CO Li\u00e8ge",
+                    "time": "00:14:57.000",
+                    "controlcard": 8031015,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "20-796"
+                },
+                {
+                    "position": 2,
+                    "name": "Robin HARCHIES",
+                    "club": "ThOR",
+                    "time": "00:16:07.000",
+                    "controlcard": 8535684,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "50-072"
+                },
+                {
+                    "position": 3,
+                    "name": "Andr\u00e9a PRIEUR",
+                    "club": "5116GE ASO Sillery (France)",
+                    "time": "00:16:46.000",
+                    "controlcard": 9511600,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 4,
+                    "name": "Baptiste PASQUASY",
+                    "club": "Hermathenae",
+                    "time": "00:17:05.000",
+                    "controlcard": 8040316,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-806"
+                },
+                {
+                    "position": 5,
+                    "name": "Robbe LUYCKX",
+                    "club": "K.O.L.",
+                    "time": "00:17:24.000",
+                    "controlcard": 8532246,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "31-1005"
+                },
+                {
+                    "position": 6,
+                    "name": "Jules DEGRAVE",
+                    "club": "Hermathenae",
+                    "time": "00:20:33.000",
+                    "controlcard": 7071221,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-826"
+                },
+                {
+                    "position": 7,
+                    "name": "Merlin BALBI",
+                    "club": "ASUB",
+                    "time": "00:20:40.000",
+                    "controlcard": 1601490,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-1106"
+                },
+                {
+                    "position": 8,
+                    "name": "F\u00e9lix DUFOUR",
+                    "club": "5116GE ASO Sillery (France)",
+                    "time": "00:21:17.000",
+                    "controlcard": 1511634,
+                    "status": "OK",
+                    "ageclass": null
+                }
+            ]
+        },
+        "H-10": {
+            "name": "H-10",
+            "distance": 2400,
+            "climb": 40,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Mats TALLOEN",
+                    "club": "Omega",
+                    "time": "00:13:14.000",
+                    "controlcard": 8528664,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-716"
+                },
+                {
+                    "position": 2,
+                    "name": "Mats VAN DER KLEIJ",
+                    "club": "hamok",
+                    "time": "00:13:57.000",
+                    "controlcard": 8017217,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "32-1011"
+                },
+                {
+                    "position": 3,
+                    "name": "Kobe DE LAT",
+                    "club": "K.O.L.",
+                    "time": "00:16:03.000",
+                    "controlcard": 1621977,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "31-1065"
+                },
+                {
+                    "position": 4,
+                    "name": "Jasper VANHOUT",
+                    "club": "K.O.L.",
+                    "time": "00:17:24.000",
+                    "controlcard": 8540623,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "31-987"
+                },
+                {
+                    "position": 5,
+                    "name": "August VAN RUMST",
+                    "club": "Omega",
+                    "time": "00:24:37.000",
+                    "controlcard": 8533051,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-1130"
+                },
+                {
+                    "position": 6,
+                    "name": "Edri\u00ebl BALBI",
+                    "club": "ASUB",
+                    "time": "00:25:04.000",
+                    "controlcard": 1601489,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-1104"
+                },
+                {
+                    "position": 7,
+                    "name": "Thibault MEURISSE",
+                    "club": "LOST",
+                    "time": "00:25:45.000",
+                    "controlcard": 8533019,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "49-099"
+                },
+                {
+                    "position": 8,
+                    "name": "Martin CHATTLAIN",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "00:29:44.000",
+                    "controlcard": 49086,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "23-410"
+                },
+                {
+                    "position": 9,
+                    "name": "Gaspard PETERS",
+                    "club": "Hermathenae",
+                    "time": "00:38:13.000",
+                    "controlcard": 7580221,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-866"
+                },
+                {
+                    "position": 10,
+                    "name": "Emile DEGRAVE",
+                    "club": "Hermathenae",
+                    "time": "00:42:56.000",
+                    "controlcard": 7091809,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-859"
+                }
+            ]
+        },
+        "D80": {
+            "name": "D80",
+            "distance": 2700,
+            "climb": 50,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Manon RENNOTTE-CHAUVEHEID",
+                    "club": "Hermathenae",
+                    "time": "01:20:37.000",
+                    "controlcard": 1570352,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-618"
+                }
+            ]
+        },
+        "D75": {
+            "name": "D75",
+            "distance": 2700,
+            "climb": 50,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Monique DEFFENSE",
+                    "club": "P\u00e9gase CO",
+                    "time": "00:41:09.000",
+                    "controlcard": 8654992,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "14-304"
+                },
+                {
+                    "position": 2,
+                    "name": "Christa ZWIKKER",
+                    "club": "TROL",
+                    "time": "00:47:59.000",
+                    "controlcard": 8228558,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-540"
+                },
+                {
+                    "position": 3,
+                    "name": "Lisette EYKMANS",
+                    "club": "K.O.L.",
+                    "time": "00:53:27.000",
+                    "controlcard": 1030340,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "31-084"
+                }
+            ]
+        },
+        "D70": {
+            "name": "D70",
+            "distance": 3600,
+            "climb": 90,
+            "results": [
+                {
+                    "position": 0,
+                    "name": "Carine LAMBEAU",
+                    "club": "ASUB",
+                    "time": "01:17:34.000",
+                    "controlcard": 7211783,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-933"
+                },
+                {
+                    "position": 1,
+                    "name": "Monica ROELING",
+                    "club": "TROL",
+                    "time": "01:06:35.000",
+                    "controlcard": 8654989,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-340"
+                },
+                {
+                    "position": 2,
+                    "name": "Simonne SILVI",
+                    "club": "K.O.L.",
+                    "time": "01:09:57.000",
+                    "controlcard": 8033226,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "31-610"
+                },
+                {
+                    "position": 3,
+                    "name": "Bernadette VANDERMEULEN",
+                    "club": "CO Li\u00e8ge",
+                    "time": "01:10:51.000",
+                    "controlcard": 8045417,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "20-138"
+                },
+                {
+                    "position": 4,
+                    "name": "Lieve FEYS",
+                    "club": "Omega",
+                    "time": "02:00:16.000",
+                    "controlcard": 2067897,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-482"
+                },
+                {
+                    "position": 0,
+                    "name": "Lily-Anne COLE",
+                    "club": "TROL",
+                    "time": null,
+                    "controlcard": 8518902,
+                    "status": "NCL",
+                    "ageclass": null,
+                    "ABSO": "30-079"
+                }
+            ]
+        },
+        "D65": {
+            "name": "D65",
+            "distance": 4200,
+            "climb": 105,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Bernadette DUMONT-GOSSET",
+                    "club": "5101GE ENS (France)",
+                    "time": "00:51:24.000",
+                    "controlcard": 8051015,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 2,
+                    "name": "Virginie BLUM",
+                    "club": "5116GE ASO Sillery (France)",
+                    "time": "01:07:29.000",
+                    "controlcard": 8270558,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 3,
+                    "name": "Claire MUYLLAERT",
+                    "club": "ASUB",
+                    "time": "01:17:29.000",
+                    "controlcard": 1451546,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-346"
+                },
+                {
+                    "position": 4,
+                    "name": "Alexandra WANNER",
+                    "club": "OLG Siegerland (Germany)",
+                    "time": "01:27:46.000",
+                    "controlcard": 7000325,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 0,
+                    "name": "Jenny BUELENS",
+                    "club": "ASUB",
+                    "time": null,
+                    "controlcard": 1960502,
+                    "status": "NCL",
+                    "ageclass": null,
+                    "ABSO": "01-339"
+                }
+            ]
+        },
+        "D60": {
+            "name": "D60",
+            "distance": 4200,
+            "climb": 105,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Nathalie BOUCHE",
+                    "club": "5116GE ASO Sillery (France)",
+                    "time": "00:52:13.000",
+                    "controlcard": 2042740,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 2,
+                    "name": "Betty DE MEYER",
+                    "club": "TROL",
+                    "time": "00:54:14.000",
+                    "controlcard": 8499499,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-136"
+                },
+                {
+                    "position": 3,
+                    "name": "Muriel CHOUFFART",
+                    "club": "P\u00e9gase CO",
+                    "time": "01:06:44.000",
+                    "controlcard": 7002229,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "14-491"
+                },
+                {
+                    "position": 4,
+                    "name": "Keiko CONWAY",
+                    "club": "Guildford Orienteers (United Kingdom)",
+                    "time": "01:07:32.000",
+                    "controlcard": 2059634,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 5,
+                    "name": "Mia KINNAER",
+                    "club": "Omega",
+                    "time": "01:11:33.000",
+                    "controlcard": 8004988,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-308"
+                },
+                {
+                    "position": 6,
+                    "name": "Chantal CLAEYS",
+                    "club": "K.O.L.",
+                    "time": "02:32:10.000",
+                    "controlcard": 7001414,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "31-1044"
+                },
+                {
+                    "position": 7,
+                    "name": "Nathalie GRANDJEAN",
+                    "club": "Hermathenae",
+                    "time": "02:34:51.000",
+                    "controlcard": 8004453,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-834"
+                }
+            ]
+        },
+        "D55": {
+            "name": "D55",
+            "distance": 5300,
+            "climb": 140,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Kristel MERTENS",
+                    "club": "Antwerp Orienteers",
+                    "time": "00:55:05.000",
+                    "controlcard": 8060269,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "48-025"
+                },
+                {
+                    "position": 2,
+                    "name": "Katleen VAN DE MOORTEL",
+                    "club": "Omega",
+                    "time": "01:01:50.000",
+                    "controlcard": 8006155,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-048"
+                },
+                {
+                    "position": 3,
+                    "name": "Val\u00e9rie AUGHUET",
+                    "club": "ThOR",
+                    "time": "01:02:11.000",
+                    "controlcard": 8020668,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "50-014"
+                },
+                {
+                    "position": 4,
+                    "name": "Martine HOEKSMA",
+                    "club": "Olifant",
+                    "time": "01:02:52.000",
+                    "controlcard": 7110266,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 5,
+                    "name": "Genevi\u00e8ve NYS",
+                    "club": "ThOR",
+                    "time": "01:04:48.000",
+                    "controlcard": 8157402,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "50-015"
+                },
+                {
+                    "position": 6,
+                    "name": "Fran\u00e7oise RENARD",
+                    "club": "CO Li\u00e8ge",
+                    "time": "01:19:29.000",
+                    "controlcard": 8664168,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "20-124"
+                },
+                {
+                    "position": 7,
+                    "name": "Nathalie GUENIN",
+                    "club": "5116GE ASO Sillery (France)",
+                    "time": "01:20:36.000",
+                    "controlcard": 8002355,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "50-034"
+                },
+                {
+                    "position": 8,
+                    "name": "Fran\u00e7oise ROBBERECHT",
+                    "club": "ASUB",
+                    "time": "01:40:02.000",
+                    "controlcard": 1009934,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-814"
+                },
+                {
+                    "position": 9,
+                    "name": "Agn\u00e8s WISSEMBERG",
+                    "club": "5116GE ASO Sillery (France)",
+                    "time": "01:42:51.000",
+                    "controlcard": 8581826,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 10,
+                    "name": "C\u00e9cile VAN BRUSSEL",
+                    "club": "ASUB",
+                    "time": "01:57:43.000",
+                    "controlcard": 9201782,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-282"
+                },
+                {
+                    "position": 11,
+                    "name": "Patricia LILES",
+                    "club": "SUD O LUX",
+                    "time": "02:03:31.000",
+                    "controlcard": 1503719,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "39-130"
+                }
+            ]
+        },
+        "D50": {
+            "name": "D50",
+            "distance": 5700,
+            "climb": 130,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Nancy WENDERICKX",
+                    "club": "hamok",
+                    "time": "00:56:31.000",
+                    "controlcard": 8509397,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "32-730"
+                },
+                {
+                    "position": 2,
+                    "name": "Ellen DE BIE",
+                    "club": "Omega",
+                    "time": "01:06:28.000",
+                    "controlcard": 8004992,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-577"
+                },
+                {
+                    "position": 3,
+                    "name": "Inga AUSEKLE",
+                    "club": "Luxembourg Orienteering",
+                    "time": "01:08:07.000",
+                    "controlcard": 8200620,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "LuxOC-1073"
+                },
+                {
+                    "position": 4,
+                    "name": "V\u00e9ronique GOIRE",
+                    "club": "Hermathenae",
+                    "time": "01:15:08.000",
+                    "controlcard": 8536438,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-729"
+                },
+                {
+                    "position": 5,
+                    "name": "Angelique DE GRANDE",
+                    "club": "Omega",
+                    "time": "01:18:30.000",
+                    "controlcard": 8000675,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-502"
+                },
+                {
+                    "position": 6,
+                    "name": "B\u00e9atrice OLIVIER",
+                    "club": "5116GE ASO Sillery (France)",
+                    "time": "01:24:13.000",
+                    "controlcard": 8581824,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 7,
+                    "name": "Michele DENIS",
+                    "club": "Hermathenae",
+                    "time": "01:27:11.000",
+                    "controlcard": 1020554,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-824"
+                },
+                {
+                    "position": 8,
+                    "name": "Nicole GOENEN - ARENS",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "01:44:11.000",
+                    "controlcard": 1011972,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "23-297"
+                }
+            ]
+        },
+        "D45": {
+            "name": "D45",
+            "distance": 5900,
+            "climb": 150,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Greet OEYEN",
+                    "club": "hamok",
+                    "time": "00:49:17.000",
+                    "controlcard": 8202070,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "32-080"
+                },
+                {
+                    "position": 2,
+                    "name": "Leslie CRETTELS",
+                    "club": "Hermathenae",
+                    "time": "01:08:54.000",
+                    "controlcard": 8120980,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-666"
+                },
+                {
+                    "position": 3,
+                    "name": "An FREDERICKX",
+                    "club": "ASUB",
+                    "time": "01:11:38.000",
+                    "controlcard": 8506875,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-173"
+                },
+                {
+                    "position": 4,
+                    "name": "Liesbet ROMMENS",
+                    "club": "hamok",
+                    "time": "01:13:16.000",
+                    "controlcard": 7009845,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "32-272"
+                },
+                {
+                    "position": 5,
+                    "name": "Lieke VAN OPSTAL",
+                    "club": "K.O.L.",
+                    "time": "01:13:35.000",
+                    "controlcard": 8291119,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "31-299"
+                },
+                {
+                    "position": 6,
+                    "name": "Netsi WODAJO",
+                    "club": "TROL",
+                    "time": "01:14:34.000",
+                    "controlcard": 9102645,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-171"
+                },
+                {
+                    "position": 7,
+                    "name": "Ellen BOURGONJON",
+                    "club": "TROL",
+                    "time": "01:16:42.000",
+                    "controlcard": 8518913,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-357"
+                },
+                {
+                    "position": 8,
+                    "name": "H\u00e9l\u00e8ne LELEU",
+                    "club": "5116GE ASO Sillery (France)",
+                    "time": "01:17:11.000",
+                    "controlcard": 8004808,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 9,
+                    "name": "Agnes HERMESZ",
+                    "club": "Alta\u00efr Orientation",
+                    "time": "01:30:26.000",
+                    "controlcard": 8032025,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "04-463"
+                },
+                {
+                    "position": 10,
+                    "name": "Marion COURTOIS",
+                    "club": "LOST",
+                    "time": "01:32:23.000",
+                    "controlcard": 8290679,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "49-015"
+                },
+                {
+                    "position": 11,
+                    "name": "Rachel WINTHAGEN",
+                    "club": "Hermathenae",
+                    "time": "01:42:14.000",
+                    "controlcard": 1504243,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-632"
+                },
+                {
+                    "position": 12,
+                    "name": "Julie TIMMERMANS",
+                    "club": "Hainaut O.C.",
+                    "time": "01:55:00.000",
+                    "controlcard": 7208658,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "15-427"
+                },
+                {
+                    "position": 13,
+                    "name": "Judith LEYIMANGOYE",
+                    "club": "CO Li\u00e8ge",
+                    "time": "01:56:06.000",
+                    "controlcard": 2046059,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "20-510"
+                }
+            ]
+        },
+        "D40": {
+            "name": "D40",
+            "distance": 6600,
+            "climb": 140,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Kim GEYPEN",
+                    "club": "Omega",
+                    "time": "00:51:16.000",
+                    "controlcard": 8308079,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-796"
+                },
+                {
+                    "position": 2,
+                    "name": "Helena PLUYMERS",
+                    "club": "TROL",
+                    "time": "00:59:01.000",
+                    "controlcard": 8004387,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-614"
+                },
+                {
+                    "position": 3,
+                    "name": "An NUYTS",
+                    "club": "K.O.L.",
+                    "time": "01:09:59.000",
+                    "controlcard": 8042418,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "31-884"
+                },
+                {
+                    "position": 4,
+                    "name": "Ellen MOLS",
+                    "club": "hamok",
+                    "time": "01:21:12.000",
+                    "controlcard": 8000684,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "32-628"
+                },
+                {
+                    "position": 5,
+                    "name": "Laetitia BAILLET",
+                    "club": "6013HF LABO2 (France)",
+                    "time": "02:10:49.000",
+                    "controlcard": 8221060,
+                    "status": "OK",
+                    "ageclass": null
+                }
+            ]
+        },
+        "D35": {
+            "name": "D35",
+            "distance": 7500,
+            "climb": 160,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Anna SERRALLONGA",
+                    "club": "TROL",
+                    "time": "00:59:27.000",
+                    "controlcard": 8644889,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-680"
+                },
+                {
+                    "position": 2,
+                    "name": "Aline HERMANS",
+                    "club": "CO Li\u00e8ge",
+                    "time": "00:59:41.000",
+                    "controlcard": 8031996,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "20-393"
+                },
+                {
+                    "position": 3,
+                    "name": "Jessica LIMPACH",
+                    "club": "Balise 10",
+                    "time": "01:15:46.000",
+                    "controlcard": 8535681,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "33-636"
+                },
+                {
+                    "position": 4,
+                    "name": "Joke ZOONS",
+                    "club": "hamok",
+                    "time": "01:35:04.000",
+                    "controlcard": 8006139,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "32-312"
+                },
+                {
+                    "position": 5,
+                    "name": "Marjorie PROST-FELTEN",
+                    "club": "5116GE ASO Sillery (France)",
+                    "time": "02:00:47.000",
+                    "controlcard": 8291219,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 6,
+                    "name": "Alice GODENNE",
+                    "club": "Hermathenae",
+                    "time": "02:16:32.000",
+                    "controlcard": 8536439,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-828"
+                },
+                {
+                    "position": 7,
+                    "name": "Xandra EHMANN",
+                    "club": "SUD O LUX",
+                    "time": "02:18:31.000",
+                    "controlcard": 8681007,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "39-100"
+                },
+                {
+                    "position": 8,
+                    "name": "H\u00e9l\u00e8ne GODENNE",
+                    "club": "Hermathenae",
+                    "time": "02:22:29.000",
+                    "controlcard": 8535980,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-829"
+                },
+                {
+                    "position": 9,
+                    "name": "Anne SOUMOY",
+                    "club": "ASUB",
+                    "time": "02:55:48.000",
+                    "controlcard": 1012375,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-1029"
+                },
+                {
+                    "position": 0,
+                    "name": "Mari TAGEL",
+                    "club": "ThOR",
+                    "time": null,
+                    "controlcard": 2800660,
+                    "status": "NCL",
+                    "ageclass": null,
+                    "ABSO": "50-055"
+                }
+            ]
+        },
+        "D21": {
+            "name": "D21",
+            "distance": 6600,
+            "climb": 140,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Flora LEGROS",
+                    "club": "5116GE ASO Sillery (France)",
+                    "time": "01:10:12.000",
+                    "controlcard": 8022301,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 2,
+                    "name": "Claire SANDEVOIR",
+                    "club": "ASUB",
+                    "time": "01:18:27.000",
+                    "controlcard": 921403,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-578"
+                },
+                {
+                    "position": 3,
+                    "name": "El\u00e9onore ROBINSON",
+                    "club": "ThOR",
+                    "time": "01:19:08.000",
+                    "controlcard": 8665396,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "50-005"
+                },
+                {
+                    "position": 4,
+                    "name": "Manon BALLMANN",
+                    "club": "Hermathenae",
+                    "time": "01:44:52.000",
+                    "controlcard": 8180668,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-857"
+                },
+                {
+                    "position": 5,
+                    "name": "Marine THILL",
+                    "club": "SUD O LUX",
+                    "time": "01:51:44.000",
+                    "controlcard": 1506294,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "39-144"
+                },
+                {
+                    "position": 6,
+                    "name": "Hannelore SLOS",
+                    "club": "TROL",
+                    "time": "01:56:13.000",
+                    "controlcard": 8513861,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-1030"
+                },
+                {
+                    "position": 7,
+                    "name": "Roxanne DAELMAN",
+                    "club": "TROL",
+                    "time": "02:35:54.000",
+                    "controlcard": 1902921,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-1266"
+                },
+                {
+                    "position": 0,
+                    "name": "Lise MILBOU",
+                    "club": "Antwerp Orienteers",
+                    "time": null,
+                    "controlcard": 8150993,
+                    "status": "NCL",
+                    "ageclass": null,
+                    "ABSO": "48-055"
+                }
+            ]
+        },
+        "DE": {
+            "name": "DE",
+            "distance": 12000,
+            "climb": 225,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Julia KREKELS",
+                    "club": "TROL",
+                    "time": "01:39:28.000",
+                    "controlcard": 8003550,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-611"
+                },
+                {
+                    "position": 2,
+                    "name": "Lucie ARNO",
+                    "club": "Hainaut O.C.",
+                    "time": "01:40:41.000",
+                    "controlcard": 8102199,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "15-422"
+                },
+                {
+                    "position": 3,
+                    "name": "Elise VANEL",
+                    "club": "Tout Azimut Fameck",
+                    "time": "01:41:18.000",
+                    "controlcard": 8088035,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 4,
+                    "name": "Ems DE SMUL",
+                    "club": "Omega",
+                    "time": "01:42:41.000",
+                    "controlcard": 8643046,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-937"
+                },
+                {
+                    "position": 5,
+                    "name": "Severine VANDERMEULEN",
+                    "club": "CO Li\u00e8ge",
+                    "time": "01:44:16.000",
+                    "controlcard": 8664160,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "20-142"
+                },
+                {
+                    "position": 6,
+                    "name": "Romane OLIVIER",
+                    "club": "5116GE ASO Sillery (France)",
+                    "time": "02:38:35.000",
+                    "controlcard": 8013200,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "50-118"
+                },
+                {
+                    "position": 0,
+                    "name": "Chlo\u00e9 ROBERT",
+                    "club": "P\u00e9gase CO",
+                    "time": null,
+                    "controlcard": 8269377,
+                    "status": "NCL",
+                    "ageclass": null,
+                    "ABSO": "14-499"
+                }
+            ]
+        },
+        "JWOC D": {
+            "name": "JWOC D",
+            "distance": 7500,
+            "climb": 160,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Ana\u00efs MAZY",
+                    "club": "CO Li\u00e8ge",
+                    "time": "01:00:55.000",
+                    "controlcard": 8100629,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "20-562"
+                },
+                {
+                    "position": 2,
+                    "name": "Janne HILLEN",
+                    "club": "Omega",
+                    "time": "01:04:08.000",
+                    "controlcard": 8525774,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-465"
+                },
+                {
+                    "position": 3,
+                    "name": "Chlo\u00e9 VAN VYVE COURTOIS",
+                    "club": "LOST",
+                    "time": "01:07:09.000",
+                    "controlcard": 8160209,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "49-017"
+                },
+                {
+                    "position": 4,
+                    "name": "Helena MAES",
+                    "club": "hamok",
+                    "time": "01:23:43.000",
+                    "controlcard": 8531422,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "32-274"
+                }
+            ]
+        },
+        "EYOC D": {
+            "name": "EYOC D",
+            "distance": 5700,
+            "climb": 130,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Anna PASQUASY",
+                    "club": "Hermathenae",
+                    "time": "00:53:08.000",
+                    "controlcard": 8098003,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-807"
+                },
+                {
+                    "position": 2,
+                    "name": "Claire VAN PAEMELEN",
+                    "club": "TROL",
+                    "time": "00:57:58.000",
+                    "controlcard": 8009996,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-158"
+                },
+                {
+                    "position": 3,
+                    "name": "Noore SELS",
+                    "club": "hamok",
+                    "time": "01:06:56.000",
+                    "controlcard": 8021020,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "32-223"
+                }
+            ]
+        },
+        "D-18": {
+            "name": "D-18",
+            "distance": 6600,
+            "climb": 140,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Coline POIROT",
+                    "club": "Tout Azimut Fameck",
+                    "time": "01:22:53.000",
+                    "controlcard": 8309070,
+                    "status": "OK",
+                    "ageclass": null
+                }
+            ]
+        },
+        "D-16": {
+            "name": "D-16",
+            "distance": 5700,
+            "climb": 130,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Ma\u00efa OLIVIER",
+                    "club": "5116GE ASO Sillery (France)",
+                    "time": "01:03:07.000",
+                    "controlcard": 8011105,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 2,
+                    "name": "Rose SCHNEIDER",
+                    "club": "5116GE ASO Sillery (France)",
+                    "time": "01:12:03.000",
+                    "controlcard": 8240602,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 3,
+                    "name": "Lena BAILLET",
+                    "club": "6013HF LABO2 (France)",
+                    "time": "01:22:41.000",
+                    "controlcard": 8112202,
+                    "status": "OK",
+                    "ageclass": null
+                }
+            ]
+        },
+        "D-14": {
+            "name": "D-14",
+            "distance": 4200,
+            "climb": 95,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Pauline GAFFURI",
+                    "club": "SUD O LUX",
+                    "time": "00:58:33.000",
+                    "controlcard": 8538640,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "39-171"
+                },
+                {
+                    "position": 2,
+                    "name": "Yseline CANART",
+                    "club": "Hermathenae",
+                    "time": "01:18:36.000",
+                    "controlcard": 8123001,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-785"
+                },
+                {
+                    "position": 3,
+                    "name": "Enya WAMBERSY",
+                    "club": "Hermathenae",
+                    "time": "01:24:46.000",
+                    "controlcard": 8236236,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-823"
+                }
+            ]
+        },
+        "D-12": {
+            "name": "D-12",
+            "distance": 2300,
+            "climb": 40,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Noor TALLOEN",
+                    "club": "Omega",
+                    "time": "00:16:24.000",
+                    "controlcard": 8228224,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "35-581"
+                },
+                {
+                    "position": 2,
+                    "name": "L\u00e9a BERNARD",
+                    "club": "ASUB",
+                    "time": "00:17:26.000",
+                    "controlcard": 49011,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-725"
+                },
+                {
+                    "position": 3,
+                    "name": "Anna BAILLET",
+                    "club": "6013HF LABO2 (France)",
+                    "time": "00:19:37.000",
+                    "controlcard": 8151801,
+                    "status": "OK",
+                    "ageclass": null
+                },
+                {
+                    "position": 4,
+                    "name": "Estelle CHATTLAIN",
+                    "club": "O.L.G. St. Vith ARDOC",
+                    "time": "00:20:02.000",
+                    "controlcard": 7031212,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "23-392"
+                },
+                {
+                    "position": 5,
+                    "name": "Anna Maria PETRYK",
+                    "club": "ASUB",
+                    "time": "00:22:39.000",
+                    "controlcard": 1601484,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "01-1050"
+                },
+                {
+                    "position": 6,
+                    "name": "Elodie VAN DER KLEIJ",
+                    "club": "hamok",
+                    "time": "00:22:46.000",
+                    "controlcard": 8533473,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "32-319"
+                },
+                {
+                    "position": 7,
+                    "name": "Hazel MAGNEE",
+                    "club": "Hermathenae",
+                    "time": "00:24:42.000",
+                    "controlcard": 8003156,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "03-827"
+                },
+                {
+                    "position": 8,
+                    "name": "Julie VAN DER KLEIJ",
+                    "club": "hamok",
+                    "time": "00:32:08.000",
+                    "controlcard": 8521097,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "32-1020"
+                }
+            ]
+        },
+        "D-10B": {
+            "name": "D-10B",
+            "distance": 2400,
+            "climb": 40,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Ina DE LAT",
+                    "club": "K.O.L.",
+                    "time": "00:30:37.000",
+                    "controlcard": 1621980,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "31-1066"
+                },
+                {
+                    "position": 2,
+                    "name": "Marine CASTEELS",
+                    "club": "CO Li\u00e8ge",
+                    "time": "00:40:17.000",
+                    "controlcard": 249059,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "20-811"
+                }
+            ]
+        },
+        "D-10": {
+            "name": "D-10",
+            "distance": 2400,
+            "climb": 40,
+            "results": [
+                {
+                    "position": 1,
+                    "name": "Julie LUYCKX",
+                    "club": "K.O.L.",
+                    "time": "00:15:36.000",
+                    "controlcard": 1500822,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "31-1004"
+                },
+                {
+                    "position": 2,
+                    "name": "Laura WILSSENS",
+                    "club": "TROL",
+                    "time": "00:16:40.000",
+                    "controlcard": 2020138,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "30-1119"
+                },
+                {
+                    "position": 3,
+                    "name": "Emelie SCHENKELAARS",
+                    "club": "CO Li\u00e8ge",
+                    "time": "00:18:19.000",
+                    "controlcard": 8220716,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "20-791"
+                },
+                {
+                    "position": 4,
+                    "name": "Emma HANZEN",
+                    "club": "CO Li\u00e8ge",
+                    "time": "00:19:43.000",
+                    "controlcard": 49113,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "20-857"
+                },
+                {
+                    "position": 5,
+                    "name": "Alice PIERLOT",
+                    "club": "CO Li\u00e8ge",
+                    "time": "00:30:25.000",
+                    "controlcard": 2089828,
+                    "status": "OK",
+                    "ageclass": null,
+                    "ABSO": "20-802"
+                }
+            ]
+        }
+    }
+}
